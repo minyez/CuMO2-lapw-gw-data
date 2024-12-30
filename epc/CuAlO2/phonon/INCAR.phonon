@@ -1,0 +1,23 @@
+# Minimal electronic part
+ ISTART = 1
+  LWAVE = .FALSE.
+ LCHARG = .FALSE.
+
+ ENCUT = 550
+ PREC = Accurate
+ LREAL = .False.
+ EDIFF = 1E-7
+ ISPIN = 1
+ ISMEAR = 0; ISIGMA = 0.05
+ NBANDS = 36
+
+ NPAR = 2
+ KPAR = 6
+ GGA = PS
+
+ ADDGRID = F
+
+ LEPSILON = .TRUE.    # compute dielectric tensor (IPA)
+
+# Ionic contribution
+ IBRION = 8           # DFPT

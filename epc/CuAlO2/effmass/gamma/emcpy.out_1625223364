@@ -1,0 +1,41 @@
+Effective mass calculator 1.51py
+Stencil: 5
+License: MIT
+Developed by: Alexandr Fonari and Chris Sutton
+Started at: 2021-07-02 18:56
+
+Contents of the emc.in file:
+
+0.000 0.000 0.000                       ! K-POINT in the reciprocal crystal coord. (3 floats)
+0.005                                   ! step size in 1/Bohr units (1 float)
+18                                      ! band number, (1 integer)
+V                                       ! program identifier (1 char)
+ 1.4200545446    0.8198688751    5.62827907739
+-1.4200545446    0.8198688751    5.62827907739
+-0.0000000000   -1.6397377402    5.62827907739
+
+
+==========
+
+Successfully opened EIGENVAL_5_0.005, preparing to parse it...
+
+-> fd_effmass_st5: Effective mass tensor:
+
+     0.84376447      0.00000000      0.00000000
+     0.00000000      0.83592462      0.00050469
+     0.00000000      0.00050469      2.82773797
+
+Principle effective masses and directions:
+
+Effective mass (0):        1.196
+Original eigenvectors: 0.00000 1.00000 -0.00025
+Normal fractional coordinates: -0.49994 -0.49994 1.00000
+
+Effective mass (1):        1.185
+Original eigenvectors: 1.00000 0.00000 0.00000
+Normal fractional coordinates: 1.00000 -1.00000 0.00000
+
+Effective mass (2):        0.354
+Original eigenvectors: 0.00000 0.00025 1.00000
+Normal fractional coordinates: 1.00000 1.00000 0.99739
+

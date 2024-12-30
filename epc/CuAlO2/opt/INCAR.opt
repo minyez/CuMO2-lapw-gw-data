@@ -1,0 +1,17 @@
+# Minimal electronic part
+ ENCUT = 550
+ PREC = Accurate
+ LREAL = .False.
+ EDIFF = 1E-7
+ ISPIN = 1
+ ISMEAR = 0; ISIGMA = 0.05
+ ALGO = Fast
+ NBANDS = 36
+ NPAR = 2
+ GGA = PS
+
+# geometry opt
+ ISIF = 3          # optimize volume
+ IBRION = 1        # 1: quasi-newton 8:DFPT
+ EDIFFG = -0.003
+ NSW = 50

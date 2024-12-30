@@ -1,0 +1,16 @@
+# Minimal electronic part
+ ISTART = 1
+ ENCUT = 550
+ PREC = Accurate
+ LREAL = .False.
+ EDIFF = 1E-7
+ ISPIN = 1
+ ISMEAR = 0; ISIGMA = 0.05
+ NELM = 60
+ ALGO = Fast
+ NBANDS = 36
+ NPAR = 2
+ GGA = PS
+
+# geometry opt
+ IBRION = -1        # 1: quasi-newton 8:DFPT
