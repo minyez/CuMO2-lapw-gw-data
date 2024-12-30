@@ -1,0 +1,108 @@
+ - sp= 0
+  -- spin-unpolarized GW calculation based on lapw 
+  R2V is not calculated 
+ 
+--- Backup SCF files ---
+ 
+ backup  CuAlO2.in0
+ backup  CuAlO2.in1
+ backup  CuAlO2.in2
+ backup  CuAlO2.inc
+ backup  CuAlO2.inm
+ backup  CuAlO2.klist
+ backup  CuAlO2.kgen
+ backup  CuAlO2.clmcor
+ backup  CuAlO2.clmsum
+ backup  CuAlO2.clmval
+ backup  CuAlO2.vsp
+ backup  CuAlO2.vns
+ backup  CuAlO2.energy
+ backup  CuAlO2.r2v
+ backup  CuAlO2.scfc
+
+--- vector:  Generate *.vector for GW  ---
+
+  change emax in CuAlO2.in1 to  1000
+check whether to start from hybrids
+
+---Generate gw.inp---
+
+--------------------
+-   clean *.scfc   -
+--------------------
+
+--- Copy files ---
+
+Directory for gw calculation: ../gap2c-k2c-nlo0
+
+--- Recover SCF files ---
+
+ recover  CuAlO2.in0
+ recover  CuAlO2.in1
+ recover  CuAlO2.in2
+ recover  CuAlO2.inc
+ recover  CuAlO2.inm
+ recover  CuAlO2.klist
+ recover  CuAlO2.kgen
+ recover  CuAlO2.clmcor
+ recover  CuAlO2.clmsum
+ recover  CuAlO2.clmval
+ recover  CuAlO2.vsp
+ recover  CuAlO2.vns
+ recover  CuAlO2.energy
+ recover  CuAlO2.r2v
+ recover  CuAlO2.scfc
+ - sp= 0
+  -- spin-unpolarized GW calculation based on lapw 
+ 
+--- Backup SCF files ---
+ 
+ backup  CuAlO2.in0
+ backup  CuAlO2.in1
+ backup  CuAlO2.in2
+ backup  CuAlO2.inc
+ backup  CuAlO2.inm
+ backup  CuAlO2.klist
+ backup  CuAlO2.kgen
+ backup  CuAlO2.clmcor
+ backup  CuAlO2.clmsum
+ backup  CuAlO2.clmval
+ backup  CuAlO2.vsp
+ backup  CuAlO2.vns
+ backup  CuAlO2.energy
+ backup  CuAlO2.r2v
+ backup  CuAlO2.scfc
+
+--- vector:  Generate *.vector for GW  ---
+
+  change emax in CuAlO2.in1 to  1000
+Using x_nmr_lapw -mode in1 -nodes 5 
+check whether to start from hybrids
+
+---Generate gw.inp---
+
+--------------------
+-   clean *.scfc   -
+--------------------
+
+--- Copy files ---
+
+Directory for gw calculation: ../gap2c-k2c-nlo5
+
+--- Recover SCF files ---
+
+ recover  CuAlO2.in0
+ recover  CuAlO2.in1
+ recover  CuAlO2.in2
+ recover  CuAlO2.inc
+ recover  CuAlO2.inm
+ recover  CuAlO2.klist
+ recover  CuAlO2.kgen
+ recover  CuAlO2.clmcor
+ recover  CuAlO2.clmsum
+ recover  CuAlO2.clmval
+ recover  CuAlO2.vsp
+ recover  CuAlO2.vns
+ recover  CuAlO2.energy
+ recover  CuAlO2.r2v
+ recover  CuAlO2.scfc

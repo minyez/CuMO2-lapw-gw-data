@@ -1,0 +1,22 @@
+ 3,'./CuGaO2.symmat' ,  'OLD','FORMATTED',  0
+ 4,'CuGaO2.weight' ,  'OLD','FORMATTED',  0
+ 5,'CuGaO2.injoint'   ,  'OLD','FORMATTED',  0
+ 6,'CuGaO2.outputjoint',  'UNKNOWN','FORMATTED',  0
+ 7,'CuGaO2.joint'  ,  'UNKNOWN','FORMATTED',  0
+ 8,'CuGaO2.sigma_intra2'  ,  'UNKNOWN','FORMATTED',  0
+ 9, './CuGaO2.mat_diag' ,  'UNKNOWN',    'FORMATTED',  0
+11,'CuGaO2.intra2'  ,  'UNKNOWN','FORMATTED',  0
+14,'CuGaO2.kgen'   ,  'OLD','FORMATTED',  0
+20,'CuGaO2.struct' ,  'OLD',    'FORMATTED',  0
+23,'./CuGaO2.symmat1' ,  'UNKNOWN','FORMATTED',  0
+24,'./CuGaO2.symmat2' ,  'UNKNOWN','FORMATTED',  0
+33,'CuGaO2.joint1'  ,  'UNKNOWN','FORMATTED',  0
+34,'CuGaO2.joint2'  ,  'UNKNOWN','FORMATTED',  0
+35,'CuGaO2.joint1dn'  ,  'UNKNOWN','FORMATTED',  0
+36,'CuGaO2.joint2dn'  ,  'UNKNOWN','FORMATTED',  0
+40,'CuGaO2.xmcd'  ,  'UNKNOWN','FORMATTED',  0
+41,'CuGaO2.rawxmcd'  ,  'UNKNOWN','FORMATTED',  0
+98,'CuGaO2.raw1'  ,  'UNKNOWN','FORMATTED',  0
+99,'CuGaO2.raw2'  ,  'UNKNOWN','FORMATTED',  0
+63,'CuGaO2.broad1'  ,  'UNKNOWN','FORMATTED',  0
+64,'CuGaO2.broad2'  ,  'UNKNOWN','FORMATTED',  0

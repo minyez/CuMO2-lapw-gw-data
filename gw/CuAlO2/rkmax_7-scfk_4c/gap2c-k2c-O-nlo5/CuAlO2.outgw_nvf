@@ -1,0 +1,235 @@
+  Task: nvf       
+  Restart= .FALSE.(Start a new calculation)
+  nspin:    1
+   Use symmetrized eigenvector file
+  Options related to Minm:
+  block size for m-index(mblksiz):   48
+  Complex or real KS vectors?
+   -- Real Vector
+  fdep=imfreq
+  WARNING: nomeg_blk is out of range!
+   -- use the default(==nomeg) instead
+     3   16    0.42000
+k-mesh: (nkx,nky,nkz,deltak)=    2    2    2    0    0    0    2
+ - Nr. of poles used in analytic continuation:           2
+ - Option for calculating selfenergy(iop_es):            0
+   -- perturbative calculation
+ - Option of analytic continuation (iop_ac):           1
+   -- RGN method(Rojas, Godby and Needs)
+ Mixed basis parameters
+ Interstitial: Maximum |G| of ipw in rkmax units
+   0.75000
+ MT-Spheres: Maximum l, Linear dependence tolerance
+   3   1.00000E-04
+  Parameters for Coulomb matrix:
+      Maximum |G| in kmr units =     2.000000
+      Error tolerance for struc. const =     0.000000
+    Coulomb interaction for exchange    0
+    Coulomb interaction for correlation    0
+ ------------------------------------------------------
+ 
+--------------------------------- Set Struct -----------------------------------
+ 
+ 
+-------------------------------- w2k_readstru ----------------------------------
+ 
+ CuAlO2 BenkoF84                                                                
+  
+Lattice type    R   
+Number of atoms    3
+Rel. or not     RELA
+ Lattice constants:     5.405084    5.405084   32.034822   90.000000   90.000000  120.000000
+  -1  0.0000  0.0000  0.0000 1
+  -2  0.5000  0.5000  0.5000 1
+  -3  0.1098  0.1098  0.1098 2
+ 
+----------------------------- Lattice generation -------------------------------
+ 
+Lattice type: R      ortho =  F
+
+ Reciprocal lattice basis vectors:
+            0.6711456711 -1.1624584016  0.1961361080
+            0.6711456711  1.1624584016  0.1961361080
+           -1.3422913422  0.0000000000  0.1961361080
+ Real lattice basis vectors:
+            1.5603133512 -2.7025420000 10.6782740000
+            1.5603133512  2.7025420000 10.6782740000
+           -3.1206267024  0.0000000000 10.6782740000
+ br2.rbas=
+            6.2831853072  0.0000000000  0.0000000000
+            0.0000000000  6.2831853072  0.0000000000
+            0.0000000000  0.0000000000  6.2831853072
+inverse of the WZ cell voulme:   3.70137777E-03
+
+ ------------------------------------------------------
+ 
+-------------------------------- w2k_readin1 -----------------------------------
+ 
+          r-mt times k-max is 7.00
+          max l is 10     max l in nonspherical matrixelements:  4
+          number of inequivalent atoms is    3
+
+          Atomic sphere dependent parameters for atom  Cu1       
+          Overall energy parameter is    0.3000
+          Overall basis set on atom is lapw
+          Number of nonglobal choices   4
+          l= 1             APW+lo
+          l= 1      Local Orbital
+          l= 2             APW+lo
+          l= 0             APW+lo
+
+          Atomic sphere dependent parameters for atom  Al1       
+          Overall energy parameter is    0.3000
+          Overall basis set on atom is lapw
+          Number of nonglobal choices   3
+          l= 1             APW+lo
+          l= 1      Local Orbital
+          l= 0             APW+lo
+
+          Atomic sphere dependent parameters for atom  O 1       
+          Overall energy parameter is    0.3000
+          Overall basis set on atom is lapw
+          Number of nonglobal choices   3
+          l= 0             APW+lo
+          l= 0      Local Orbital
+          l= 1             APW+lo
+ Max. number of LO's per l per atom  ( nlomax):           1
+ Max. number of LO/lo's per l per atom (nloat):           3
+ Information on Local Orbitals (LO or lo)  
+   lomax=           3
+l= 0 LO? #lo #LO        l= 1 LO? #lo #LO        l= 2 LO? #lo #LO        l= 3 LO? #lo #LO
+       F   1   0               T   2   1               F   1   0               F   0   0
+       F   1   0               T   2   1               F   0   0               F   0   0
+       T   2   1               F   1   0               F   0   0               F   0   0
+  Total number of local orbitals (nlo_tot)=           29
+E_l     for iat=   1 l=   0   0.31099
+E_l     for iat=   1 l=   1   0.31099
+E_l     for iat=   1 l=   2   0.34968
+E_l     for iat=   1 l=   3   0.31099
+E_l     for iat=   1 l=   4   0.31099
+E_l     for iat=   1 l=   5   0.31099
+E_l     for iat=   1 l=   6   0.31099
+E_l     for iat=   1 l=   7   0.31099
+E_l     for iat=   1 l=   8   0.31099
+E_l     for iat=   1 l=   9   0.31099
+E_l     for iat=   1 l=  10   0.31099
+E_l     for iat=   2 l=   0   0.31099
+E_l     for iat=   2 l=   1   0.31099
+E_l     for iat=   2 l=   2   0.31099
+E_l     for iat=   2 l=   3   0.31099
+E_l     for iat=   2 l=   4   0.31099
+E_l     for iat=   2 l=   5   0.31099
+E_l     for iat=   2 l=   6   0.31099
+E_l     for iat=   2 l=   7   0.31099
+E_l     for iat=   2 l=   8   0.31099
+E_l     for iat=   2 l=   9   0.31099
+E_l     for iat=   2 l=  10   0.31099
+E_l     for iat=   3 l=   0  -1.55000
+E_l     for iat=   3 l=   1   0.31099
+E_l     for iat=   3 l=   2   0.31099
+E_l     for iat=   3 l=   3   0.31099
+E_l     for iat=   3 l=   4   0.31099
+E_l     for iat=   3 l=   5   0.31099
+E_l     for iat=   3 l=   6   0.31099
+E_l     for iat=   3 l=   7   0.31099
+E_l     for iat=   3 l=   8   0.31099
+E_l     for iat=   3 l=   9   0.31099
+E_l     for iat=   3 l=  10   0.31099
+ 
+---------------------------- kip_readeqp          ------------------------------
+ 
+nvbm,ncbm=   19   20
+  - readeqp
+ ib0,ib1,nbintp=    7   30   24
+ nkp1,nkp2    4  121
+ shift VBs not calculated in GW by    -2.107 eV
+ shift CBs not calculated in GW by     1.224 eV
+ 
+--------------------------------------------------------------------------------
+-                              KS Band Analysis                                -
+--------------------------------------------------------------------------------
+ 
+  Range of bands considered:     7   30
+  EFermi=     0.2911
+Band index for VBM and CBM=  19  20
+:BandGap_KS =         1.918       3.749       2.921 eV
+  Indirect gap, k(VBM)=   0.412   0.000  -0.412 ik=   34
+                k(CBM)=   0.000   0.000   0.000 ik=    1
+ Range of each band with respect to VBM (eV):
+   n       Bottom         Top       Width
+    7     -20.997     -18.868       2.129
+    8     -19.075     -18.571       0.504
+    9      -8.214      -6.667       1.547
+   10      -7.504      -3.809       3.695
+   11      -6.733      -3.610       3.123
+   12      -5.317      -3.485       1.832
+   13      -4.675      -3.151       1.524
+   14      -4.169      -2.626       1.544
+   15      -3.124      -1.746       1.377
+   16      -1.999      -1.379       0.620
+   17      -1.751      -0.984       0.766
+   18      -1.362      -0.787       0.575
+   19      -1.148       0.000       1.148
+   20       1.918       5.391       3.473
+   21       4.520       8.824       4.304
+   22       7.183      10.063       2.881
+   23       8.585      12.247       3.662
+   24      10.032      13.848       3.816
+   25      11.538      14.081       2.543
+   26      11.897      15.267       3.370
+   27      12.401      15.272       2.871
+   28      14.815      16.792       1.977
+   29      15.695      19.320       3.625
+   30      17.067      20.037       2.970
+ 
+--------------------------------------  ----------------------------------------
+ 
+ 
+--------------------------------------------------------------------------------
+-                         QSGW(interpolated) Bands                             -
+--------------------------------------------------------------------------------
+ 
+ 
+--------------------------------------------------------------------------------
+-                         QSGW(intpl) Band Analysis                            -
+--------------------------------------------------------------------------------
+ 
+  Range of bands considered:     7   30
+  EFermi=     0.3035
+Band index for VBM and CBM=  19  20
+:BandGap_QSGW(intpl) =         2.889       4.648       4.086 eV
+  Indirect gap, k(VBM)=   0.400   0.000  -0.400 ik=   33
+                k(CBM)=   0.000   0.000   0.000 ik=    1
+ Range of each band with respect to VBM (eV):
+   n       Bottom         Top       Width
+    7     -22.999     -20.804       2.195
+    8     -20.981     -20.482       0.499
+    9      -9.452      -7.894       1.558
+   10      -8.656      -3.726       4.929
+   11      -7.538      -3.429       4.109
+   12      -6.557      -4.763       1.793
+   13      -5.684      -4.133       1.551
+   14      -5.241      -3.840       1.401
+   15      -4.067      -1.837       2.231
+   16      -2.103      -1.494       0.610
+   17      -1.899      -1.131       0.768
+   18      -1.552      -1.080       0.471
+   19      -1.200       0.000       1.200
+   20       2.889       6.058       3.169
+   21       5.239       9.695       4.456
+   22       8.100      10.984       2.884
+   23       9.375      13.271       3.896
+   24      11.041      15.161       4.120
+   25      12.462      15.338       2.877
+   26      13.062      16.357       3.295
+   27      13.553      16.369       2.816
+   28      16.207      17.959       1.752
+   29      16.735      20.893       4.158
+   30      18.120      21.591       3.471
+ 
+--------------------------------------  ----------------------------------------
+ 
+ task_nvf: write new energy file
+ task_nvf: write new vector file(s)
+:E_FERMI_QP1     0.5819 Ry.
+:E_FERMI_QP2     0.6071 Ry.

@@ -1,0 +1,122 @@
+:CINT001 Core Integral Atom   1   11.998493
+:CINT002 Core Integral Atom   2    3.996084
+:CINT003 Core Integral Atom   3    1.999999
+
+       DENSITY AT NUCLEUS
+        JATOM        VALENCE       SEMI-CORE          CORE           TOTAL
+:RTO001:   1        7.888979        0.000000    22630.684982    22638.573961
+:RTO002:   2        2.909030        0.000000     1487.081766     1489.990796
+:RTO003:   3       14.712656        0.000000      304.057025      318.769681
+     
+       CHARGES OF NEW CHARGE DENSITY
+:NTO   : INTERSTITIAL CHARGE =     6.789051
+:NTO001: CHARGE SPHERE  1    =    27.376262
+:NTO002: CHARGE SPHERE  2    =    10.645047
+:NTO003: CHARGE SPHERE  3    =     6.592102
+
+:NEC01: NUCLEAR AND ELECTRONIC CHARGE     58.00000    57.99456
+     
+       CHARGES OF OLD CHARGE DENSITY
+:OTO   : INTERSTITIAL CHARGE =     6.794487
+:OTO001: CHARGE SPHERE  1    =    27.376262
+:OTO002: CHARGE SPHERE  2    =    10.645047
+:OTO003: CHARGE SPHERE  3    =     6.592102
+
+:NEC02: NUCLEAR AND ELECTRONIC CHARGE     58.00000    58.00000
+     
+       CONVERGENCE TEST
+:DTO001: DIFFERENCE IN SPHERE  1 =  0.0000001
+:DTO002: DIFFERENCE IN SPHERE  2 =  0.0000000
+:DTO003: DIFFERENCE IN SPHERE  3 =  0.0000001
+
+:DIS  :  CHARGE DISTANCE       ( 0.0000001 for atom    1 spin 1)      0.0000001
+:BIG check (qbig,qrms,qtot)    0.364D-07   0.521D-07   0.683D-07
+ 
+******************************************************
+* MULTISECANT MIXING VER6 RELEASE 6.0 OPTIONS        *
+* Standard Mode with controls                        *
+* Regularization       1.000E-06                     *
+* Trust Region Control Active                        *
+* Max Number of Memory Steps    8                    *
+******************************************************
+ 
+:PLANE:  INTERSTITIAL TOTAL      1.89162 DISTAN  1.214E-06 % 
+:CHARG:  CLM CHARGE   /ATOM     54.22882 DISTAN  1.675E-07 % 
+ 
+ Step History DMIX, Red, Pred, Trust, FRMS, FABS
+ 11  2.0000E-01  5.2192E-01  6.1803E-01  5.0544E+00
+ 12  2.0000E-01  3.4974E-01  4.8343E-01  5.1141E+00
+ 13  2.0000E-01  1.6858E-01  2.2140E-01  5.3531E+00
+ 14  2.0000E-01  2.9287E-01  6.8527E-01  5.2009E+00
+ 15  2.0000E-01  4.6617E-01  6.1858E-01  2.6899E+00
+ 16  2.0000E-01  2.2876E-01  4.9335E-01  5.0298E+00
+ 17  2.0000E-01  3.5367E-01  4.8529E-01  4.8015E+00
+ 18  2.0000E-01  1.0000E+00  8.4949E-01  5.1935E+00
+  
+:NORMS:  Nuclear, Spectral, Froebius, Shanno-Pua   0.1289E+01  0.9799E+00  0.1164E+01  0.8275E+00
+:INFO :  Number of Memory Steps    8 Skipping    9
+:INFO :  SLambda=    1.3333333  Max    1.3333333
+
+Eigenvalues, unscaled except for SY+YY
+   #     SY Real        SY Imag          SS             YY         SY+YY Real      SY+YY Imag
+   1   2.509649E+00   0.000000E+00   2.814871E+00   2.702624E+00   6.013044E+00   0.000000E+00
+   2   1.580137E+00   0.000000E+00   1.525405E+00   1.859707E+00   3.928575E+00   0.000000E+00
+   3   9.573013E-01   0.000000E+00   9.026350E-01   1.258161E+00   2.453999E+00   0.000000E+00
+   4   5.341830E-01   0.000000E+00   3.497575E-01   8.565166E-01   1.593411E+00   0.000000E+00
+   5   1.117524E-02   0.000000E+00   1.494395E-01   6.872333E-01   1.162423E+00   0.000000E+00
+   6   9.252748E-02   0.000000E+00   6.417228E-02   4.951798E-01   8.880964E-01   0.000000E+00
+   7   2.957229E-01   0.000000E+00   8.417340E-02   1.563221E-02   3.109549E-02   0.000000E+00
+   8   2.612655E-01   0.000000E+00   9.159522E-03   1.249463E-01   2.519715E-01   0.000000E+00
+ 
+:INFO :  Singular value   6.041E+00 Weight  1.0000E+00 Projections  -5.639E-08  5.447E-09
+:INFO :  Singular value   3.951E+00 Weight  1.0000E+00 Projections  -2.430E-07 -1.458E-10
+:INFO :  Singular value   2.440E+00 Weight  1.0000E+00 Projections   5.662E-08 -2.854E-08
+:INFO :  Singular value   1.593E+00 Weight  1.0000E+00 Projections   1.268E-07  5.532E-09
+:INFO :  Singular value   1.158E+00 Weight  1.0000E+00 Projections  -1.965E-07 -7.097E-08
+:INFO :  Singular value   8.877E-01 Weight  1.0000E+00 Projections  -4.205E-07 -1.880E-07
+:INFO :  Singular value   2.519E-01 Weight  1.0000E+00 Projections   1.106E-06 -8.420E-07
+:INFO :  Singular value   3.109E-02 Weight  1.0000E+00 Projections  -8.424E-07  1.216E-06
+ 
+:DIRM :  MEMORY 8/8 RESCALE  10.36 RED 0.576 PRED 0.849 NEXT 0.179
+:INFO :  Blimit    5.030E+00  1.361E+00  1.000E+00  5.443E+00
+:DIRP :  |MSR1|= 2.036E-07 |PRATT|= 2.377E-07 ANGLE=   5.2 DEGREES
+:DIRQ :  |MSR1|= 0.000E+00 |PRATT|= 0.000E+00 ANGLE=   0.0 DEGREES
+:DIR  :  |MSR1|= 2.987E-07 |PRATT|= 3.616E-07 ANGLE=  10.4 DEGREES
+:MIX  :   MSE1   REGULARIZATION: 2.70E-06  GREED: 0.204  Newton 1.00  0.83                
+     
+       CHARGES OF MIXED CHARGE DENSITY
+:CTO   : INTERSTITIAL CHARGE =     6.794487
+:CTO001: CHARGE SPHERE  1    =    27.376262
+:CTO002: CHARGE SPHERE  2    =    10.645047
+:CTO003: CHARGE SPHERE  3    =     6.592102
+
+:NEC03: NUCLEAR AND ELECTRONIC CHARGE     58.00000    58.00000
+
+PW CHANGE     H    K    L       Current     Change     Residue
+:PTO001:      0    0    0  6.95143382E-02 -2.524E-10 -3.571E-10
+:PTO002:     -1   -1   -1 -2.12049865E-02 -8.559E-11 -1.853E-10
+:PTO003:     -2   -2   -2 -6.02979997E-03 -2.299E-10 -2.797E-10
+:PTO004:     -1    0    0  1.27529921E-01 -1.211E-09 -1.438E-09
+:PTO005:     -1   -1    0  6.79612919E-02 -1.829E-10 -3.156E-10
+:PTO006:     -2   -1   -1 -7.31802298E-02 -8.150E-11 -1.367E-10
+:PTO007:     -2   -2   -1 -8.25849796E-02 -6.675E-10 -7.502E-10
+:PTO008:     -3   -3   -3  3.55950733E-02 -8.293E-11 -1.014E-10
+:PTO009:     -3   -2   -2  2.06165934E-02 -8.615E-10 -9.787E-10
+:PTO010:     -3   -3   -2  6.08044630E-02 -8.049E-10 -9.170E-10
+:PTO011:     -1    0    1  4.86459416E-02 -8.098E-10 -9.088E-10
+:PTO012:     -4   -4   -4 -4.75053300E-03  1.307E-10  1.680E-10
+
+:ENE  : ********** TOTAL ENERGY IN Ry =        -4097.04752384
+
+       TOTAL FORCE IN mRy/a.u. = |F|     Fx             Fy             Fz     with/without FOR in case.in2
+:FOR001:   1.ATOM          0.000          0.000          0.000          0.000 partial forces
+:FOR002:   2.ATOM          0.000          0.000          0.000          0.000 partial forces
+:FOR003:   3.ATOM          6.898          0.000          0.000         -6.898 partial forces
+       TOTAL FORCE WITH RESPECT TO GLOBAL CARTESIAN COORDINATES:
+:FCA001:   1.ATOM                         0.000          0.000          0.000 partial forces
+:FCA002:   2.ATOM                         0.000          0.000          0.000 partial forces
+:FCA003:   3.ATOM                         0.000          0.000         -6.898 partial forces
+       TOTAL FORCE WITH RESPECT TO THE GLOBAL COORDINATE SYSTEM:
+:FGL001:   1.ATOM                 0.000000000     0.000000000     0.000000000 partial forces
+:FGL002:   2.ATOM                 0.000000000     0.000000000     0.000000000 partial forces
+:FGL003:   3.ATOM                -6.898277101    -6.898277101    -6.898277101 partial forces

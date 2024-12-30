@@ -1,0 +1,62 @@
+ JATOM =            1   J =            1
+  ESX  =  -1.2992662010E+03 OCC =   2.0000000000E+00  2.0000000000E+00
+   ESUM,EKIN =   -1847.12014451100       0.000000000000000E+000
+ JATOM =            1   J =            2
+  ESX  =  -1.5464925473E+02 OCC =   2.0000000000E+00  2.0000000000E+00
+   ESUM,EKIN =   -3146.38634553100       0.000000000000000E+000
+ JATOM =            1   J =            3
+  ESX  =  -1.3528446399E+02 OCC =   2.0000000000E+00  2.0000000000E+00
+   ESUM,EKIN =   -3301.03560025700       0.000000000000000E+000
+ JATOM =            1   J =            4
+  ESX  =  -2.6454365087E+02 OCC =   4.0000000000E+00  4.0000000000E+00
+   ESUM,EKIN =   -3436.32006424700       0.000000000000000E+000
+ JATOM =            1   J =            5
+  ESX  =  -1.5339286458E+01 OCC =   2.0000000000E+00  2.0000000000E+00
+   ESUM,EKIN =   -3700.86371511900       0.000000000000000E+000
+ JATOM =            2   J =            1
+  ESX  =  -2.2024345633E+02 OCC =   2.0000000000E+00  2.0000000000E+00
+   ESUM,EKIN =   -3716.20300157700       0.000000000000000E+000
+ JATOM =            2   J =            2
+  ESX  =  -1.4011853412E+01 OCC =   2.0000000000E+00  2.0000000000E+00
+   ESUM,EKIN =   -3936.44645790500       0.000000000000000E+000
+ JATOM =            3   J =            1
+  ESX  =  -1.4659006556E+02 OCC =   2.0000000000E+00  2.0000000000E+00
+   ESUM,EKIN =   -3950.45831131700       0.000000000000000E+000
+   ESUM =   -4097.04837688100     
+ 22. ITERATION
+
+
+       DENSITY AT NUCLEUS
+        JATOM        VALENCE       SEMI-CORE          CORE           TOTAL
+:RTO001:   1        7.888082        0.000000    22630.682663    22638.570745
+:RTO002:   2        2.909658        0.000000     1487.081446     1489.991103
+:RTO003:   3       14.714791        0.000000      304.056447      318.771238
+ Allocating CLM-arrays            5  MB
+ Allocating nwav-arrays           0  MB
+ Allocating cfft-array            0  MB
+:NTO   : INTERSTITIAL CHARGE =     6.788196
+
+:NEC01: NUCLEAR AND ELECTRONIC CHARGE     58.00000    57.99456
+:OTO   : INTERSTITIAL CHARGE =     6.793633
+
+:NEC02: NUCLEAR AND ELECTRONIC CHARGE     58.00000    58.00000
+ 
+ Allocating PS:            0  MB
+ Allocating SB:            0  MB
+ Allocating Y,S:           2  MB
+ 
+:MIX  :   MSE1   REGULARIZATION: 3.43E-06  GREED: 0.200  Newton 1.00  0.78                
+:CTO   : INTERSTITIAL CHARGE =     6.793633
+
+:NEC03: NUCLEAR AND ELECTRONIC CHARGE     58.00000    58.00000
+
+:ENE  : ********** TOTAL ENERGY IN Ry =        -4097.04837688
+
+  
+Time all        CPU  3.000E-02   Wall  3.753E-02 Threading  0.80 Nett 100.0 %
+Time to setup   CPU  2.000E-02   Wall  2.414E-02 Threading  0.83 Nett  64.3 %
+Time for MSEC   CPU  0.000E+00   Wall  6.990E-03 Threading  0.00 Nett  18.6 %
+Time for Hist   CPU  0.000E+00   Wall  3.522E-03 Threading  0.00 Nett   9.4 %
+Time for Scale  CPU  0.000E+00   Wall  3.296E-03 Threading  0.00 Nett   8.8 %
+Time in Trust   CPU  0.000E+00   Wall  1.812E-05 Threading  0.00 Nett   0.0 %
+Time for output CPU  1.000E-02   Wall  6.400E-03 Threading  1.56 Nett  17.1 %

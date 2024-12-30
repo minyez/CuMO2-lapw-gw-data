@@ -1,0 +1,22 @@
+ 3,'./CuInO2.symmat' ,  'OLD','FORMATTED',  0
+ 4,'CuInO2.weight' ,  'OLD','FORMATTED',  0
+ 5,'CuInO2.injoint'   ,  'OLD','FORMATTED',  0
+ 6,'CuInO2.outputjoint',  'UNKNOWN','FORMATTED',  0
+ 7,'CuInO2.joint'  ,  'UNKNOWN','FORMATTED',  0
+ 8,'CuInO2.sigma_intra2'  ,  'UNKNOWN','FORMATTED',  0
+ 9, './CuInO2.mat_diag' ,  'UNKNOWN',    'FORMATTED',  0
+11,'CuInO2.intra2'  ,  'UNKNOWN','FORMATTED',  0
+14,'CuInO2.kgen'   ,  'OLD','FORMATTED',  0
+20,'CuInO2.struct' ,  'OLD',    'FORMATTED',  0
+23,'./CuInO2.symmat1' ,  'UNKNOWN','FORMATTED',  0
+24,'./CuInO2.symmat2' ,  'UNKNOWN','FORMATTED',  0
+33,'CuInO2.joint1'  ,  'UNKNOWN','FORMATTED',  0
+34,'CuInO2.joint2'  ,  'UNKNOWN','FORMATTED',  0
+35,'CuInO2.joint1dn'  ,  'UNKNOWN','FORMATTED',  0
+36,'CuInO2.joint2dn'  ,  'UNKNOWN','FORMATTED',  0
+40,'CuInO2.xmcd'  ,  'UNKNOWN','FORMATTED',  0
+41,'CuInO2.rawxmcd'  ,  'UNKNOWN','FORMATTED',  0
+98,'CuInO2.raw1'  ,  'UNKNOWN','FORMATTED',  0
+99,'CuInO2.raw2'  ,  'UNKNOWN','FORMATTED',  0
+63,'CuInO2.broad1'  ,  'UNKNOWN','FORMATTED',  0
+64,'CuInO2.broad2'  ,  'UNKNOWN','FORMATTED',  0

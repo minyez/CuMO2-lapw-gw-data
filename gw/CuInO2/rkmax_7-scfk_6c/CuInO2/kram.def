@@ -1,0 +1,10 @@
+ 5,'CuInO2.inkram'   ,  'OLD','FORMATTED',  0
+10,'CuInO2.joint'  ,  'OLD','FORMATTED',  0
+11,'CuInO2.intra'  ,  'UNKNOWN','FORMATTED',  0
+12,'CuInO2.epsilon'  ,  'UNKNOWN','FORMATTED',  0
+13,'CuInO2.sigmak'  ,  'UNKNOWN','FORMATTED',  0
+14,'CuInO2.absorp'  ,  'UNKNOWN','FORMATTED',  0
+15,'CuInO2.eloss'  ,  'UNKNOWN','FORMATTED',  0
+16,'CuInO2.refraction',  'UNKNOWN','FORMATTED',0
+17,'CuInO2.reflectivity','UNKNOWN','FORMATTED',0
+77,'CuInO2.sumrules'  ,  'UNKNOWN','FORMATTED',  0

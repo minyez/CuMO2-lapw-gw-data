@@ -1,0 +1,149 @@
+run gap2_analy on  Mon Aug 16 17:10:40 CST 2021
+Full command: ' gap2_analy -gw gap2c.x -gwtag GW -gwdir ../gap2c-k6c-nlo0 -t band -qtl -s 0 '
+run analysis calculation band 
+ - set spin tag 
+ -- spin unpolarized
+  sptag = 
+ - backup k-vectors files using in SCF
+  CuGaO2.energy ---> CuGaO2.energy-scf 
+  CuGaO2.vector ---> CuGaO2.vector-scf 
+  CuGaO2.output1 ---> CuGaO2.output1-scf 
+  CuGaO2.scf1 ---> CuGaO2.scf1-scf 
+  CuGaO2.qtl ---> CuGaO2.qtl-scf 
+  CuGaO2.output2 ---> CuGaO2.output2-scf 
+  CuGaO2.scf2 ---> CuGaO2.scf2-scf 
+  CuGaO2.weight ---> CuGaO2.weight-scf 
+
+--- Initilization ---
+
+
+--- lapw1 ---
+
+
+--- lapw2 for qtl/opt ---
+
+--- spagh ---
+  Extract Fermi energy from SCF output
+  KS Fermi Energy= 0.4708125035
+------------------- KS Band Gap ----------------------
+Efermi= 0.4708125035
+Read band energies from CuGaO2.energy
+Number of k-vectors= 121
+
+  Analyze band energies
+  
+	Number of spin= 1
+	Number of k-vector= 121
+	Number of bands= 33
+
+
+Band index for VBM and CBM= 21 21
+Metallic system
+Range of each band with respect to VBM (eV):
+    n      Bottom         Top       Width
+    4     -20.786     -19.178       1.608
+    5     -19.217     -18.840       0.378
+    6     -14.620     -14.405       0.215
+    7     -14.620     -14.380       0.240
+    8     -14.523     -14.284       0.239
+    9     -14.308     -13.971       0.337
+   10     -14.304     -13.612       0.691
+   11      -8.195      -6.824       1.371
+   12      -7.395      -3.731       3.664
+   13      -6.400      -3.379       3.021
+   14      -5.346      -3.197       2.149
+   15      -4.501      -3.197       1.305
+   16      -3.672      -2.578       1.094
+   17      -2.953      -1.586       1.367
+   18      -1.796      -1.254       0.542
+   19      -1.610      -0.983       0.627
+   20      -1.240      -0.645       0.595
+   21      -1.058       0.003       1.061
+   22       0.973       5.138       4.165
+   23       3.520       6.202       2.682
+   24       5.519       8.769       3.250
+   25       7.441      11.742       4.301
+   26       9.025      12.121       3.096
+   27      10.149      12.509       2.360
+   28      11.152      16.862       5.710
+   29      12.110      16.963       4.853
+   30      13.202      17.312       4.110
+   31      15.261      18.611       3.350
+
+--- spagh/GW ---
+
+  Extract Fermi energy from gwnvf output 
+  GW Fermi Energy = 0.5066
+------------------- GW Band Gap ----------------------
+Efermi= 0.5066
+Read band energies from CuGaO2.energy
+Number of k-vectors= 121
+
+  Analyze band energies
+  
+	Number of spin= 1
+	Number of k-vector= 121
+	Number of bands= 31
+
+
+Band index for VBM and CBM= 21 22
+Insulating system:
+:BandGap(i) =   1.825 eV 
+:Eg_d(min) =   2.613 eV, at      k=(   0.500,   0.000,   0.000) (ik= 121)
+:Eg_direct =   4.148 eV  at  VBM k=(   0.400,   0.000,  -0.400) (ik=  33)
+:Eg_direct =   2.931 eV  at  CBM k=(   0.000,   0.000,   0.000) (ik=   1)
+Range of each band with respect to VBM (eV):
+    n      Bottom         Top       Width
+    4     -22.676     -21.067       1.609
+    5     -21.246     -20.680       0.566
+    6     -17.841     -17.630       0.211
+    7     -17.841     -17.596       0.246
+    8     -17.732     -17.524       0.208
+    9     -17.555     -17.074       0.481
+   10     -17.552     -16.628       0.924
+   11      -9.427      -7.934       1.493
+   12      -8.469      -4.667       3.803
+   13      -7.520      -3.446       4.074
+   14      -6.315      -4.000       2.314
+   15      -5.528      -3.493       2.036
+   16      -4.626      -2.935       1.692
+   17      -3.893      -1.943       1.950
+   18      -2.146      -1.464       0.682
+   19      -1.947      -1.267       0.680
+   20      -1.528      -1.028       0.500
+   21      -1.371       0.000       1.371
+   22       1.825       5.354       3.529
+   23       4.186       6.945       2.759
+   24       6.178       9.360       3.182
+   25       8.174      12.667       4.493
+   26       9.521      12.728       3.207
+   27      10.928      13.526       2.598
+   28      12.000      17.654       5.654
+   29      12.435      17.649       5.214
+   30      13.880      17.884       4.003
+   31      15.874      19.568       3.695
+
+--- save new files and recover backuped SCF files  ---
+
+  CuGaO2.energy ---> CuGaO2.energy-band
+  CuGaO2.energy_GW ---> CuGaO2.energy_GW-band
+  CuGaO2.energy-scf ---> CuGaO2.energy
+  CuGaO2.vector ---> CuGaO2.vector-band
+  CuGaO2.vector_GW ---> CuGaO2.vector_GW-band
+  CuGaO2.vector-scf ---> CuGaO2.vector
+  CuGaO2.output1 ---> CuGaO2.output1-band
+  CuGaO2.output1-scf ---> CuGaO2.output1
+  CuGaO2.scf1 ---> CuGaO2.scf1-band
+  CuGaO2.scf1-scf ---> CuGaO2.scf1
+  CuGaO2.qtl ---> CuGaO2.qtl-band
+  CuGaO2.qtl_GW ---> CuGaO2.qtl_GW-band
+  CuGaO2.qtl-scf ---> CuGaO2.qtl
+  CuGaO2.output2 ---> CuGaO2.output2-band
+  CuGaO2.output2_GW ---> CuGaO2.output2_GW-band
+  CuGaO2.output2-scf ---> CuGaO2.output2
+  CuGaO2.scf2 ---> CuGaO2.scf2-band
+  CuGaO2.scf2_GW ---> CuGaO2.scf2_GW-band
+  CuGaO2.scf2-scf ---> CuGaO2.scf2
+  CuGaO2.weight ---> CuGaO2.weight-band
+  CuGaO2.weight_GW ---> CuGaO2.weight_GW-band
+  CuGaO2.weight-scf ---> CuGaO2.weight

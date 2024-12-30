@@ -1,0 +1,7 @@
+c35.388332PSM2 can't open hfi unit: -1 (err=23)
+c35.388345PSM2 can't open hfi unit: -1 (err=23)
+c35.388342PSM2 can't open hfi unit: -1 (err=23)
+c35.388341PSM2 can't open hfi unit: -1 (err=23)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 362217.1 ON c21 CANCELLED AT 2021-06-23T20:16:48 ***
+slurmstepd: error: *** JOB 362217 ON c21 CANCELLED AT 2021-06-23T20:16:48 ***

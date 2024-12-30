@@ -1,0 +1,6 @@
+  4,'CuInO2.klist',                          'old',    'formatted',  0
+ 10,'./CuInO2.vectorso', 'old',    'unformatted',0
+ 11,'CuInO2.vectorso',	    'unknown','unformatted',0
+ 20,'CuInO2.struct',   	     		    'old',    'formatted',  0
+ 50,'CuInO2.energyso',                 'old',    'formatted',  0
+ 51,'CuInO2.energyso',                 'unknown','formatted',  0

@@ -1,0 +1,9 @@
+5, 'CuGaO2.insp',         'old',    'formatted',0
+6, 'CuGaO2.outputsp',     'unknown','formatted',0
+9, 'CuGaO2.qtl',          'unknown','formatted',0
+10,'CuGaO2.spaghetti_ene','unknown','formatted',0
+11,'CuGaO2.spaghetti_ps', 'unknown','formatted',0
+20,'CuGaO2.struct',       'old',    'formatted',0
+30,'CuGaO2.irrep',          'unknown','formatted',0
+40,'CuGaO2.bands.agr',       'unknown','formatted',0
+7, 'CuGaO2.output1',  'old','formatted',0

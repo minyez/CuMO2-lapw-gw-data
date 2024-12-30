@@ -1,0 +1,28 @@
+ 2,'CuGaO2.nsh',    'unknown','formatted',0
+ 3,'CuGaO2.in1',   'unknown','formatted',0
+ 4,'CuGaO2.inso',           'unknown','formatted',0
+ 5,'CuGaO2.in2',   'old',    'formatted',0
+ 6,'CuGaO2.output2','unknown','formatted',0
+ 7,'CuGaO2.vorb','unknown','formatted',0
+ 8,'CuGaO2.clmval','unknown','formatted',0
+10,'./CuGaO2.vector', 'unknown','unformatted',9000
+11,'CuGaO2.weight',    'unknown','formatted',0
+13,'CuGaO2.recprlist',      'unknown','unformatted',9000
+14,'CuGaO2.kgen',        'unknown','formatted',0
+15,'CuGaO2.tmp',       'unknown','unformatted',0
+16,'CuGaO2.qtl',       'unknown','formatted',0
+17,'CuGaO2.weightaver','unknown','formatted',0
+18,'CuGaO2.vsp',       'old',    'formatted',0
+19,'CuGaO2.vns',       'unknown','formatted',0
+20,'CuGaO2.struct',         'old',    'formatted',0
+21,'CuGaO2.scf2','unknown','formatted',0
+922,'CuGaO2.rotlm',   'unknown',    'formatted',0
+23,'CuGaO2.radwf',   'unknown',    'formatted',0
+26,'CuGaO2.weigh',   'unknown','unformatted',0
+27,'CuGaO2.weighdn',   'unknown','unformatted',0
+29,'CuGaO2.energydn','unknown','formatted',0
+30,'CuGaO2.energy', 'unknown','formatted',0
+32,'CuGaO2.qdmft',   'unknown',    'formatted',0
+34,'CuGaO2.oubwin',   'unknown',    'formatted',0
+231,'CuGaO2.dmftsym',   'unknown',    'formatted',0
+31,'./CuGaO2.help', 'unknown','formatted',0

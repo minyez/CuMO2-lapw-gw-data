@@ -1,0 +1,161 @@
+run gap2_analy on  Mon Jul 5 19:23:09 CST 2021
+Full command: ' gap2_analy -gw gap2c.x -gwtag GW -gwdir ../gap2c-k6c-nlo0 -t dos -qtl -s 0 -nkp 1728 '
+run analysis calculation dos 
+ - set spin tag 
+ -- spin unpolarized
+  sptag = 
+ - backup k-vectors files using in SCF
+  CuInO2.klist ---> CuInO2.klist-scf 
+  CuInO2.kgen ---> CuInO2.kgen-scf 
+  CuInO2.energy ---> CuInO2.energy-scf 
+  CuInO2.vector ---> CuInO2.vector-scf 
+  CuInO2.output1 ---> CuInO2.output1-scf 
+  CuInO2.scf1 ---> CuInO2.scf1-scf 
+  CuInO2.qtl ---> CuInO2.qtl-scf 
+  CuInO2.output2 ---> CuInO2.output2-scf 
+  CuInO2.scf2 ---> CuInO2.scf2-scf 
+  CuInO2.weight ---> CuInO2.weight-scf 
+
+--- Initilization ---
+
+ The number of k-points for DOS 1728
+
+--- lapw1 ---
+
+
+--- lapw2 for qtl/opt ---
+
+ 
+------------------- Kohn-Sham Band Gap ----------------------
+CuInO2.scf2
+Efermi= 0.4168638765
+Read band energies from CuInO2.energy
+Number of k-vectors= 189
+
+  Analyze band energies
+  
+	Number of spin= 1
+	Number of k-vector= 189
+	Number of bands= 34
+
+
+Band index for VBM and CBM= 21 22
+Insulating system:
+:BandGap(i) =   0.414 eV 
+:Eg_d(min) =   0.780 eV, at      k=(   0.000,   0.000,   0.000) (ik=   1)
+:Eg_direct =   3.790 eV  at  VBM k=(   0.000,   0.417,   0.583) (ik=  42)
+:Eg_direct =   0.780 eV  at  CBM k=(   0.000,   0.000,   0.000) (ik=   1)
+Range of each band with respect to VBM (eV):
+    n      Bottom         Top       Width
+    4     -19.571     -18.784       0.787
+    5     -18.787     -18.257       0.530
+    6     -14.187     -13.886       0.302
+    7     -14.187     -13.857       0.330
+    8     -14.057     -13.735       0.322
+    9     -13.779     -13.363       0.416
+   10     -13.772     -12.910       0.862
+   11      -6.932      -5.847       1.085
+   12      -6.473      -3.525       2.948
+   13      -5.381      -3.013       2.368
+   14      -4.729      -3.013       1.716
+   15      -4.024      -2.643       1.381
+   16      -3.159      -2.285       0.874
+   17      -2.708      -1.173       1.535
+   18      -1.307      -0.859       0.448
+   19      -1.218      -0.790       0.428
+   20      -0.909      -0.277       0.632
+   21      -0.696       0.000       0.696
+   22       0.414       4.976       4.562
+   23       3.467       5.217       1.750
+   24       4.798       7.897       3.099
+   25       6.936      11.046       4.110
+   26       7.842      11.353       3.512
+   27       9.173      12.116       2.944
+   28       9.697      14.909       5.212
+   29      11.525      14.909       3.384
+   30      11.988      15.379       3.391
+   31      14.807      16.968       2.162
+   32      15.329      17.959       2.629
+   33      15.382      19.397       4.015
+ 
+------------------- GW Band Gap ----------------------
+CuInO2.scf2
+Efermi= 0.4234049708
+Read band energies from CuInO2.energy
+Number of k-vectors= 189
+
+  Analyze band energies
+  
+	Number of spin= 1
+	Number of k-vector= 189
+	Number of bands= 33
+
+
+Band index for VBM and CBM= 21 22
+Insulating system:
+:BandGap(i) =   1.189 eV 
+:Eg_d(min) =   1.841 eV, at      k=(   0.000,   0.000,   0.000) (ik=   1)
+:Eg_direct =   5.101 eV  at  VBM k=(   0.000,   0.333,   0.667) (ik=  39)
+:Eg_direct =   1.841 eV  at  CBM k=(   0.000,   0.000,   0.000) (ik=   1)
+Range of each band with respect to VBM (eV):
+    n      Bottom         Top       Width
+    4     -21.262     -20.473       0.788
+    5     -20.456     -19.883       0.573
+    6     -16.604     -16.271       0.333
+    7     -16.604     -16.237       0.367
+    8     -16.441     -16.125       0.315
+    9     -16.173     -15.614       0.559
+   10     -16.169     -15.063       1.106
+   11      -7.855      -6.754       1.101
+   12      -7.264      -4.308       2.957
+   13      -6.261      -3.763       2.498
+   14      -5.494      -3.763       1.731
+   15      -4.875      -2.794       2.082
+   16      -3.887      -3.032       0.855
+   17      -3.169      -1.509       1.660
+   18      -1.655      -1.061       0.594
+   19      -1.552      -0.987       0.565
+   20      -1.108      -0.540       0.568
+   21      -0.939       0.000       0.939
+   22       1.189       5.126       3.937
+   23       4.079       5.717       1.638
+   24       5.477       8.360       2.884
+   25       7.556      11.811       4.255
+   26       8.490      11.872       3.381
+   27       9.747      12.742       2.995
+   28      10.507      15.940       5.433
+   29      11.961      15.940       3.979
+   30      12.718      15.610       2.892
+   31      15.419      17.739       2.321
+   32      15.890      18.886       2.996
+   33      16.203      20.262       4.059
+ --- tetra ---
+
+--- save new files and recover backuped SCF files  ---
+
+  CuInO2.klist ---> CuInO2.klist-dos
+  CuInO2.klist-scf ---> CuInO2.klist
+  CuInO2.kgen ---> CuInO2.kgen-dos
+  CuInO2.kgen-scf ---> CuInO2.kgen
+  CuInO2.energy ---> CuInO2.energy-dos
+  CuInO2.energy_GW ---> CuInO2.energy_GW-dos
+  CuInO2.energy-scf ---> CuInO2.energy
+  CuInO2.vector ---> CuInO2.vector-dos
+  CuInO2.vector_GW ---> CuInO2.vector_GW-dos
+  CuInO2.vector-scf ---> CuInO2.vector
+  CuInO2.output1 ---> CuInO2.output1-dos
+  CuInO2.output1-scf ---> CuInO2.output1
+  CuInO2.scf1 ---> CuInO2.scf1-dos
+  CuInO2.scf1-scf ---> CuInO2.scf1
+  CuInO2.qtl ---> CuInO2.qtl-dos
+  CuInO2.qtl_GW ---> CuInO2.qtl_GW-dos
+  CuInO2.qtl-scf ---> CuInO2.qtl
+  CuInO2.output2 ---> CuInO2.output2-dos
+  CuInO2.output2_GW ---> CuInO2.output2_GW-dos
+  CuInO2.output2-scf ---> CuInO2.output2
+  CuInO2.scf2 ---> CuInO2.scf2-dos
+  CuInO2.scf2_GW ---> CuInO2.scf2_GW-dos
+  CuInO2.scf2-scf ---> CuInO2.scf2
+  CuInO2.weight ---> CuInO2.weight-dos
+  CuInO2.weight_GW ---> CuInO2.weight_GW-dos
+  CuInO2.weight-scf ---> CuInO2.weight

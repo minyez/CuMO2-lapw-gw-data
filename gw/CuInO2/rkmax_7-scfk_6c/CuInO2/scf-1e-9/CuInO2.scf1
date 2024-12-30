@@ -1,0 +1,49 @@
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Cu1       
+:e__0001: OVERALL ENERGY PARAMETER IS    0.2168
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E1_0001: E( 1)=    0.2168
+             APW+lo
+:E1_0001: E( 1)=   -4.6351   E(BOTTOM)=   -4.703   E(TOP)=   -4.567  1  2   170
+             LOCAL ORBITAL
+:E2_0001: E( 2)=    0.2854   E(BOTTOM)=   -0.048   E(TOP)=    0.619  0  1   132
+             APW+lo
+:E0_0001: E( 0)=    0.2168
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  In1       
+:e__0002: OVERALL ENERGY PARAMETER IS    0.2168
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E2_0002: E( 2)=   -0.6405   E(BOTTOM)=   -1.052   E(TOP)=   -0.229  1  2   144
+             APW+lo
+:E2_0002: E( 2)=    0.6168
+             LOCAL ORBITAL
+:E0_0002: E( 0)=    0.2168
+             APW+lo
+:E1_0002: E( 1)=    0.2168
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  O 1       
+:e__0003: OVERALL ENERGY PARAMETER IS    0.2168
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E0_0003: E( 0)=   -1.5500   E(BOTTOM)=   -2.632   E(TOP)= -200.000  1 -1   233
+             APW+lo
+:E0_0003: E( 0)=    0.6168
+             LOCAL ORBITAL
+:E1_0003: E( 1)=    0.2168
+             APW+lo
+
+       K=   0.00000   0.00000   0.00000            1
+:RKM  : MATRIX SIZE   809LOs:  36  RKM= 6.98  WEIGHT= 1.00  PGR:    
+       EIGENVALUES ARE:
+:EIG00001:      -4.6337760   -4.6136971   -4.6136971   -1.0216009   -0.9249925
+:EIG00006:      -0.6258820   -0.6258820   -0.6162845   -0.5953303   -0.5953303
+:EIG00011:      -0.0926283    0.1577684    0.1954164    0.1954164    0.1992466
+:EIG00016:       0.1992466    0.2178129    0.3275338    0.3275338    0.3899270
+:EIG00021:       0.3899270    0.4472868    0.7207003    0.8170348    1.2287865
+:EIG00026:       1.2287865    1.3073821    1.5125777    1.5125777    1.5281488
+:EIG00031:       1.5435343    1.5435343    1.5473401    1.7078357    1.8498643
+:EIG00036:       1.8498643
+       ********************************************************
+
+:KPT   :      NUMBER OF K-POINTS:    32

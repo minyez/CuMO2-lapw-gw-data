@@ -1,0 +1,143 @@
+run gap2_analy on  Mon Jul 5 18:51:54 CST 2021
+Full command: ' gap2_analy -gw gap2c.x -gwtag GW -gwdir ../gap2c-k6c-nlo0 -t dos -qtl -s 0 -nkp 1728 '
+run analysis calculation dos 
+ - set spin tag 
+ -- spin unpolarized
+  sptag = 
+ - backup k-vectors files using in SCF
+  CuAlO2.klist ---> CuAlO2.klist-scf 
+  CuAlO2.kgen ---> CuAlO2.kgen-scf 
+  CuAlO2.energy ---> CuAlO2.energy-scf 
+  CuAlO2.output1 ---> CuAlO2.output1-scf 
+  CuAlO2.scf1 ---> CuAlO2.scf1-scf 
+  CuAlO2.qtl ---> CuAlO2.qtl-scf 
+  CuAlO2.output2 ---> CuAlO2.output2-scf 
+  CuAlO2.scf2 ---> CuAlO2.scf2-scf 
+
+--- Initilization ---
+
+ The number of k-points for DOS 1728
+
+--- lapw1 ---
+
+
+--- lapw2 for qtl/opt ---
+
+ 
+------------------- Kohn-Sham Band Gap ----------------------
+CuAlO2.scf2
+Efermi= 0.5096482096
+Read band energies from CuAlO2.energy
+Number of k-vectors= 189
+
+  Analyze band energies
+  
+	Number of spin= 1
+	Number of k-vector= 189
+	Number of bands= 31
+
+
+Band index for VBM and CBM= 19 20
+Insulating system:
+:BandGap(i) =   1.925 eV 
+:Eg_d(min) =   2.687 eV, at      k=(   0.000,   0.000,   0.500) (ik=   7)
+:Eg_direct =   3.709 eV  at  VBM k=(   0.000,   0.417,   0.583) (ik=  42)
+:Eg_direct =   2.928 eV  at  CBM k=(   0.000,   0.000,   0.000) (ik=   1)
+Range of each band with respect to VBM (eV):
+    n      Bottom         Top       Width
+    7     -20.983     -18.902       2.080
+    8     -19.061     -18.564       0.497
+    9      -8.198      -6.689       1.509
+   10      -7.490      -3.791       3.699
+   11      -6.612      -3.599       3.013
+   12      -5.266      -3.471       1.794
+   13      -4.630      -3.158       1.471
+   14      -4.112      -2.612       1.501
+   15      -3.131      -1.756       1.375
+   16      -1.964      -1.309       0.656
+   17      -1.740      -0.977       0.764
+   18      -1.370      -0.786       0.585
+   19      -1.152       0.000       1.152
+   20       1.925       5.329       3.404
+   21       4.542       8.638       4.095
+   22       7.203      10.122       2.919
+   23       8.607      12.270       3.662
+   24      10.263      13.868       3.606
+   25      11.395      14.050       2.655
+   26      11.744      15.287       3.543
+   27      12.423      15.692       3.269
+   28      14.836      16.457       1.621
+   29      15.721      19.326       3.605
+   30      16.936      19.911       2.976
+ 
+------------------- GW Band Gap ----------------------
+CuAlO2.scf2
+Efermi= 0.5247116366
+Read band energies from CuAlO2.energy
+Number of k-vectors= 189
+
+  Analyze band energies
+  
+	Number of spin= 1
+	Number of k-vector= 189
+	Number of bands= 30
+
+
+Band index for VBM and CBM= 19 20
+Insulating system:
+:BandGap(i) =   2.599 eV 
+:Eg_d(min) =   2.675 eV, at      k=(   0.000,   0.000,   0.500) (ik=   7)
+:Eg_direct =   3.872 eV  at  VBM k=(   0.000,   0.417,   0.583) (ik=  42)
+:Eg_direct =   2.675 eV  at  CBM k=(   0.000,   0.000,   0.500) (ik=   7)
+Range of each band with respect to VBM (eV):
+    n      Bottom         Top       Width
+    7     -23.333     -21.140       2.193
+    8     -21.307     -20.805       0.502
+    9      -9.804      -8.141       1.663
+   10      -8.958      -4.115       4.843
+   11      -8.200      -3.661       4.539
+   12      -6.628      -4.714       1.914
+   13      -5.888      -3.996       1.892
+   14      -5.420      -3.351       2.068
+   15      -4.198      -2.147       2.051
+   16      -2.359      -1.682       0.677
+   17      -2.108      -1.279       0.829
+   18      -1.750      -1.260       0.490
+   19      -1.553       0.000       1.553
+   20       2.599       5.530       2.930
+   21       4.960       9.246       4.286
+   22       7.781      10.881       3.100
+   23       9.111      13.220       4.108
+   24      10.935      14.893       3.959
+   25      12.174      14.964       2.790
+   26      12.516      16.085       3.568
+   27      13.170      16.584       3.414
+   28      15.869      17.565       1.696
+ --- tetra ---
+
+--- save new files and recover backuped SCF files  ---
+
+  CuAlO2.klist ---> CuAlO2.klist-dos
+  CuAlO2.klist-scf ---> CuAlO2.klist
+  CuAlO2.kgen ---> CuAlO2.kgen-dos
+  CuAlO2.kgen-scf ---> CuAlO2.kgen
+  CuAlO2.energy ---> CuAlO2.energy-dos
+  CuAlO2.energy_GW ---> CuAlO2.energy_GW-dos
+  CuAlO2.energy-scf ---> CuAlO2.energy
+  CuAlO2.vector ---> CuAlO2.vector-dos
+  CuAlO2.vector_GW ---> CuAlO2.vector_GW-dos
+  CuAlO2.output1 ---> CuAlO2.output1-dos
+  CuAlO2.output1-scf ---> CuAlO2.output1
+  CuAlO2.scf1 ---> CuAlO2.scf1-dos
+  CuAlO2.scf1-scf ---> CuAlO2.scf1
+  CuAlO2.qtl ---> CuAlO2.qtl-dos
+  CuAlO2.qtl_GW ---> CuAlO2.qtl_GW-dos
+  CuAlO2.qtl-scf ---> CuAlO2.qtl
+  CuAlO2.output2 ---> CuAlO2.output2-dos
+  CuAlO2.output2_GW ---> CuAlO2.output2_GW-dos
+  CuAlO2.output2-scf ---> CuAlO2.output2
+  CuAlO2.scf2 ---> CuAlO2.scf2-dos
+  CuAlO2.scf2_GW ---> CuAlO2.scf2_GW-dos
+  CuAlO2.scf2-scf ---> CuAlO2.scf2
+  CuAlO2.weight ---> CuAlO2.weight-dos
+  CuAlO2.weight_GW ---> CuAlO2.weight_GW-dos

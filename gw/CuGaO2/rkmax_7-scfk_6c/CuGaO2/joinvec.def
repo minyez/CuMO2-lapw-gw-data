@@ -1,0 +1,6 @@
+  4,'CuGaO2.klist',                          'old',    'formatted',  0
+ 10,'./CuGaO2.vectorso', 'old',    'unformatted',0
+ 11,'CuGaO2.vectorso',	    'unknown','unformatted',0
+ 20,'CuGaO2.struct',   	     		    'old',    'formatted',  0
+ 50,'CuGaO2.energyso',                 'old',    'formatted',  0
+ 51,'CuGaO2.energyso',                 'unknown','formatted',  0

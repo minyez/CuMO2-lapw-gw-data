@@ -1,0 +1,832 @@
+ max number of local orbitals/atom           3
+CuAlO2 BenkoF84                                                                 
+0         R      TYPE LATTICE ASSUMED
+          RELA-CALCULATION
+
+          R-MT TIMES K-MAX IS 7.00
+          MAX L IS 10     MAX L IN NONSPHERICAL MATRIXELEMENTS:  4
+ NUMBER OF ATOMS IS    3
+   0.10682  -0.18501   0.03122
+   0.10682   0.18501   0.03122
+  -0.21363   0.00000   0.03122
+   1.56031   1.56031  -3.12063
+  -2.70254   2.70254   0.00000
+  10.67827  10.67827  10.67827
+:E1_0001: E( 1)=    0.3110
+             APW+lo
+:E1_0001: E( 1)=   -4.5714   E(BOTTOM)=   -4.639   E(TOP)=   -4.504  1  2   181
+             LOCAL ORBITAL
+:E2_0001: E( 2)=    0.3497   E(BOTTOM)=    0.017   E(TOP)=    0.682  0  1   131
+             APW+lo
+:E0_0001: E( 0)=    0.3110
+             APW+lo
+
+          POTENTIAL PARAMETERS 
+           L     U(R)          U'(R)         DU/DE        DU'/DE      NORM-U'
+           0 -0.648610E+00  0.143113E+00  0.105586E+00  0.362148E+00  0.912034E-02      3 3 3
+           1  0.754536E+00  0.221931E+00 -0.779852E-01 -0.354287E+00  0.754875E-02      2 2 2
+           2  0.204632E+00 -0.213126E+00 -0.584609E+00 -0.613121E+00  0.414245E+00      0 0 0
+           3  0.979351E+00  0.119734E+01 -0.551776E-01 -0.322731E+00  0.223884E-02      0 0 0
+           4  0.112454E+01  0.203123E+01 -0.373397E-01 -0.289753E+00  0.814289E-03      0 0 0
+           5  0.124144E+01  0.291667E+01 -0.283594E-01 -0.267993E+00  0.400911E-03      0 0 0
+           6  0.134432E+01  0.386681E+01 -0.227144E-01 -0.251283E+00  0.226276E-03      0 0 0
+           7  0.143802E+01  0.488214E+01 -0.188051E-01 -0.237665E+00  0.138973E-03      0 0 0
+           8  0.152497E+01  0.596070E+01 -0.159367E-01 -0.226192E+00  0.905989E-04      0 0 0
+           9  0.160662E+01  0.709999E+01 -0.137470E-01 -0.216311E+00  0.617945E-04      0 0 0
+          10  0.168391E+01  0.829751E+01 -0.120251E-01 -0.207662E+00  0.436865E-04      0 0 0
+
+          LOCAL ORBITAL POTENTIAL PARAMETERS
+           L     U(R)          U'(R)     NORM U1U2        NORM UE1U2
+           1 -0.701172E-01  0.120968E+00  0.874365E-01 -0.460077E-01      0 1 0
+    2    2       1.000000      -4.571405      -4.571405
+LO COEFFICIENT: l,A,B,C   0          0.86253     5.29849     0.00000
+LO COEFFICIENT: l,A,B,C   1          0.76547     7.40618     0.00000
+LO COEFFICIENT: l,A,B,C   1          0.09179     0.00000     0.98778
+LO COEFFICIENT: l,A,B,C   2          0.97555     0.34147     0.00000
+  POSSIBLE NONSPHERICAL CONTRIBUTIONS TO H: 
+ (L0,LL,LP,M, MM,MP, GNT,  U V U,    UE V UE,   U V UE     )
+    NUMBER OF RADIAL INTEGRALS FOR ATOM           1  =           40
+:E1_0002: E( 1)=    0.3110
+             APW+lo
+:E1_0002: E( 1)=   -4.2178   E(BOTTOM)=   -4.320   E(TOP)=   -4.116  0  1   155
+             LOCAL ORBITAL
+:E0_0002: E( 0)=    0.3110
+             APW+lo
+
+          POTENTIAL PARAMETERS 
+           L     U(R)          U'(R)         DU/DE        DU'/DE      NORM-U'
+           0  0.751925E+00 -0.200341E+00 -0.101042E+00 -0.383557E+00  0.688595E-02      2 2 2
+           1 -0.829383E+00 -0.161404E+00  0.804443E-01  0.387818E+00  0.876587E-02      1 1 1
+           2  0.910721E+00  0.498699E+00 -0.917442E-01 -0.389149E+00  0.568271E-02      0 0 0
+           3  0.115177E+01  0.153176E+01 -0.501073E-01 -0.334612E+00  0.126997E-02      0 0 0
+           4  0.131492E+01  0.259583E+01 -0.351345E-01 -0.304076E+00  0.516630E-03      0 0 0
+           5  0.145076E+01  0.374245E+01 -0.268807E-01 -0.282073E+00  0.260752E-03      0 0 0
+           6  0.157115E+01  0.497712E+01 -0.215777E-01 -0.264772E+00  0.148388E-03      0 0 0
+           7  0.168106E+01  0.629808E+01 -0.178770E-01 -0.250541E+00  0.914308E-04      0 0 0
+           8  0.178312E+01  0.770198E+01 -0.151530E-01 -0.238498E+00  0.596850E-04      0 0 0
+           9  0.187897E+01  0.918523E+01 -0.130705E-01 -0.228100E+00  0.407301E-04      0 0 0
+          10  0.196970E+01  0.107444E+02 -0.114320E-01 -0.218987E+00  0.287982E-04      0 0 0
+
+          LOCAL ORBITAL POTENTIAL PARAMETERS
+           L     U(R)          U'(R)     NORM U1U2        NORM UE1U2
+           1  0.100908E+00 -0.157038E+00  0.104741E+00 -0.601790E-01      0 0 0
+    2    2       1.000000      -4.217837      -4.217837
+LO COEFFICIENT: l,A,B,C   0          0.85085     6.33171     0.00000
+LO COEFFICIENT: l,A,B,C   1          0.71948     7.41789     0.00000
+LO COEFFICIENT: l,A,B,C   1          0.11929     0.00000     0.98044
+  POSSIBLE NONSPHERICAL CONTRIBUTIONS TO H: 
+ (L0,LL,LP,M, MM,MP, GNT,  U V U,    UE V UE,   U V UE     )
+    NUMBER OF RADIAL INTEGRALS FOR ATOM           2  =           40
+:E0_0003: E( 0)=   -1.5500   E(BOTTOM)=   -2.573   E(TOP)= -200.000  1 -1   232
+             APW+lo
+:E0_0003: E( 0)=    0.7110
+             LOCAL ORBITAL
+:E1_0003: E( 1)=    0.3110
+             APW+lo
+
+          POTENTIAL PARAMETERS 
+           L     U(R)          U'(R)         DU/DE        DU'/DE      NORM-U'
+           0 -0.771965E+00  0.545724E+00  0.189809E+00  0.526737E+00  0.127705E-01      1 1 1
+           1  0.623819E+00 -0.765842E+00 -0.246875E+00 -0.514871E+00  0.244515E-01      0 0 0
+           2  0.142328E+01  0.134883E+01 -0.673447E-01 -0.422304E+00  0.131446E-02      0 0 0
+           3  0.171728E+01  0.315738E+01 -0.415593E-01 -0.373507E+00  0.396464E-03      0 0 0
+           4  0.194052E+01  0.510700E+01 -0.299786E-01 -0.341798E+00  0.173578E-03      0 0 0
+           5  0.213185E+01  0.723073E+01 -0.232056E-01 -0.317997E+00  0.903685E-04      0 0 0
+           6  0.230351E+01  0.952754E+01 -0.187408E-01 -0.298953E+00  0.522786E-04      0 0 0
+           7  0.246120E+01  0.119903E+02 -0.155821E-01 -0.283142E+00  0.325323E-04      0 0 0
+           8  0.260819E+01  0.146110E+02 -0.132379E-01 -0.269687E+00  0.213751E-04      0 0 0
+           9  0.274656E+01  0.173820E+02 -0.114361E-01 -0.258029E+00  0.146534E-04      0 0 0
+          10  0.287775E+01  0.202963E+02 -0.100132E-01 -0.247786E+00  0.103957E-04      0 0 0
+
+          LOCAL ORBITAL POTENTIAL PARAMETERS
+           L     U(R)          U'(R)     NORM U1U2        NORM UE1U2
+           0 -0.269007E+00  0.161738E+01  0.955064E+00  0.334580E-01      0 1 0
+    2    2       1.000000       0.710991       0.710991
+LO COEFFICIENT: l,A,B,C   0          0.90863     3.69545     0.00000
+LO COEFFICIENT: l,A,B,C   0          0.51615     0.00000    -1.48118
+LO COEFFICIENT: l,A,B,C   1          0.93003     2.35006     0.00000
+  POSSIBLE NONSPHERICAL CONTRIBUTIONS TO H: 
+ (L0,LL,LP,M, MM,MP, GNT,  U V U,    UE V UE,   U V UE     )
+    NUMBER OF RADIAL INTEGRALS FOR ATOM           3  =           80
+                                        CPTIME ATPAR  =     0.0
+
+
+
+          R-MT= 2.0000000 1.8000000 1.4000000
+           FRACTIONAL VOLUME WITHIN MT= 0.1240344 0.0904210 0.0425438
+           ONE/UNIT CELL VOLUME= 0.370137777E-02
+
+          LATTICE CONSTANTS ARE:  5.40508  5.40508 32.03482
+          alloc Warp         1.1 MB 
+   K=    0    0    0  IND= 1
+                     1. WAVE=    0    0    0    TAUP=   1.00000
+                                                WARPING=  -0.08752
+   K=   -1   -1   -1  IND= 2
+                     1. WAVE=   -1   -1   -1    TAUP=   1.00000
+                                                WARPING=   0.08530
+                     2. WAVE=    1    1    1    TAUP=   1.00000
+                                                WARPING=   0.08530
+   K=   -2   -2   -2  IND= 2
+                     1. WAVE=   -2   -2   -2    TAUP=   1.00000
+                                                WARPING=  -0.03910
+                     2. WAVE=    2    2    2    TAUP=   1.00000
+                                                WARPING=  -0.03910
+   K=   -1    0    0  IND= 6
+                     1. WAVE=   -1    0    0    TAUP=   1.00000
+                                                WARPING=  -0.02723
+                     2. WAVE=    0    0   -1    TAUP=   1.00000
+                                                WARPING=  -0.02723
+                     3. WAVE=    0   -1    0    TAUP=   1.00000
+                                                WARPING=  -0.02723
+                     4. WAVE=    0    1    0    TAUP=   1.00000
+                                                WARPING=  -0.02723
+                     5. WAVE=    1    0    0    TAUP=   1.00000
+                                                WARPING=  -0.02723
+                     6. WAVE=    0    0    1    TAUP=   1.00000
+                                                WARPING=  -0.02723
+   K=   -1   -1    0  IND= 6
+                     1. WAVE=   -1   -1    0    TAUP=   1.00000
+                                                WARPING=  -0.02472
+                     2. WAVE=   -1    0   -1    TAUP=   1.00000
+                                                WARPING=  -0.02472
+                     3. WAVE=    0   -1   -1    TAUP=   1.00000
+                                                WARPING=  -0.02472
+                     4. WAVE=    1    1    0    TAUP=   1.00000
+                                                WARPING=  -0.02472
+                     5. WAVE=    1    0    1    TAUP=   1.00000
+                                                WARPING=  -0.02472
+                     6. WAVE=    0    1    1    TAUP=   1.00000
+                                                WARPING=  -0.02472
+   K=   -2   -1   -1  IND= 6
+                     1. WAVE=   -2   -1   -1    TAUP=   1.00000
+                                                WARPING=   0.02500
+                     2. WAVE=   -1   -1   -2    TAUP=   1.00000
+                                                WARPING=   0.02500
+                     3. WAVE=   -1   -2   -1    TAUP=   1.00000
+                                                WARPING=   0.02500
+                     4. WAVE=    1    2    1    TAUP=   1.00000
+                                                WARPING=   0.02500
+                     5. WAVE=    2    1    1    TAUP=   1.00000
+                                                WARPING=   0.02500
+                     6. WAVE=    1    1    2    TAUP=   1.00000
+                                                WARPING=   0.02500
+   K=   -2   -2   -1  IND= 6
+                     1. WAVE=   -2   -2   -1    TAUP=   1.00000
+                                                WARPING=   0.00656
+                     2. WAVE=   -2   -1   -2    TAUP=   1.00000
+                                                WARPING=   0.00656
+                     3. WAVE=   -1   -2   -2    TAUP=   1.00000
+                                                WARPING=   0.00656
+                     4. WAVE=    2    2    1    TAUP=   1.00000
+                                                WARPING=   0.00656
+                     5. WAVE=    2    1    2    TAUP=   1.00000
+                                                WARPING=   0.00656
+                     6. WAVE=    1    2    2    TAUP=   1.00000
+                                                WARPING=   0.00656
+   K=   -3   -3   -3  IND= 2
+                     1. WAVE=   -3   -3   -3    TAUP=   1.00000
+                                                WARPING=  -0.02190
+                     2. WAVE=    3    3    3    TAUP=   1.00000
+                                                WARPING=  -0.02190
+ Matrix size          616
+         allocate HS         2.9 MB 
+         allocate Z          2.9 MB 
+     allocate spanel         0.6 MB          dimensions   616   128
+     allocate hpanel         0.6 MB          dimensions   616   128
+   allocate spanelus         0.6 MB          dimensions   616   128
+       allocate slen         0.6 MB          dimensions   616   128
+         allocate x2         0.6 MB          dimensions   616   128
+   allocate legendre         7.8 MB          dimensions   616    13   128
+allocate al,bl (row)         0.2 MB          dimensions   616    11
+allocate al,bl (col)         0.0 MB          dimensions   128    11
+         allocate YL         0.3 MB          dimensions    15   616     2
+Time for al,bl    (hamilt, cpu/wall) :          0.0         0.0
+Time for legendre (hamilt, cpu/wall) :          0.0         0.0
+Time for phase    (hamilt, cpu/wall) :          0.0         0.0
+Time for us       (hamilt, cpu/wall) :          0.0         0.0
+Time for overlaps (hamilt, cpu/wall) :          0.0         0.0
+Time for distrib  (hamilt, cpu/wall) :          0.0         0.0
+Time sum iouter   (hamilt, cpu/wall) :          0.0         0.1
+ number of local orbitals, nlo (hamilt)       29
+       allocate YL           0.3 MB          dimensions    15   616     2
+       allocate phsc         0.0 MB          dimensions   616
+Time for los      (hamilt, cpu/wall) :          0.0         0.0
+Time for alm         (hns) :          0.0
+Time for vector      (hns) :          0.0
+Time for vector2     (hns) :          0.0
+Time for VxV         (hns) :          0.0
+Wall Time for VxV    (hns) :          0.0
+          31  Eigenvalues computed 
+ Seclr4(Cholesky complete (CPU)) :               0.000
+ Seclr4(Transform to eig.problem (CPU)) :        0.000
+ Seclr4(Compute eigenvalues (CPU)) :             0.030     10388.66 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000
+       TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+       TIME HAMILT (WALL) =     0.1, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+
+     K=   0.00000   0.00000   0.00000            1
+      MATRIX SIZE   616  WEIGHT= 1.00  PGR:    
+     EIGENVALUES ARE:
+     -4.5659072   -4.5516406   -4.5516406   -4.1933429   -4.1918901
+     -4.1918901   -1.0315679   -0.8768866   -0.0920141    0.2317803
+      0.2332159    0.2332159    0.2410246    0.3187392    0.3187392
+      0.3830546    0.3830546    0.4379920    0.4379920    0.6526751
+      0.9621311    1.0428496    1.3767866    1.5258324    1.5258324
+      1.6338250    1.6338250    1.6345630    1.8972288    1.9688412
+      1.9688412
+            0 EIGENVALUES BELOW THE ENERGY   -9.00000
+       ********************************************************
+
+ Matrix size          600
+         allocate HS         2.7 MB 
+         allocate Z          2.7 MB 
+     allocate spanel         0.6 MB          dimensions   600   128
+     allocate hpanel         0.6 MB          dimensions   600   128
+   allocate spanelus         0.6 MB          dimensions   600   128
+       allocate slen         0.6 MB          dimensions   600   128
+         allocate x2         0.6 MB          dimensions   600   128
+   allocate legendre         7.6 MB          dimensions   600    13   128
+allocate al,bl (row)         0.2 MB          dimensions   600    11
+allocate al,bl (col)         0.0 MB          dimensions   128    11
+         allocate YL         0.3 MB          dimensions    15   600     2
+Time for al,bl    (hamilt, cpu/wall) :          0.0         0.0
+Time for legendre (hamilt, cpu/wall) :          0.0         0.0
+Time for phase    (hamilt, cpu/wall) :          0.0         0.0
+Time for us       (hamilt, cpu/wall) :          0.0         0.0
+Time for overlaps (hamilt, cpu/wall) :          0.0         0.0
+Time for distrib  (hamilt, cpu/wall) :          0.0         0.0
+Time sum iouter   (hamilt, cpu/wall) :          0.0         0.0
+ number of local orbitals, nlo (hamilt)       29
+       allocate YL           0.3 MB          dimensions    15   600     2
+       allocate phsc         0.0 MB          dimensions   600
+Time for los      (hamilt, cpu/wall) :          0.0         0.0
+Time for alm         (hns) :          0.0
+Time for vector      (hns) :          0.0
+Time for vector2     (hns) :          0.0
+Time for VxV         (hns) :          0.0
+Wall Time for VxV    (hns) :          0.0
+          31  Eigenvalues computed 
+ Seclr4(Cholesky complete (CPU)) :               0.000
+ Seclr4(Transform to eig.problem (CPU)) :        0.010     21600.00 Mflops
+ Seclr4(Compute eigenvalues (CPU)) :             0.020     14400.00 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000
+       TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+       TIME HAMILT (WALL) =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+
+     K=   0.00000   0.00000   0.25000            2
+      MATRIX SIZE   600  WEIGHT= 6.00  PGR:    
+     EIGENVALUES ARE:
+     -4.5658272   -4.5523894   -4.5518367   -4.1932329   -4.1926479
+     -4.1920728   -0.9813310   -0.8612458   -0.0479200    0.0536282
+      0.1517422    0.1958063    0.2697590    0.2999267    0.3175955
+      0.3826957    0.4105393    0.4185819    0.4305097    0.7059301
+      1.0760135    1.1450897    1.3292563    1.3385007    1.4176246
+      1.5124876    1.5962007    1.6603551    1.7733466    1.8627104
+      1.8906286
+            0 EIGENVALUES BELOW THE ENERGY   -9.00000
+       ********************************************************
+
+ Matrix size          605
+         allocate HS         2.8 MB 
+         allocate Z          2.8 MB 
+     allocate spanel         0.6 MB          dimensions   605   128
+     allocate hpanel         0.6 MB          dimensions   605   128
+   allocate spanelus         0.6 MB          dimensions   605   128
+       allocate slen         0.6 MB          dimensions   605   128
+         allocate x2         0.6 MB          dimensions   605   128
+   allocate legendre         7.7 MB          dimensions   605    13   128
+allocate al,bl (row)         0.2 MB          dimensions   605    11
+allocate al,bl (col)         0.0 MB          dimensions   128    11
+         allocate YL         0.3 MB          dimensions    15   605     2
+Time for al,bl    (hamilt, cpu/wall) :          0.0         0.0
+Time for legendre (hamilt, cpu/wall) :          0.0         0.0
+Time for phase    (hamilt, cpu/wall) :          0.0         0.0
+Time for us       (hamilt, cpu/wall) :          0.0         0.0
+Time for overlaps (hamilt, cpu/wall) :          0.0         0.0
+Time for distrib  (hamilt, cpu/wall) :          0.0         0.0
+Time sum iouter   (hamilt, cpu/wall) :          0.0         0.0
+ number of local orbitals, nlo (hamilt)       29
+       allocate YL           0.3 MB          dimensions    15   605     2
+       allocate phsc         0.0 MB          dimensions   605
+Time for los      (hamilt, cpu/wall) :          0.0         0.0
+Time for alm         (hns) :          0.0
+Time for vector      (hns) :          0.0
+Time for vector2     (hns) :          0.0
+Time for VxV         (hns) :          0.0
+Wall Time for VxV    (hns) :          0.0
+          31  Eigenvalues computed 
+ Seclr4(Cholesky complete (CPU)) :               0.000
+ Seclr4(Transform to eig.problem (CPU)) :        0.010     22144.51 Mflops
+ Seclr4(Compute eigenvalues (CPU)) :             0.020     14763.01 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000
+       TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+       TIME HAMILT (WALL) =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+
+     K=   0.00000   0.00000   0.50000            3
+      MATRIX SIZE   605  WEIGHT= 3.00  PGR:    
+     EIGENVALUES ARE:
+     -4.5657481   -4.5531381   -4.5520332   -4.1934104   -4.1931214
+     -4.1922567   -0.9074662   -0.8599797   -0.0733570   -0.0398320
+      0.1166229    0.1640663    0.2315707    0.2805775    0.3208037
+      0.4026426    0.4237021    0.4393688    0.5049578    0.6998313
+      0.9553836    1.0825845    1.3174009    1.3591439    1.4226504
+      1.5304556    1.5804590    1.6493205    1.6652512    1.7666053
+      1.9756553
+            0 EIGENVALUES BELOW THE ENERGY   -9.00000
+       ********************************************************
+
+ Matrix size          600
+         allocate HS         2.7 MB 
+         allocate Z          2.7 MB 
+     allocate spanel         0.6 MB          dimensions   600   128
+     allocate hpanel         0.6 MB          dimensions   600   128
+   allocate spanelus         0.6 MB          dimensions   600   128
+       allocate slen         0.6 MB          dimensions   600   128
+         allocate x2         0.6 MB          dimensions   600   128
+   allocate legendre         7.6 MB          dimensions   600    13   128
+allocate al,bl (row)         0.2 MB          dimensions   600    11
+allocate al,bl (col)         0.0 MB          dimensions   128    11
+         allocate YL         0.3 MB          dimensions    15   600     2
+Time for al,bl    (hamilt, cpu/wall) :          0.0         0.0
+Time for legendre (hamilt, cpu/wall) :          0.0         0.0
+Time for phase    (hamilt, cpu/wall) :          0.0         0.0
+Time for us       (hamilt, cpu/wall) :          0.0         0.0
+Time for overlaps (hamilt, cpu/wall) :          0.0         0.0
+Time for distrib  (hamilt, cpu/wall) :          0.0         0.0
+Time sum iouter   (hamilt, cpu/wall) :          0.0         0.0
+ number of local orbitals, nlo (hamilt)       29
+       allocate YL           0.3 MB          dimensions    15   600     2
+       allocate phsc         0.0 MB          dimensions   600
+Time for los      (hamilt, cpu/wall) :          0.0         0.0
+Time for alm         (hns) :          0.0
+Time for vector      (hns) :          0.0
+Time for vector2     (hns) :          0.0
+Time for VxV         (hns) :          0.0
+Wall Time for VxV    (hns) :          0.0
+          31  Eigenvalues computed 
+ Seclr4(Cholesky complete (CPU)) :               0.000
+ Seclr4(Transform to eig.problem (CPU)) :        0.000
+ Seclr4(Compute eigenvalues (CPU)) :             0.030      9600.00 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000
+       TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+       TIME HAMILT (WALL) =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+
+     K=   0.00000   0.25000   0.25000            4
+      MATRIX SIZE   600  WEIGHT= 6.00  PGR:    
+     EIGENVALUES ARE:
+     -4.5658271   -4.5523890   -4.5518368   -4.1932327   -4.1926468
+     -4.1920736   -0.9799459   -0.8635399   -0.0389380    0.0575459
+      0.1430334    0.2055458    0.2583952    0.2790113    0.3226905
+      0.3853841    0.4103333    0.4106763    0.4438144    0.7228475
+      1.0617301    1.1232857    1.3524414    1.3602282    1.3888939
+      1.5747418    1.5825766    1.6857717    1.7311956    1.7977328
+      1.8511905
+            0 EIGENVALUES BELOW THE ENERGY   -9.00000
+       ********************************************************
+
+ Matrix size          595
+         allocate HS         2.7 MB 
+         allocate Z          2.7 MB 
+     allocate spanel         0.6 MB          dimensions   595   128
+     allocate hpanel         0.6 MB          dimensions   595   128
+   allocate spanelus         0.6 MB          dimensions   595   128
+       allocate slen         0.6 MB          dimensions   595   128
+         allocate x2         0.6 MB          dimensions   595   128
+   allocate legendre         7.6 MB          dimensions   595    13   128
+allocate al,bl (row)         0.2 MB          dimensions   595    11
+allocate al,bl (col)         0.0 MB          dimensions   128    11
+         allocate YL         0.3 MB          dimensions    15   595     2
+Time for al,bl    (hamilt, cpu/wall) :          0.0         0.0
+Time for legendre (hamilt, cpu/wall) :          0.0         0.0
+Time for phase    (hamilt, cpu/wall) :          0.0         0.0
+Time for us       (hamilt, cpu/wall) :          0.0         0.0
+Time for overlaps (hamilt, cpu/wall) :          0.0         0.0
+Time for distrib  (hamilt, cpu/wall) :          0.0         0.0
+Time sum iouter   (hamilt, cpu/wall) :          0.0         0.0
+ number of local orbitals, nlo (hamilt)       29
+       allocate YL           0.3 MB          dimensions    15   595     2
+       allocate phsc         0.0 MB          dimensions   595
+Time for los      (hamilt, cpu/wall) :          0.0         0.0
+Time for alm         (hns) :          0.0
+Time for vector      (hns) :          0.0
+Time for vector2     (hns) :          0.0
+Time for VxV         (hns) :          0.0
+Wall Time for VxV    (hns) :          0.0
+          31  Eigenvalues computed 
+ Seclr4(Cholesky complete (CPU)) :               0.000
+ Seclr4(Transform to eig.problem (CPU)) :        0.010     21064.49 Mflops
+ Seclr4(Compute eigenvalues (CPU)) :             0.020     14042.99 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000
+       TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+       TIME HAMILT (WALL) =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+
+     K=   0.00000   0.25000   0.50000            5
+      MATRIX SIZE   595  WEIGHT=12.00  PGR:    
+     EIGENVALUES ARE:
+     -4.5657476   -4.5528613   -4.5523082   -4.1931230   -4.1931179
+     -4.1925411   -0.9096438   -0.8590290   -0.0327197    0.0033592
+      0.0564200    0.1595777    0.1928240    0.2392818    0.3664234
+      0.3876307    0.4017746    0.4278036    0.4921168    0.7676819
+      1.0940307    1.1830594    1.2492736    1.2932642    1.3558504
+      1.4138417    1.4782523    1.6568235    1.7348559    1.9044601
+      1.9570285
+            0 EIGENVALUES BELOW THE ENERGY   -9.00000
+       ********************************************************
+
+ Matrix size          597
+         allocate HS         2.7 MB 
+         allocate Z          2.7 MB 
+     allocate spanel         0.6 MB          dimensions   597   128
+     allocate hpanel         0.6 MB          dimensions   597   128
+   allocate spanelus         0.6 MB          dimensions   597   128
+       allocate slen         0.6 MB          dimensions   597   128
+         allocate x2         0.6 MB          dimensions   597   128
+   allocate legendre         7.6 MB          dimensions   597    13   128
+allocate al,bl (row)         0.2 MB          dimensions   597    11
+allocate al,bl (col)         0.0 MB          dimensions   128    11
+         allocate YL         0.3 MB          dimensions    15   597     2
+Time for al,bl    (hamilt, cpu/wall) :          0.0         0.0
+Time for legendre (hamilt, cpu/wall) :          0.0         0.0
+Time for phase    (hamilt, cpu/wall) :          0.0         0.0
+Time for us       (hamilt, cpu/wall) :          0.0         0.0
+Time for overlaps (hamilt, cpu/wall) :          0.0         0.0
+Time for distrib  (hamilt, cpu/wall) :          0.0         0.0
+Time sum iouter   (hamilt, cpu/wall) :          0.0         0.0
+ number of local orbitals, nlo (hamilt)       29
+       allocate YL           0.3 MB          dimensions    15   597     2
+       allocate phsc         0.0 MB          dimensions   597
+Time for los      (hamilt, cpu/wall) :          0.0         0.0
+Time for alm         (hns) :          0.0
+Time for vector      (hns) :          0.0
+Time for vector2     (hns) :          0.0
+Time for VxV         (hns) :          0.0
+Wall Time for VxV    (hns) :          0.0
+          32  Eigenvalues computed 
+ Seclr4(Cholesky complete (CPU)) :               0.000
+ Seclr4(Transform to eig.problem (CPU)) :        0.000
+ Seclr4(Compute eigenvalues (CPU)) :             0.030      9456.72 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000
+       TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+       TIME HAMILT (WALL) =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+
+     K=   0.00000   0.25000   0.75000            6
+      MATRIX SIZE   597  WEIGHT= 6.00  PGR:    
+     EIGENVALUES ARE:
+     -4.5657472   -4.5528614   -4.5523082   -4.1931212   -4.1931178
+     -4.1925414   -0.9133589   -0.8543365   -0.0386666    0.0094423
+      0.0401493    0.1706810    0.1831127    0.2651462    0.3683979
+      0.3835670    0.4097591    0.4164442    0.4812993    0.7803859
+      1.1015750    1.1568708    1.2351176    1.2832760    1.3767112
+      1.4114056    1.5406538    1.6304802    1.7663759    1.8313693
+      1.9840155    1.9906725
+            0 EIGENVALUES BELOW THE ENERGY   -9.00000
+       ********************************************************
+
+ Matrix size          597
+         allocate HS         2.7 MB 
+         allocate Z          2.7 MB 
+     allocate spanel         0.6 MB          dimensions   597   128
+     allocate hpanel         0.6 MB          dimensions   597   128
+   allocate spanelus         0.6 MB          dimensions   597   128
+       allocate slen         0.6 MB          dimensions   597   128
+         allocate x2         0.6 MB          dimensions   597   128
+   allocate legendre         7.6 MB          dimensions   597    13   128
+allocate al,bl (row)         0.2 MB          dimensions   597    11
+allocate al,bl (col)         0.0 MB          dimensions   128    11
+         allocate YL         0.3 MB          dimensions    15   597     2
+Time for al,bl    (hamilt, cpu/wall) :          0.0         0.0
+Time for legendre (hamilt, cpu/wall) :          0.0         0.0
+Time for phase    (hamilt, cpu/wall) :          0.0         0.0
+Time for us       (hamilt, cpu/wall) :          0.0         0.0
+Time for overlaps (hamilt, cpu/wall) :          0.0         0.0
+Time for distrib  (hamilt, cpu/wall) :          0.0         0.0
+Time sum iouter   (hamilt, cpu/wall) :          0.0         0.0
+ number of local orbitals, nlo (hamilt)       29
+       allocate YL           0.3 MB          dimensions    15   597     2
+       allocate phsc         0.0 MB          dimensions   597
+Time for los      (hamilt, cpu/wall) :          0.0         0.0
+Time for alm         (hns) :          0.0
+Time for vector      (hns) :          0.0
+Time for vector2     (hns) :          0.0
+Time for VxV         (hns) :          0.0
+Wall Time for VxV    (hns) :          0.0
+          31  Eigenvalues computed 
+ Seclr4(Cholesky complete (CPU)) :               0.010      7092.54 Mflops
+ Seclr4(Transform to eig.problem (CPU)) :        0.000
+ Seclr4(Compute eigenvalues (CPU)) :             0.020     14185.08 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000
+       TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+       TIME HAMILT (WALL) =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+
+     K=   0.00000   0.50000   0.50000            7
+      MATRIX SIZE   597  WEIGHT= 3.00  PGR:    
+     EIGENVALUES ARE:
+     -4.5657477   -4.5531379   -4.5520331   -4.1934102   -4.1931201
+     -4.1922568   -0.8990426   -0.8699297   -0.0858312   -0.0075913
+      0.1342129    0.1803516    0.1879817    0.2465615    0.3203737
+      0.3857301    0.4393659    0.4457133    0.5109913    0.7254058
+      1.0121673    1.1394632    1.1426849    1.3420617    1.4110977
+      1.4805577    1.4901334    1.7008216    1.7838513    1.9731686
+      2.0010372
+            0 EIGENVALUES BELOW THE ENERGY   -9.00000
+       ********************************************************
+
+ Matrix size          616
+         allocate HS         2.9 MB 
+         allocate Z          2.9 MB 
+     allocate spanel         0.6 MB          dimensions   616   128
+     allocate hpanel         0.6 MB          dimensions   616   128
+   allocate spanelus         0.6 MB          dimensions   616   128
+       allocate slen         0.6 MB          dimensions   616   128
+         allocate x2         0.6 MB          dimensions   616   128
+   allocate legendre         7.8 MB          dimensions   616    13   128
+allocate al,bl (row)         0.2 MB          dimensions   616    11
+allocate al,bl (col)         0.0 MB          dimensions   128    11
+         allocate YL         0.3 MB          dimensions    15   616     2
+Time for al,bl    (hamilt, cpu/wall) :          0.0         0.0
+Time for legendre (hamilt, cpu/wall) :          0.0         0.0
+Time for phase    (hamilt, cpu/wall) :          0.0         0.0
+Time for us       (hamilt, cpu/wall) :          0.0         0.0
+Time for overlaps (hamilt, cpu/wall) :          0.0         0.0
+Time for distrib  (hamilt, cpu/wall) :          0.0         0.0
+Time sum iouter   (hamilt, cpu/wall) :          0.0         0.0
+ number of local orbitals, nlo (hamilt)       29
+       allocate YL           0.3 MB          dimensions    15   616     2
+       allocate phsc         0.0 MB          dimensions   616
+Time for los      (hamilt, cpu/wall) :          0.0         0.0
+Time for alm         (hns) :          0.0
+Time for vector      (hns) :          0.0
+Time for vector2     (hns) :          0.0
+Time for VxV         (hns) :          0.0
+Wall Time for VxV    (hns) :          0.0
+          31  Eigenvalues computed 
+ Seclr4(Cholesky complete (CPU)) :               0.000
+ Seclr4(Transform to eig.problem (CPU)) :        0.010     23374.49 Mflops
+ Seclr4(Compute eigenvalues (CPU)) :             0.020     15582.99 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000
+       TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+       TIME HAMILT (WALL) =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+
+     K=   0.25000   0.25000   0.25000            8
+      MATRIX SIZE   616  WEIGHT= 2.00  PGR:    
+     EIGENVALUES ARE:
+     -4.5659069   -4.5516408   -4.5516408   -4.1933432   -4.1918902
+     -4.1918902   -1.0280698   -0.8834676   -0.0578748    0.1726458
+      0.2413033    0.2413033    0.2461374    0.3030346    0.3030346
+      0.3830683    0.3830683    0.4464759    0.4464759    0.7003759
+      0.9200986    1.0404627    1.3993871    1.5275310    1.5275310
+      1.6300243    1.6300243    1.6547773    1.9100613    1.9397226
+      1.9397226
+            0 EIGENVALUES BELOW THE ENERGY   -9.00000
+       ********************************************************
+
+ Matrix size          597
+         allocate HS         2.7 MB 
+         allocate Z          2.7 MB 
+     allocate spanel         0.6 MB          dimensions   597   128
+     allocate hpanel         0.6 MB          dimensions   597   128
+   allocate spanelus         0.6 MB          dimensions   597   128
+       allocate slen         0.6 MB          dimensions   597   128
+         allocate x2         0.6 MB          dimensions   597   128
+   allocate legendre         7.6 MB          dimensions   597    13   128
+allocate al,bl (row)         0.2 MB          dimensions   597    11
+allocate al,bl (col)         0.0 MB          dimensions   128    11
+         allocate YL         0.3 MB          dimensions    15   597     2
+Time for al,bl    (hamilt, cpu/wall) :          0.0         0.0
+Time for legendre (hamilt, cpu/wall) :          0.0         0.0
+Time for phase    (hamilt, cpu/wall) :          0.0         0.0
+Time for us       (hamilt, cpu/wall) :          0.0         0.0
+Time for overlaps (hamilt, cpu/wall) :          0.0         0.0
+Time for distrib  (hamilt, cpu/wall) :          0.0         0.0
+Time sum iouter   (hamilt, cpu/wall) :          0.0         0.0
+ number of local orbitals, nlo (hamilt)       29
+       allocate YL           0.3 MB          dimensions    15   597     2
+       allocate phsc         0.0 MB          dimensions   597
+Time for los      (hamilt, cpu/wall) :          0.0         0.0
+Time for alm         (hns) :          0.0
+Time for vector      (hns) :          0.0
+Time for vector2     (hns) :          0.0
+Time for VxV         (hns) :          0.0
+Wall Time for VxV    (hns) :          0.0
+          31  Eigenvalues computed 
+ Seclr4(Cholesky complete (CPU)) :               0.000
+ Seclr4(Transform to eig.problem (CPU)) :        0.010     21277.62 Mflops
+ Seclr4(Compute eigenvalues (CPU)) :             0.020     14185.08 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000
+       TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+       TIME HAMILT (WALL) =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+
+     K=   0.25000   0.25000   0.50000            9
+      MATRIX SIZE   597  WEIGHT= 6.00  PGR:    
+     EIGENVALUES ARE:
+     -4.5658272   -4.5523891   -4.5518365   -4.1932333   -4.1926467
+     -4.1920724   -0.9763371   -0.8693058   -0.0072768    0.0423512
+      0.1602189    0.2007812    0.2120317    0.2887268    0.3144826
+      0.3850472    0.4103195    0.4272565    0.4379153    0.7241837
+      1.0385392    1.1953991    1.3034033    1.3457580    1.4224377
+      1.4958630    1.6121142    1.6243768    1.7915568    1.8906622
+      1.9480379
+            0 EIGENVALUES BELOW THE ENERGY   -9.00000
+       ********************************************************
+
+ Matrix size          593
+         allocate HS         2.7 MB 
+         allocate Z          2.7 MB 
+     allocate spanel         0.6 MB          dimensions   593   128
+     allocate hpanel         0.6 MB          dimensions   593   128
+   allocate spanelus         0.6 MB          dimensions   593   128
+       allocate slen         0.6 MB          dimensions   593   128
+         allocate x2         0.6 MB          dimensions   593   128
+   allocate legendre         7.5 MB          dimensions   593    13   128
+allocate al,bl (row)         0.2 MB          dimensions   593    11
+allocate al,bl (col)         0.0 MB          dimensions   128    11
+         allocate YL         0.3 MB          dimensions    15   593     2
+Time for al,bl    (hamilt, cpu/wall) :          0.0         0.0
+Time for legendre (hamilt, cpu/wall) :          0.0         0.0
+Time for phase    (hamilt, cpu/wall) :          0.0         0.0
+Time for us       (hamilt, cpu/wall) :          0.0         0.0
+Time for overlaps (hamilt, cpu/wall) :          0.0         0.0
+Time for distrib  (hamilt, cpu/wall) :          0.0         0.0
+Time sum iouter   (hamilt, cpu/wall) :          0.0         0.0
+ number of local orbitals, nlo (hamilt)       29
+       allocate YL           0.3 MB          dimensions    15   593     2
+       allocate phsc         0.0 MB          dimensions   593
+Time for los      (hamilt, cpu/wall) :          0.0         0.0
+Time for alm         (hns) :          0.0
+Time for vector      (hns) :          0.0
+Time for vector2     (hns) :          0.0
+Time for VxV         (hns) :          0.0
+Wall Time for VxV    (hns) :          0.0
+          30  Eigenvalues computed 
+ Seclr4(Cholesky complete (CPU)) :               0.010      6950.93 Mflops
+ Seclr4(Transform to eig.problem (CPU)) :        0.000
+ Seclr4(Compute eigenvalues (CPU)) :             0.020     13901.86 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000
+       TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+       TIME HAMILT (WALL) =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+
+     K=   0.25000   0.25000   0.75000           10
+      MATRIX SIZE   593  WEIGHT= 6.00  PGR:    
+     EIGENVALUES ARE:
+     -4.5657475   -4.5531373   -4.5520329   -4.1934079   -4.1931187
+     -4.1922560   -0.9037852   -0.8644237   -0.0804968   -0.0242285
+      0.1285038    0.1710263    0.2053642    0.2640556    0.3206894
+      0.3995472    0.4354106    0.4393720    0.5051380    0.7116440
+      0.9839165    1.0898621    1.2455458    1.3593393    1.4108086
+      1.5019714    1.5208064    1.6784803    1.7471112    1.8276200
+
+            0 EIGENVALUES BELOW THE ENERGY   -9.00000
+       ********************************************************
+
+ Matrix size          602
+         allocate HS         2.8 MB 
+         allocate Z          2.8 MB 
+     allocate spanel         0.6 MB          dimensions   602   128
+     allocate hpanel         0.6 MB          dimensions   602   128
+   allocate spanelus         0.6 MB          dimensions   602   128
+       allocate slen         0.6 MB          dimensions   602   128
+         allocate x2         0.6 MB          dimensions   602   128
+   allocate legendre         7.6 MB          dimensions   602    13   128
+allocate al,bl (row)         0.2 MB          dimensions   602    11
+allocate al,bl (col)         0.0 MB          dimensions   128    11
+         allocate YL         0.3 MB          dimensions    15   602     2
+Time for al,bl    (hamilt, cpu/wall) :          0.0         0.0
+Time for legendre (hamilt, cpu/wall) :          0.0         0.0
+Time for phase    (hamilt, cpu/wall) :          0.0         0.0
+Time for us       (hamilt, cpu/wall) :          0.0         0.0
+Time for overlaps (hamilt, cpu/wall) :          0.0         0.0
+Time for distrib  (hamilt, cpu/wall) :          0.0         0.0
+Time sum iouter   (hamilt, cpu/wall) :          0.0         0.0
+ number of local orbitals, nlo (hamilt)       29
+       allocate YL           0.3 MB          dimensions    15   602     2
+       allocate phsc         0.0 MB          dimensions   602
+Time for los      (hamilt, cpu/wall) :          0.0         0.0
+Time for alm         (hns) :          0.0
+Time for vector      (hns) :          0.0
+Time for vector2     (hns) :          0.0
+Time for VxV         (hns) :          0.0
+Wall Time for VxV    (hns) :          0.0
+          32  Eigenvalues computed 
+ Seclr4(Cholesky complete (CPU)) :               0.000
+ Seclr4(Transform to eig.problem (CPU)) :        0.010     21816.72 Mflops
+ Seclr4(Compute eigenvalues (CPU)) :             0.020     14544.48 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000
+       TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+       TIME HAMILT (WALL) =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+
+     K=   0.25000   0.50000   0.50000           11
+      MATRIX SIZE   602  WEIGHT= 6.00  PGR:    
+     EIGENVALUES ARE:
+     -4.5658270   -4.5523892   -4.5518367   -4.1932331   -4.1926470
+     -4.1920737   -0.9747552   -0.8717783    0.0064510    0.0465700
+      0.1431733    0.2050823    0.2133366    0.2661662    0.3194285
+      0.3867324    0.4102339    0.4199656    0.4499502    0.7416776
+      1.0211666    1.1693421    1.3126585    1.3844950    1.4366611
+      1.4831244    1.5866961    1.6542881    1.8004453    1.8292357
+      1.9360055    1.9975919
+            0 EIGENVALUES BELOW THE ENERGY   -9.00000
+       ********************************************************
+
+ Matrix size          599
+         allocate HS         2.7 MB 
+         allocate Z          2.7 MB 
+     allocate spanel         0.6 MB          dimensions   599   128
+     allocate hpanel         0.6 MB          dimensions   599   128
+   allocate spanelus         0.6 MB          dimensions   599   128
+       allocate slen         0.6 MB          dimensions   599   128
+         allocate x2         0.6 MB          dimensions   599   128
+   allocate legendre         7.6 MB          dimensions   599    13   128
+allocate al,bl (row)         0.2 MB          dimensions   599    11
+allocate al,bl (col)         0.0 MB          dimensions   128    11
+         allocate YL         0.3 MB          dimensions    15   599     2
+Time for al,bl    (hamilt, cpu/wall) :          0.0         0.0
+Time for legendre (hamilt, cpu/wall) :          0.0         0.0
+Time for phase    (hamilt, cpu/wall) :          0.0         0.0
+Time for us       (hamilt, cpu/wall) :          0.0         0.0
+Time for overlaps (hamilt, cpu/wall) :          0.0         0.0
+Time for distrib  (hamilt, cpu/wall) :          0.0         0.0
+Time sum iouter   (hamilt, cpu/wall) :          0.0         0.0
+ number of local orbitals, nlo (hamilt)       29
+       allocate YL           0.3 MB          dimensions    15   599     2
+       allocate phsc         0.0 MB          dimensions   599
+Time for los      (hamilt, cpu/wall) :          0.0         0.0
+Time for alm         (hns) :          0.0
+Time for vector      (hns) :          0.0
+Time for vector2     (hns) :          0.0
+Time for VxV         (hns) :          0.0
+Wall Time for VxV    (hns) :          0.0
+          31  Eigenvalues computed 
+ Seclr4(Cholesky complete (CPU)) :               0.010      7164.06 Mflops
+ Seclr4(Transform to eig.problem (CPU)) :        0.000
+ Seclr4(Compute eigenvalues (CPU)) :             0.020     14328.12 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000
+       TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+       TIME HAMILT (WALL) =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+
+     K=   0.25000   0.50000   0.75000           12
+      MATRIX SIZE   599  WEIGHT= 6.00  PGR:    
+     EIGENVALUES ARE:
+     -4.5657477   -4.5528617   -4.5523084   -4.1931226   -4.1931189
+     -4.1925420   -0.9051108   -0.8645349   -0.0219536   -0.0082623
+      0.0779333    0.1592200    0.1914097    0.2084282    0.3648837
+      0.3903700    0.4085147    0.4289047    0.4999543    0.7558642
+      1.0864151    1.2164392    1.2565322    1.2967188    1.3648488
+      1.4141785    1.4231778    1.6006180    1.8075029    1.9174091
+      1.9724426
+            0 EIGENVALUES BELOW THE ENERGY   -9.00000
+       ********************************************************
+
+ Matrix size          621
+         allocate HS         2.9 MB 
+         allocate Z          2.9 MB 
+     allocate spanel         0.6 MB          dimensions   621   128
+     allocate hpanel         0.6 MB          dimensions   621   128
+   allocate spanelus         0.6 MB          dimensions   621   128
+       allocate slen         0.6 MB          dimensions   621   128
+         allocate x2         0.6 MB          dimensions   621   128
+   allocate legendre         7.9 MB          dimensions   621    13   128
+allocate al,bl (row)         0.2 MB          dimensions   621    11
+allocate al,bl (col)         0.0 MB          dimensions   128    11
+         allocate YL         0.3 MB          dimensions    15   621     2
+Time for al,bl    (hamilt, cpu/wall) :          0.0         0.0
+Time for legendre (hamilt, cpu/wall) :          0.0         0.0
+Time for phase    (hamilt, cpu/wall) :          0.0         0.0
+Time for us       (hamilt, cpu/wall) :          0.0         0.0
+Time for overlaps (hamilt, cpu/wall) :          0.0         0.0
+Time for distrib  (hamilt, cpu/wall) :          0.0         0.0
+Time sum iouter   (hamilt, cpu/wall) :          0.0         0.0
+ number of local orbitals, nlo (hamilt)       29
+       allocate YL           0.3 MB          dimensions    15   621     2
+       allocate phsc         0.0 MB          dimensions   621
+Time for los      (hamilt, cpu/wall) :          0.0         0.0
+Time for alm         (hns) :          0.0
+Time for vector      (hns) :          0.0
+Time for vector2     (hns) :          0.0
+Time for VxV         (hns) :          0.0
+Wall Time for VxV    (hns) :          0.0
+          31  Eigenvalues computed 
+ Seclr4(Cholesky complete (CPU)) :               0.000
+ Seclr4(Transform to eig.problem (CPU)) :        0.010     23948.31 Mflops
+ Seclr4(Compute eigenvalues (CPU)) :             0.020     15965.54 Mflops
+ Seclr4(Backtransform (CPU)) :                   0.000
+       TIME HAMILT (CPU)  =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+       TIME HAMILT (WALL) =     0.0, HNS =     0.0, HORB =     0.0, DIAG =     0.0
+
+     K=   0.50000   0.50000   0.50000           13
+      MATRIX SIZE   621  WEIGHT= 1.00  PGR:    
+     EIGENVALUES ARE:
+     -4.5659066   -4.5516406   -4.5516406   -4.1933442   -4.1918904
+     -4.1918904   -1.0242807   -0.8902708   -0.0002153    0.0979324
+      0.2464125    0.2555380    0.2555380    0.2823110    0.2823110
+      0.3830712    0.3830712    0.4538703    0.4538703    0.7747152
+      0.8439324    1.0476098    1.4118703    1.5295516    1.5295516
+      1.6252446    1.6252446    1.6778309    1.9281652    1.9281652
+      1.9906762
+            0 EIGENVALUES BELOW THE ENERGY   -9.00000
+       ********************************************************
+
+       NUMBER OF K-POINTS:          13
+   ===> TOTAL CPU       TIME:      0.1 (INIT =      0.0 + K-POINTS =      0.1)
+   > SUM OF WALL CLOCK TIMES:      0.1 (INIT =      0.0 + K-POINTS =      0.1)
+      Maximum WALL clock time:    1.14577102661133     
+      Maximum CPU time:           1.02000000000000     

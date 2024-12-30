@@ -1,0 +1,16 @@
+ Ordering of DOS in QTL file for: CuAlO2 BenkoF84                                             
+
+ atom   1 ordering of projected DOS 
+s,                                                                
+p,pxy,pz, hexagonal                                               
+d,dz2,d[(x2-y2)+xy],d[yz+xz], hexagonal                           
+ 
+ atom   2 ordering of projected DOS 
+s,                                                                
+p,pxy,pz, hexagonal                                               
+ 
+ atom   3 ordering of projected DOS 
+s,                                                                
+p,pxy,pz, hexagonal                                               
+ 
+ Data for interstital DOS correspond to atom index    4

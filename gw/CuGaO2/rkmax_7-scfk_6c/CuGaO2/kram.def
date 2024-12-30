@@ -1,0 +1,10 @@
+ 5,'CuGaO2.inkram'   ,  'OLD','FORMATTED',  0
+10,'CuGaO2.joint'  ,  'OLD','FORMATTED',  0
+11,'CuGaO2.intra'  ,  'UNKNOWN','FORMATTED',  0
+12,'CuGaO2.epsilon'  ,  'UNKNOWN','FORMATTED',  0
+13,'CuGaO2.sigmak'  ,  'UNKNOWN','FORMATTED',  0
+14,'CuGaO2.absorp'  ,  'UNKNOWN','FORMATTED',  0
+15,'CuGaO2.eloss'  ,  'UNKNOWN','FORMATTED',  0
+16,'CuGaO2.refraction',  'UNKNOWN','FORMATTED',0
+17,'CuGaO2.reflectivity','UNKNOWN','FORMATTED',0
+77,'CuGaO2.sumrules'  ,  'UNKNOWN','FORMATTED',  0

@@ -1,0 +1,12 @@
+ 4,'CuGaO2.klist_band',          'unknown','formatted',0
+ 5,'CuGaO2.in1',   'old',    'formatted',0
+ 6,'CuGaO2.output1','unknown','formatted',0
+10,'./CuGaO2.vector', 'unknown','unformatted',9000
+11,'CuGaO2.energy', 'unknown','formatted',0
+18,'CuGaO2.vsp',       'old',    'formatted',0
+19,'CuGaO2.vns',       'unknown','formatted',0
+20,'CuGaO2.struct',         'old',    'formatted',0
+21,'CuGaO2.scf1',   'unknown','formatted',0
+55,'CuGaO2.vec',            'unknown','formatted',0
+71,'CuGaO2.nsh',    'unknown','formatted',0
+200,'./CuGaO2.storeHinv', 'replace','unformatted',9000

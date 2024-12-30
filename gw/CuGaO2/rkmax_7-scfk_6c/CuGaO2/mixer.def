@@ -1,0 +1,13 @@
+ 5,'CuGaO2.inm',       'old',    'formatted',0
+ 6,'CuGaO2.outputm',   'unknown','formatted',0
+ 7,'CuGaO2.inc',       'old',    'formatted',0
+10,'CuGaO2.clmsum_old','unknown','formatted',0
+17,'CuGaO2.clmval',    'unknown','formatted',0
+18,'CuGaO2.clmsc',     'unknown','formatted',0
+19,'CuGaO2.clmcor',    'unknown','formatted',0
+20,'CuGaO2.struct',    'old',    'formatted',0
+21,'CuGaO2.scfm',      'unknown','formatted',0
+22,'CuGaO2.scf',       'unknown','formatted',0
+31,'CuGaO2.broyd1',    'unknown','unformatted',164896
+32,'CuGaO2.broyd2',    'unknown','unformatted',164896
+51,'CuGaO2.clmsum',    'unknown','formatted',0

@@ -1,0 +1,97 @@
+
+
+            ---------
+:ITE023: 23. ITERATION
+            ---------
+
+:NATO :    3 INDEPENDENT AND    4 TOTAL ATOMS IN UNITCELL
+       SUBSTANCE: CuInO2 ShimodeM00                                           
+
+       LATTICE                      = R   
+:POT  : POTENTIAL OPTION EX_PBE EC_PBE VX_PBE VC_PBE
+:LAT  : LATTICE CONSTANTS=  6.22095  6.22095 32.85838
+:VOL  : UNIT CELL VOLUME =     367.08653
+       MODE OF CALCULATION IS       = RELA
+       NON-SPINPOLARIZED CALCULATION
+:IFFT  : FFT-parameters:   90   90   90 Factor: 2.00
+       ATOMNUMBER=  1 Cu1        VCOUL-ZERO =  0.31835E+00
+:EFG001:                        EFG         =    -6.15134   *10**21  V / m**2
+                               V20  TOT/SRF=    -5.32722     0.20243
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+              3.07567    0.00000    0.00000        3.07567    0.00000    0.00000
+              0.00000    3.07567    0.00000        0.00000    3.07567    0.00000
+              0.00000    0.00000   -6.15134        0.00000    0.00000   -6.15134
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG001:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA001:                         ASYMM. ETA =     0.00000
+
+
+       ATOMNUMBER=  2 In1        VCOUL-ZERO =  0.86384E-02
+:EFG002:                        EFG         =     8.04858   *10**21  V / m**2
+                               V20  TOT/SRF=     6.97028    -0.00255
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+             -4.02429    0.00000    0.00000       -4.02429    0.00000    0.00000
+              0.00000   -4.02429    0.00000        0.00000   -4.02429    0.00000
+              0.00000    0.00000    8.04858        0.00000    0.00000    8.04858
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG002:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA002:                         ASYMM. ETA =     0.00000
+
+
+       ATOMNUMBER=  3 O 1        VCOUL-ZERO =  0.16838E+00
+:EFG003:                        EFG         =     1.74169   *10**21  V / m**2
+                               V20  TOT/SRF=     1.50834     0.32736
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+             -0.87084    0.00000    0.00000       -0.87084    0.00000    0.00000
+              0.00000   -0.87084    0.00000        0.00000   -0.87084    0.00000
+              0.00000    0.00000    1.74169        0.00000    0.00000    1.74169
+
+         MAIN DIRECTIONS OF THE EFG   1.0000  0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG003:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA003:                         ASYMM. ETA =     0.00000
+
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF001:   1.ATOM      0.000000000      0.000000000      0.000000000      0.000000000
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF002:   2.ATOM      0.000000000      0.000000000      0.000000000      0.000000000
+
+     HELLMANN-FEYNMAN-FORCE IN mRy/a.u. = |F|  Fx       Fy             Fz
+:FHF003:   3.ATOM     49.009530326      0.000000000      0.000000000     49.009530326
+
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.7945846E-02
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.7945846E-02
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.8564340E-02
+:FIT002: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  2  0.8564340E-02
+:FIT003: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  3  0.1316993E-03
+:FIT003: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  3  0.1316993E-03
+:DEN  : DENSITY INTEGRAL  =         -6252.56943648   (Ry)
+       ELS_POTENTIAL_AT Z=0 and Z=0.5:   0.00000   0.00000
+       ELS_POTENTIAL_AT Y=0 and Y=0.5:   0.00000   0.00000
+:VZERO:v0,v0c,v0x  -0.74456   0.00000  -0.74456 v5,v5c,v5x  -0.74456   0.00000  -0.74456
+:VZERY:v0,v0c,v0x  -0.74456   0.00000  -0.74456 v5,v5c,v5x  -0.74456   0.00000  -0.74456
+:VZERX:v0,v0c,v0x  -1.73527  -0.66034  -1.07493 v5,v5c,v5x  -0.91325  -0.51420  -0.39905

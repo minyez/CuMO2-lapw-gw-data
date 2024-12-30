@@ -1,0 +1,12 @@
+ 4,'CuAlO2.klist',          'unknown','formatted',0
+ 5,'CuAlO2.in1',   'old',    'formatted',0
+ 6,'CuAlO2.output1','unknown','formatted',0
+10,'./CuAlO2.vector', 'unknown','unformatted',9000
+11,'CuAlO2.energy', 'unknown','formatted',0
+18,'CuAlO2.vsp',       'old',    'formatted',0
+19,'CuAlO2.vns',       'unknown','formatted',0
+20,'CuAlO2.struct',         'old',    'formatted',0
+21,'CuAlO2.scf1',   'unknown','formatted',0
+55,'CuAlO2.vec',            'unknown','formatted',0
+71,'CuAlO2.nsh',    'unknown','formatted',0
+200,'./CuAlO2.storeHinv', 'replace','unformatted',9000

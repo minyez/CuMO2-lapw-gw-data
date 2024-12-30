@@ -1,0 +1,68 @@
+         Bandranges (emin - emax) and occupancy:
+        Energy to separate low and high energystates:   -0.23541
+
+
+:NOE  : NUMBER OF ELECTRONS          =  38.000
+
+:FER  : F E R M I - ENERGY           =   0.4334612022
+:GMA  : POTENTIAL AND CHARGE CUT-OFF  12.00 Ry**.5
+
+
+
+
+:POS001: ATOM   -1 X,Y,Z = 0.00000 0.00000 0.00000  MULT= 1  ZZ= 29.000  Cu1       
+
+       LMMAX  7
+       LM=   0 0  2 0  4 0  4 3  6 0  6 3  6 6
+
+:CHA001: TOTAL VALENCE CHARGE INSIDE SPHERE   1 =  18.1892    (RMT=  2.0000 )
+:PCS001: PARTIAL CHARGES SPHERE =  1 S,P,D,F,PZ,PXY, D-Z2,D-XY,X2Y2,D-XZ,YZ 
+:QTL001: 0.8666 7.4105 9.7870 0.1084 2.4167 4.9938 0.0000 1.9885 3.8855 3.9131 0.0000 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL001:  0.0171 -1.0567    6.0026 -4.6887    0.0194 -1.0508    0.0028 -1.0335
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH001:  0.8495  0.8999    1.4080  1.3987    9.7676  0.3664    0.1056  1.4216
+
+
+
+
+:POS002: ATOM   -2 X,Y,Z = 0.50000 0.50000 0.50000  MULT= 1  ZZ= 13.000  Al1       
+
+       LMMAX  7
+       LM=   0 0  2 0  4 0  4 3  6 0  6 3  6 6
+
+:CHA002: TOTAL VALENCE CHARGE INSIDE SPHERE   2 =   9.5749    (RMT=  1.8000 )
+:PCS002: PARTIAL CHARGES SPHERE =  2 S,P,D,F,PZ,PXY, D-Z2,D-XY,X2Y2,D-XZ,YZ 
+:QTL002: 0.8576 7.7385 0.8978 0.0679 2.5127 5.2258 0.0000 0.2691 0.3430 0.2856 0.0000 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL002:  0.0426 -1.1368    6.0139 -4.3133    0.0153 -1.0131    0.0031 -1.0312
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH002:  0.8150  0.9684    1.7246  1.3852    0.8825  1.4649    0.0648  1.1194
+
+
+
+
+:POS003: ATOM   -3 X,Y,Z = 0.10979 0.10979 0.10979  MULT= 2  ZZ=  8.000  O 1       
+
+       LMMAX 12
+       LM=   0 0  1 0  2 0  3 0  3 3  4 0  4 3  5 0  5 3  6 0  6 3  6 6
+
+:CHA003: TOTAL VALENCE CHARGE INSIDE SPHERE   3 =   6.3301    (RMT=  1.4000 )
+:PCS003: PARTIAL CHARGES SPHERE =  3 S,P,D,F,PZ,PXY, D-Z2,D-XY,X2Y2,D-XZ,YZ 
+:QTL003: 1.6346 4.4998 0.1870 0.0082 1.5213 2.9785 0.0000 0.0366 0.0769 0.0736 0.0000 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL003:  1.3171 -1.0467    0.0046 -1.2983    0.0003 -2.5904    0.0001 -2.4180
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH003:  0.3175  0.9949    4.4951  0.4608    0.1868  1.5392    0.0081  1.5809
+
+:CHA  : TOTAL VALENCE CHARGE INSIDE UNIT CELL =      60.000000
+
+:SUM  : SUM OF EIGENVALUES =         -22.442947580
+
+
+
+   QTL-B VALUE .EQ.    6.04197   in Band of energy    2.03721   ATOM=    1   L=  2
+    Most likely no ghostbands, but adjust Energy-parameters for this ATOM and L
+
+
+      NBAND in QTL-file:          30

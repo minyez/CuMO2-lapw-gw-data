@@ -1,0 +1,106 @@
+>   (init_lapw) options: -numk 64 -b -rkmax 8
+Mon Jun 21 18:49:58 CST 2021> (x) nn
+Mon Jun 21 18:49:58 CST 2021> (x) sgroup
+Mon Jun 21 18:49:58 CST 2021> (x) symmetry
+Mon Jun 21 18:49:58 CST 2021> (x) lstart -d
+Mon Jun 21 18:49:58 CST 2021> (x) kgen -d
+Mon Jun 21 18:49:58 CST 2021> (x) dstart -p
+Mon Jun 21 18:50:01 CST 2021> (x) kgen
+>   (run_lapw) options: -ec 0.000000001
+Mon Jun 21 18:50:10 CST 2021> (x) lapw0
+Mon Jun 21 18:50:13 CST 2021> (x) lapw1
+Mon Jun 21 18:50:15 CST 2021> (x) lapw2
+Mon Jun 21 18:50:16 CST 2021> (x) lcore
+Mon Jun 21 18:50:16 CST 2021> (x) mixer
+Mon Jun 21 18:50:16 CST 2021> (x) lapw0
+Mon Jun 21 18:50:18 CST 2021> (x) lapw1
+Mon Jun 21 18:50:21 CST 2021> (x) lapw2
+Mon Jun 21 18:50:21 CST 2021> (x) lcore
+Mon Jun 21 18:50:21 CST 2021> (x) mixer
+Mon Jun 21 18:50:21 CST 2021> (x) lapw0
+Mon Jun 21 18:50:24 CST 2021> (x) lapw1
+Mon Jun 21 18:50:26 CST 2021> (x) lapw2
+Mon Jun 21 18:50:27 CST 2021> (x) lcore
+Mon Jun 21 18:50:27 CST 2021> (x) mixer
+Mon Jun 21 18:50:27 CST 2021> (x) lapw0
+Mon Jun 21 18:50:29 CST 2021> (x) lapw1
+Mon Jun 21 18:50:32 CST 2021> (x) lapw2
+Mon Jun 21 18:50:32 CST 2021> (x) lcore
+Mon Jun 21 18:50:32 CST 2021> (x) mixer
+Mon Jun 21 18:50:33 CST 2021> (x) lapw0
+Mon Jun 21 18:50:35 CST 2021> (x) lapw1
+Mon Jun 21 18:50:37 CST 2021> (x) lapw2
+Mon Jun 21 18:50:38 CST 2021> (x) lcore
+Mon Jun 21 18:50:38 CST 2021> (x) mixer
+Mon Jun 21 18:50:38 CST 2021> (x) lapw0
+Mon Jun 21 18:50:40 CST 2021> (x) lapw1
+Mon Jun 21 18:50:42 CST 2021> (x) lapw2
+Mon Jun 21 18:50:43 CST 2021> (x) lcore
+Mon Jun 21 18:50:43 CST 2021> (x) mixer
+Mon Jun 21 18:50:43 CST 2021> (x) lapw0
+Mon Jun 21 18:50:45 CST 2021> (x) lapw1
+Mon Jun 21 18:50:48 CST 2021> (x) lapw2
+Mon Jun 21 18:50:48 CST 2021> (x) lcore
+Mon Jun 21 18:50:49 CST 2021> (x) mixer
+Mon Jun 21 18:50:49 CST 2021> (x) lapw0
+Mon Jun 21 18:50:51 CST 2021> (x) lapw1
+Mon Jun 21 18:50:53 CST 2021> (x) lapw2
+Mon Jun 21 18:50:54 CST 2021> (x) lcore
+Mon Jun 21 18:50:54 CST 2021> (x) mixer
+Mon Jun 21 18:50:54 CST 2021> (x) lapw0
+Mon Jun 21 18:50:56 CST 2021> (x) lapw1
+Mon Jun 21 18:50:59 CST 2021> (x) lapw2
+Mon Jun 21 18:50:59 CST 2021> (x) lcore
+Mon Jun 21 18:50:59 CST 2021> (x) mixer
+Mon Jun 21 18:50:59 CST 2021> (x) lapw0
+Mon Jun 21 18:51:02 CST 2021> (x) lapw1
+Mon Jun 21 18:51:04 CST 2021> (x) lapw2
+Mon Jun 21 18:51:05 CST 2021> (x) lcore
+Mon Jun 21 18:51:05 CST 2021> (x) mixer
+Mon Jun 21 18:51:05 CST 2021> (x) lapw0
+Mon Jun 21 18:51:07 CST 2021> (x) lapw1
+Mon Jun 21 18:51:09 CST 2021> (x) lapw2
+Mon Jun 21 18:51:10 CST 2021> (x) lcore
+Mon Jun 21 18:51:10 CST 2021> (x) mixer
+Mon Jun 21 18:51:10 CST 2021> (x) lapw0
+Mon Jun 21 18:51:12 CST 2021> (x) lapw1
+Mon Jun 21 18:51:14 CST 2021> (x) lapw2
+Mon Jun 21 18:51:15 CST 2021> (x) lcore
+Mon Jun 21 18:51:15 CST 2021> (x) mixer
+Mon Jun 21 18:51:15 CST 2021> (x) lapw0
+Mon Jun 21 18:51:17 CST 2021> (x) lapw1
+Mon Jun 21 18:51:20 CST 2021> (x) lapw2
+Mon Jun 21 18:51:20 CST 2021> (x) lcore
+Mon Jun 21 18:51:20 CST 2021> (x) mixer
+Mon Jun 21 18:51:20 CST 2021> (x) lapw0
+Mon Jun 21 18:51:22 CST 2021> (x) lapw1
+Mon Jun 21 18:51:25 CST 2021> (x) lapw2
+Mon Jun 21 18:51:25 CST 2021> (x) lcore
+Mon Jun 21 18:51:25 CST 2021> (x) mixer
+Mon Jun 21 18:51:25 CST 2021> (x) lapw0
+Mon Jun 21 18:51:28 CST 2021> (x) lapw1
+Mon Jun 21 18:51:30 CST 2021> (x) lapw2
+Mon Jun 21 18:51:31 CST 2021> (x) lcore
+Mon Jun 21 18:51:31 CST 2021> (x) mixer
+Mon Jun 21 18:51:31 CST 2021> (x) lapw0
+Mon Jun 21 18:51:33 CST 2021> (x) lapw1
+Mon Jun 21 18:51:36 CST 2021> (x) lapw2
+Mon Jun 21 18:51:36 CST 2021> (x) lcore
+Mon Jun 21 18:51:36 CST 2021> (x) mixer
+Mon Jun 21 18:51:36 CST 2021> (x) lapw0
+Mon Jun 21 18:51:39 CST 2021> (x) lapw1
+Mon Jun 21 18:51:41 CST 2021> (x) lapw2
+Mon Jun 21 18:51:42 CST 2021> (x) lcore
+Mon Jun 21 18:51:42 CST 2021> (x) mixer
+Mon Jun 21 18:51:42 CST 2021> (x) lapw0
+Mon Jun 21 18:51:44 CST 2021> (x) lapw1
+Mon Jun 21 18:51:46 CST 2021> (x) lapw2
+Mon Jun 21 18:51:47 CST 2021> (x) lcore
+Mon Jun 21 18:51:47 CST 2021> (x) mixer
+Mon Jun 21 18:57:00 CST 2021> (x) joinvec
+Mon Jun 21 18:57:00 CST 2021> (x) joinvec -so
+Mon Jun 21 19:50:45 CST 2021> (x_lapw) -f CuAlO2 lapw0
+Mon Jun 21 19:50:47 CST 2021> (x_lapw) -f CuAlO2 lapw1
+Mon Jun 21 19:50:51 CST 2021> (x_lapw) -f CuAlO2 lcore
+Mon Jun 21 19:52:24 CST 2021> (x_lapw) -f CuAlO2 lapw1
+Mon Jun 21 19:52:30 CST 2021> (x_lapw) -f CuAlO2 lcore

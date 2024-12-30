@@ -1,0 +1,29 @@
+ 3,'CuAlO2.rhopw',   'unknown','formatted',0
+ 4,'CuAlO2.inm',     'unknown','formatted',0
+ 5,'CuAlO2.in0',     'old',    'formatted',0
+ 6,'CuAlO2.output0', 'unknown','formatted',0
+ 7,'CuAlO2.vorbup',  'unknown','formatted',0
+ 8,'CuAlO2.clmsum',  'old',    'formatted',0
+ 9,'CuAlO2.vtotal',  'unknown','formatted',0
+10,'CuAlO2.vcoul',   'unknown','formatted',0
+11,'CuAlO2.r2v',     'unknown','formatted',0
+12,'CuAlO2.clmup',   'unknown','formatted',0
+13,'CuAlO2.clmdn',   'unknown','formatted',0
+14,'CuAlO2.mbjmix',     'unknown','formatted',0
+16,'CuAlO2.vsp','unknown','formatted',0
+17,'CuAlO2.vspdn',   'unknown','formatted',0
+18,'CuAlO2.vns','unknown','formatted',0
+19,'CuAlO2.vnsdn',   'unknown','formatted',0
+20,'CuAlO2.struct',  'old',    'formatted',0         
+21,'CuAlO2.scf0',    'unknown','formatted',0
+28,'CuAlO2.vrespsum','unknown','formatted',0
+29,'CuAlO2.vrespup', 'unknown','formatted',0
+30,'CuAlO2.vrespdn', 'unknown','formatted',0
+36,'CuAlO2.vcoulsp','unknown','formatted',0
+37,'CuAlO2.vcoulspdn',   'unknown','formatted',0
+38,'CuAlO2.vcoulns','unknown','formatted',0
+39,'CuAlO2.vcoulnsdn',   'unknown','formatted',0
+50,'CuAlO2.eeceup', 'unknown','formatted',0
+51,'CuAlO2.eecedn', 'unknown','formatted',0
+62,'CuAlO2.grr',    'unknown','formatted',0
+61,'CuAlO2.in0abp',     'unknown','formatted',0

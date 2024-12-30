@@ -1,0 +1,28 @@
+ 2,'CuInO2.nsh',    'unknown','formatted',0
+ 3,'CuInO2.in1',   'unknown','formatted',0
+ 4,'CuInO2.inso',           'unknown','formatted',0
+ 5,'CuInO2.in2',   'old',    'formatted',0
+ 6,'CuInO2.output2','unknown','formatted',0
+ 7,'CuInO2.vorb','unknown','formatted',0
+ 8,'CuInO2.clmval','unknown','formatted',0
+10,'./CuInO2.vector', 'unknown','unformatted',9000
+11,'CuInO2.weight',    'unknown','formatted',0
+13,'CuInO2.recprlist',      'unknown','unformatted',9000
+14,'CuInO2.kgen',        'unknown','formatted',0
+15,'CuInO2.tmp',       'unknown','unformatted',0
+16,'CuInO2.qtl',       'unknown','formatted',0
+17,'CuInO2.weightaver','unknown','formatted',0
+18,'CuInO2.vsp',       'old',    'formatted',0
+19,'CuInO2.vns',       'unknown','formatted',0
+20,'CuInO2.struct',         'old',    'formatted',0
+21,'CuInO2.scf2','unknown','formatted',0
+922,'CuInO2.rotlm',   'unknown',    'formatted',0
+23,'CuInO2.radwf',   'unknown',    'formatted',0
+26,'CuInO2.weigh',   'unknown','unformatted',0
+27,'CuInO2.weighdn',   'unknown','unformatted',0
+29,'CuInO2.energydn','unknown','formatted',0
+30,'CuInO2.energy', 'unknown','formatted',0
+32,'CuInO2.qdmft',   'unknown',    'formatted',0
+34,'CuInO2.oubwin',   'unknown',    'formatted',0
+231,'CuInO2.dmftsym',   'unknown',    'formatted',0
+31,'./CuInO2.help', 'unknown','formatted',0

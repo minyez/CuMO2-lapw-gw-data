@@ -1,0 +1,13 @@
+ 5,'CuAlO2.inm',       'old',    'formatted',0
+ 6,'CuAlO2.outputm',   'unknown','formatted',0
+ 7,'CuAlO2.inc',       'old',    'formatted',0
+10,'CuAlO2.clmsum_old','unknown','formatted',0
+17,'CuAlO2.clmval',    'unknown','formatted',0
+18,'CuAlO2.clmsc',     'unknown','formatted',0
+19,'CuAlO2.clmcor',    'unknown','formatted',0
+20,'CuAlO2.struct',    'old',    'formatted',0
+21,'CuAlO2.scfm',      'unknown','formatted',0
+22,'CuAlO2.scf',       'unknown','formatted',0
+31,'CuAlO2.broyd1',    'unknown','unformatted',164896
+32,'CuAlO2.broyd2',    'unknown','unformatted',164896
+51,'CuAlO2.clmsum',    'unknown','formatted',0

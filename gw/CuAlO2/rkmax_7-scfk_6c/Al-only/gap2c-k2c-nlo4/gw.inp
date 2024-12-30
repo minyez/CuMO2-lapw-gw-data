@@ -1,0 +1,68 @@
+#Initialization options: gap2c_init -d ../Al-only/gap2c-k2c-nlo4 -newin1 4 -nkp 8
+
+Task    = 'gw'
+%gw
+  0 | 0                       # iop_sxc | iop_vxc 
+%
+
+%BZConv                 # BZ convolution options
+ "tetra" | "imfreq"
+%
+
+%FreqGrid                         # Frequency grid parameters
+ 3  | 16  | 0.42  |  0.0  |  0     # iopfreq | nomeg | omegmax | omegmin | nomeg_blk
+%                                 # iopfreq= 1 (equally spaced), 2 (Gauss-Laguerre) or 3 (double Gauss-Legendre) 
+CaseName = "CuAlO2"           # case name, used as prefix for input/output files
+dftpkg  = 0                  # indicate which package is used for DFT calculations ( 0 -> wien2k ) 
+Restart = F
+Task    = "gw"               # Option for task
+SavDir ="./tmp"              # directory to store temporary data that might be reused 
+                             # once you are sure you are not going to reuse them, you should remove this directory 
+                             # since it may occupy large space especially with large N_k
+
+emingw = -2.0                # emingw and emaxgw ( unit --  Ry. ) are used to control the range of bands 
+emaxgw =  2.0                # for which GW correction are going to be calculated. Only states whose LDA energies 
+                             # falls between E_Fermi+emingw and E_Fermi+emaxgw are calculated 
+
+nspin = 1               # 1 for spin-unpolarized and 2 for spin-polarized calculations 
+ComplexVector = F      # T for for sytems without inversal symmetry 
+UseScratch = 2               # 0 - if not using scratch space in which zzk are all kept in core 
+                             #     and minm is always calculated from scratch. 
+                             # 1 - use the scratch and different vectord files for different processes
+                             # 2 - use the scratch and different processes share the single vectord 
+
+SymVector = T         # whether use symmetrized output from wien2k 
+
+Minm_mblksiz = 48            # block size to split m-index for the calculations of minm 
+
+%SelfEnergy             # option for correlation self-energy 
+  2  |  0   |   1       # <npol> |  <iopes>  |  <iopac> 
+%                       # Number of poles ( previous maxexp + 1, valid range: 2.. nomeg/2 ) 
+                        # iopes: 0/1/2/3 - without or with itereration > 
+                        # iopsac:0/1     - Pade's approximation / multipole fitting 
+
+emaxpol =  1.0E10       # the upper bound for unoccupied states considered in polarizatioin 
+emaxsc  =  1.0E10       # the upper bound for unoccupie states considered in the self-energies
+eminpol = -1.0E10       # the lower bound for deep core states considered in polarization 
+barcevtol = 0.1         # tolerance used to reduce the bare Coulomb matrix eigenvectors as the basis set 
+MB_ludot = F            # whether considering the contribution of udot when setting up the mixed basis
+MB_emin = -1.E10        # only core states with energy above MB_emin are considered when setting up MB basis 
+MB_emax = 20.0          # LO orbitals with energy higher MB_emax are excluded when setting up MB basis 
+
+LOmax = 3          # the LOMAX used in WIEN2k(lapw1,nmr) 
+
+%MixBasis               # Mixed basis parameters
+0.75                    # Q_mb  
+3    |    1.E-4  |  0   # lmbmax  | wftol  | lblmax 
+%
+
+%BareCoul               # Bare Coulomb interaction
+2.0  |  1.E-15
+%
+
+nvel = 38.00                  # the number of valence electrons
+
+%kmesh 
+ 2 | 2 | 2           # the number of k-points along each axis
+ 0 | 0 | 0 | 2  # shift from k=0 (in integer coordidate) and their common division
+%

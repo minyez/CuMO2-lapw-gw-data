@@ -1,0 +1,302 @@
+
+
+Executing in mode: in1       
+
+
+iproc            =  0
+dosumpara        = F
+dovectest        = F
+docurrent        = F
+doxionly         = F
+donoxi           = F
+dointeg          = F
+domoment         = F
+doplot           = F
+nocore           = F
+coreonly         = F
+green            = T
+using HF vector  = F
+(emin,emax)      =   -10000.00000    10000.00000
+(iemin,iemax)    =       1   99999
+semicore up to   =       -4.00000
+broad            =        0.00000
+maximum overlap  =        0.60000
+dosemicore       = T
+docc             = T
+doduc            = T
+doco             = T
+dosym            = T
+socvec           = F
+metal            = F
+setfermi         = F
+kbT              =        0.00800
+broad            =        0.00000
+scissor shift    =   0.00000
+scratch          =                                                                                
+
+
+
+
+
+
+                              --------------------------------------------------
+                                 S T R U C T U R A L   I N F O R M A T I O N
+                              --------------------------------------------------
+
+         SUBSTANCE: CuInO2 ShimodeM00                                           
+
+       MODE OF CALCULATION IS       = RELA
+:LAT     LATTICE CONSTANTS =  6.22095  6.22095 32.85838   90.000   90.000  120.000     LATTICE = R   
+
+:BR1_REC         BR1_rec(i,j):     (j) 
+:BR1_REC                          ax bx cx 
+:BR1_REC                      (i) ay by cy 
+:BR1_REC                          az bz cz 
+:BR1_REC             0.58313   0.58313  -1.16625
+:BR1_REC            -1.01000   1.01000   0.00000
+:BR1_REC             0.19122   0.19122   0.19122
+
+
+:BR2_REC         BR2_rec(i,j):     (j) 
+:BR2_REC                          ax bx cx 
+:BR2_REC                      (i) ay by cy 
+:BR2_REC                          az bz cz 
+:BR2_REC             0.58313   0.58313  -1.16625
+:BR2_REC            -1.01000   1.01000   0.00000
+:BR2_REC             0.19122   0.19122   0.19122
+
+:BRunit             1.00000   0.00000   0.00000
+:BRunit             0.00000   1.00000   0.00000
+:BRunit             0.00000   0.00000   1.00000
+
+:BRunit_inv             1.00000   0.00000   0.00000
+:BRunit_inv             0.00000   1.00000   0.00000
+:BRunit_inv             0.00000   0.00000   1.00000
+
+
+:BR1_DIR          BR1_dir(i,j):     (j) 
+:BR1_DIR                        ax ay az 
+:BR1_DIR                    (i) bx by bz 
+:BR1_DIR                        cx cy cz 
+:BR1_DIR             1.79583  -3.11047  10.95280
+:BR1_DIR             1.79583   3.11047  10.95280
+:BR1_DIR            -3.59166   0.00000  10.95280
+
+
+:BR2_DIR          BR2_dir(i,j):    (j) 
+:BR2_DIR                        ax ay az 
+:BR2_DIR                    (i) bx by bz 
+:BR2_DIR                        cx cy cz 
+:BR2_DIR             1.79583  -3.11047  10.95280
+:BR2_DIR             1.79583   3.11047  10.95280
+:BR2_DIR            -3.59166   0.00000  10.95280
+
+:VOL     UNIT CELL VOLUME =     367.08653
+:NATO    INDEPENDENT ATOMS =    3      TOTAL ATOMS IN UNITCELL =    4
+
+
+:ATM001     NAME = Cu1     MULTIPLICITY =  1     JRJ = 781     R0 =.000050000     RMT = 2.000     ZZ = 29.0
+:POS001     POSITION:    0.000   0.000   0.000     EQUIV ATOM   1     ATOM INDEX  1
+
+
+:ATM002     NAME = In1     MULTIPLICITY =  1     JRJ = 781     R0 =.000010000     RMT = 2.130     ZZ = 49.0
+:POS002     POSITION:    0.500   0.500   0.500     EQUIV ATOM   1     ATOM INDEX  2
+
+
+:ATM003     NAME = O 1     MULTIPLICITY =  2     JRJ = 781     R0 =.000100000     RMT = 1.400     ZZ =  8.0
+:POS003     POSITION:    0.106   0.106   0.106     EQUIV ATOM   1     ATOM INDEX  3
+:POS003     POSITION:    0.894   0.894   0.894     EQUIV ATOM   2     ATOM INDEX  4
+
+
+A guess for linearisation energies:
+
+
+energy limits for NMR LO search, ATOM=   1  L= 0  INIT NODES=  4        8.1000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     1     0         19.28       5      31          531    0.07     633    0.27
+     1     0         40.30       6      20          531    0.07     630    0.26
+     1     0         67.16       7      15          530    0.07     626    0.24
+     1     0         99.58       8      12          529    0.07     622    0.23
+     1     0        137.38       9      10          528    0.06     618    0.22
+
+energy limits for NMR LO search, ATOM=   1  L= 1  INIT NODES=  3        9.0000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     1     1         20.46       4      31          625    0.24     702    0.68
+     1     1         40.88       5      20          620    0.22     690    0.58
+     1     1         66.88       6      15          616    0.21     680    0.51
+     1     1         98.24       7      12          611    0.20     672    0.45
+     1     1        134.82       8      10          606    0.19     665    0.41
+
+energy limits for NMR LO search, ATOM=   1  L= 2  INIT NODES=  1        2.4854    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     1     2          8.39       2      63          718    0.85     781    2.00
+     1     2         21.59       3      31          696    0.63     750    1.31
+     1     2         40.25       4      21          681    0.51     730    1.00
+     1     2         64.23       5      16          669    0.44     716    0.83
+     1     2         93.43       6      13          660    0.39     704    0.70
+
+energy limits for NMR LO search, ATOM=   1  L= 3  INIT NODES=  1       10.3000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     1     3         20.04       2      35          746    1.24     781    2.00
+     1     3         36.30       3      23          722    0.90     758    1.46
+     1     3         57.90       4      17          705    0.71     741    1.16
+     1     3         84.72       5      14          692    0.60     727    0.96
+     1     3        116.68       6      11          681    0.51     715    0.82
+
+energy limits for NMR LO search, ATOM=   1  L= 4  INIT NODES=  1       16.0000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     1     4         29.16       2      29          752    1.35     781    2.00
+     1     4         48.76       3      20          732    1.03     761    1.52
+     1     4         73.38       4      15          716    0.83     746    1.24
+     1     4        103.08       5      12          704    0.70     733    1.04
+     1     4        137.80       6      10          693    0.61     722    0.90
+
+energy limits for NMR LO search, ATOM=   1  L= 5  INIT NODES=  1       21.7000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     1     5         37.96       2      25          756    1.42     781    2.00
+     1     5         60.66       3      18          738    1.12     763    1.57
+     1     5         88.20       4      14          723    0.91     749    1.29
+     1     5        120.70       5      11          711    0.77     737    1.10
+     1     5        158.18       6      10          701    0.67     727    0.96
+
+energy limits for NMR LO search, ATOM=   1  L= 6  INIT NODES=  1       27.8000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     1     6         47.00       2      23          758    1.46     781    2.00
+     1     6         72.64       3      16          742    1.18     765    1.61
+     1     6        103.02       4      13          728    0.97     752    1.35
+     1     6        138.28       5      11          717    0.84     741    1.16
+     1     6        178.44       6       9          708    0.74     731    1.01
+
+energy limits for NMR LO search, ATOM=   2  L= 0  INIT NODES=  5        7.6000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     2     0         18.24       6      25          524    0.04     611    0.15
+     2     0         38.36       7      16          524    0.04     610    0.14
+     2     0         63.84       8      12          524    0.04     609    0.14
+     2     0         94.38       9      10          523    0.04     608    0.14
+     2     0        129.80      10       8          523    0.04     606    0.14
+
+energy limits for NMR LO search, ATOM=   2  L= 1  INIT NODES=  4        8.8000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     2     1         20.14       5      24          603    0.13     671    0.38
+     2     1         40.18       6      16          602    0.13     667    0.35
+     2     1         65.40       7      12          601    0.13     663    0.33
+     2     1         95.52       8      10          599    0.12     659    0.31
+     2     1        130.44       9       8          598    0.12     656    0.30
+
+energy limits for NMR LO search, ATOM=   2  L= 2  INIT NODES=  3       11.2000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     2     2         22.92       4      23          666    0.35     723    0.86
+     2     2         42.28       5      16          661    0.32     711    0.71
+     2     2         66.50       6      12          655    0.29     703    0.62
+     2     2         95.42       7      10          651    0.28     695    0.55
+     2     2        128.96       8       8          646    0.25     689    0.50
+
+energy limits for NMR LO search, ATOM=   2  L= 3  INIT NODES=  1        5.5000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     2     3         12.12       2      40          741    1.14     781    2.13
+     2     3         24.92       3      23          720    0.82     758    1.48
+     2     3         42.52       4      16          706    0.65     742    1.15
+     2     3         64.84       5      13          695    0.55     729    0.94
+     2     3         91.82       6      10          686    0.48     719    0.80
+
+energy limits for NMR LO search, ATOM=   2  L= 4  INIT NODES=  1       12.2000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     2     4         22.38       2      27          754    1.39     781    2.13
+     2     4         38.32       3      18          735    1.03     763    1.60
+     2     4         58.86       4      14          721    0.83     749    1.29
+     2     4         83.94       5      11          710    0.70     737    1.07
+     2     4        113.50       6       9          701    0.61     728    0.93
+
+energy limits for NMR LO search, ATOM=   2  L= 5  INIT NODES=  1       17.7000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     2     5         30.96       2      23          758    1.48     781    2.13
+     2     5         49.88       3      16          742    1.15     765    1.66
+     2     5         73.22       4      12          729    0.94     752    1.35
+     2     5        101.00       5      10          719    0.80     742    1.15
+     2     5        133.18       6       8          710    0.70     733    1.00
+
+energy limits for NMR LO search, ATOM=   2  L= 6  INIT NODES=  1       23.3000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     2     6         39.36       2      20          761    1.56     781    2.13
+     2     6         61.04       3      14          746    1.23     767    1.71
+     2     6         87.02       4      11          734    1.02     755    1.42
+     2     6        117.38       5       9          724    0.87     745    1.21
+     2     6        152.08       6       8          716    0.77     737    1.07
+
+energy limits for NMR LO search, ATOM=   3  L= 0  INIT NODES=  3       25.9000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     3     0         53.82       4      29          626    0.21     708    0.57
+     3     0         96.58       5      20          615    0.18     691    0.47
+     3     0        149.82       6      16          605    0.16     678    0.40
+     3     0        213.28       7      13          596    0.15     666    0.34
+     3     0        286.82       8      11          588    0.13     656    0.30
+
+energy limits for NMR LO search, ATOM=   3  L= 1  INIT NODES=  1        6.6000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     3     1         18.66       2      58          723    0.69     781    1.40
+     3     1         45.88       3      32          695    0.49     749    0.95
+     3     1         83.78       4      22          675    0.38     727    0.72
+     3     1        132.06       5      17          660    0.32     710    0.59
+     3     1        190.54       6      14          647    0.27     696    0.49
+
+energy limits for NMR LO search, ATOM=   3  L= 2  INIT NODES=  1       15.5000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     3     2         34.12       2      41          740    0.85     781    1.40
+     3     2         66.88       3      26          714    0.62     755    1.02
+     3     2        110.02       4      19          695    0.49     735    0.80
+     3     2        163.48       5      15          680    0.41     720    0.66
+     3     2        227.10       6      13          667    0.35     707    0.57
+
+energy limits for NMR LO search, ATOM=   3  L= 3  INIT NODES=  1       24.8000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     3     3         48.96       2      34          747    0.92     781    1.40
+     3     3         87.24       3      23          724    0.70     758    1.06
+     3     3        135.72       4      17          706    0.56     740    0.85
+     3     3        194.34       5      14          692    0.47     726    0.71
+     3     3        263.04       6      12          680    0.41     714    0.62
+
+energy limits for NMR LO search, ATOM=   3  L= 4  INIT NODES=  1       34.9000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     3     4         64.46       2      30          751    0.97     781    1.40
+     3     4        108.14       3      21          730    0.75     760    1.08
+     3     4        161.92       4      16          714    0.62     744    0.89
+     3     4        225.72       5      13          700    0.52     730    0.75
+     3     4        299.50       6      11          689    0.45     719    0.66
+
+energy limits for NMR LO search, ATOM=   3  L= 5  INIT NODES=  1       45.8000    99990.0000
+
+  atom     l     LO energy     nodes    nodes sep.    position of the first node
+     3     5         80.96       2      27          754    1.01     781    1.40
+     3     5        130.00       3      19          735    0.80     762    1.11
+     3     5        189.02       4      15          719    0.66     747    0.92
+     3     5        257.98       5      12          707    0.57     734    0.79
+     3     5        336.84       6      10          696    0.49     723    0.69
+
+
+NUMBER OF RADIAL FUNCTIONS IN case.in1_nmr
+ATOM     L=0     L=1     L=2     L=3
+   1       6       7       6       6
+       6       6       6
+   2       6       6       7       6
+       6       6       6
+   3       7       6       6       6
+       6       6

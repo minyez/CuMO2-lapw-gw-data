@@ -1,0 +1,137 @@
+run gap2_analy on  Thu Aug 12 10:56:57 CST 2021
+Full command: ' gap2_analy -gw gap2c.x -gwtag GW -gwdir ../gap2c-k6c-nlo5p4-CuO -t band -qtl -s 0 '
+run analysis calculation band 
+ - set spin tag 
+ -- spin unpolarized
+  sptag = 
+ - backup k-vectors files using in SCF
+  CuAlO2.energy ---> CuAlO2.energy-scf 
+  CuAlO2.vector ---> CuAlO2.vector-scf 
+  CuAlO2.output1 ---> CuAlO2.output1-scf 
+  CuAlO2.scf1 ---> CuAlO2.scf1-scf 
+  CuAlO2.qtl ---> CuAlO2.qtl-scf 
+  CuAlO2.output2 ---> CuAlO2.output2-scf 
+  CuAlO2.scf2 ---> CuAlO2.scf2-scf 
+
+--- Initilization ---
+
+
+--- lapw1 ---
+
+
+--- lapw2 for qtl/opt ---
+
+--- spagh ---
+  Extract Fermi energy from SCF output
+  KS Fermi Energy= 0.5089446609
+------------------- KS Band Gap ----------------------
+Efermi= 0.5089446609
+Read band energies from CuAlO2.energy
+Number of k-vectors= 101
+
+  Analyze band energies
+  
+	Number of spin= 1
+	Number of k-vector= 101
+	Number of bands= 31
+
+
+Band index for VBM and CBM= 19 19
+Metallic system
+Range of each band with respect to VBM (eV):
+    n      Bottom         Top       Width
+    7     -20.973     -18.845       2.128
+    8     -19.052     -18.548       0.503
+    9      -8.189      -6.643       1.545
+   10      -7.480      -3.781       3.699
+   11      -6.708      -3.589       3.118
+   12      -5.295      -3.462       1.833
+   13      -4.652      -3.129       1.523
+   14      -4.145      -2.602       1.543
+   15      -3.103      -1.725       1.377
+   16      -1.978      -1.399       0.579
+   17      -1.731      -0.967       0.764
+   18      -1.351      -0.776       0.575
+   19      -1.112       0.010       1.122
+   20       1.934       5.431       3.497
+   21       4.552       8.854       4.302
+   22       7.213      10.097       2.884
+   23       8.617      12.279       3.662
+   24      10.065      13.878       3.813
+   25      11.563      14.111       2.547
+   26      11.931      15.297       3.366
+   27      12.433      15.300       2.867
+   28      14.845      16.831       1.985
+   29      15.730      19.358       3.628
+   30      17.102      20.070       2.968
+
+--- spagh/GW ---
+
+  Extract Fermi energy from gwnvf output 
+  GW Fermi Energy = 0.5800
+------------------- GW Band Gap ----------------------
+Efermi= 0.58
+Read band energies from CuAlO2.energy
+Number of k-vectors= 101
+
+  Analyze band energies
+  
+	Number of spin= 1
+	Number of k-vector= 101
+	Number of bands= 30
+
+
+Band index for VBM and CBM= 19 20
+Insulating system:
+:BandGap(i) =   3.175 eV 
+:Eg_d(min) =   4.023 eV, at      k=(   1.000,   0.500,   0.000) (ik=  51)
+:Eg_direct =   5.434 eV  at  VBM k=(   0.388,   0.000,  -0.388) (ik=  32)
+:Eg_direct =   4.669 eV  at  CBM k=(   0.000,   0.000,   0.000) (ik=   1)
+Range of each band with respect to VBM (eV):
+    n      Bottom         Top       Width
+    7     -22.182     -19.976       2.206
+    8     -20.177     -19.684       0.493
+    9      -8.635      -6.988       1.647
+   10      -7.852      -3.350       4.502
+   11      -7.157      -3.173       3.984
+   12      -5.645      -3.853       1.793
+   13      -4.994      -3.378       1.616
+   14      -4.505      -2.852       1.653
+   15      -3.429      -1.983       1.446
+   16      -2.418      -1.824       0.595
+   17      -2.224      -1.523       0.701
+   18      -1.802      -1.255       0.547
+   19      -1.574       0.000       1.574
+   20       3.175       6.562       3.387
+   21       6.143      10.365       4.222
+   22       8.957      11.962       3.005
+   23      10.336      14.094       3.758
+   24      11.732      16.114       4.382
+   25      13.336      16.172       2.837
+   26      13.454      17.383       3.929
+   27      14.371      17.396       3.025
+   28      16.946      18.771       1.824
+
+--- save new files and recover backuped SCF files  ---
+
+  CuAlO2.energy ---> CuAlO2.energy-band
+  CuAlO2.energy_GW ---> CuAlO2.energy_GW-band
+  CuAlO2.energy-scf ---> CuAlO2.energy
+  CuAlO2.vector ---> CuAlO2.vector-band
+  CuAlO2.vector_GW ---> CuAlO2.vector_GW-band
+  CuAlO2.vector-scf ---> CuAlO2.vector
+  CuAlO2.output1 ---> CuAlO2.output1-band
+  CuAlO2.output1-scf ---> CuAlO2.output1
+  CuAlO2.scf1 ---> CuAlO2.scf1-band
+  CuAlO2.scf1-scf ---> CuAlO2.scf1
+  CuAlO2.qtl ---> CuAlO2.qtl-band
+  CuAlO2.qtl_GW ---> CuAlO2.qtl_GW-band
+  CuAlO2.qtl-scf ---> CuAlO2.qtl
+  CuAlO2.output2 ---> CuAlO2.output2-band
+  CuAlO2.output2_GW ---> CuAlO2.output2_GW-band
+  CuAlO2.output2-scf ---> CuAlO2.output2
+  CuAlO2.scf2 ---> CuAlO2.scf2-band
+  CuAlO2.scf2_GW ---> CuAlO2.scf2_GW-band
+  CuAlO2.scf2-scf ---> CuAlO2.scf2
+  CuAlO2.weight ---> CuAlO2.weight-band
+  CuAlO2.weight_GW ---> CuAlO2.weight_GW-band

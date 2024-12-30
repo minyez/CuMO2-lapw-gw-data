@@ -1,0 +1,9 @@
+5, 'CuAlO2.insp',         'old',    'formatted',0
+6, 'CuAlO2.outputsp',     'unknown','formatted',0
+9, 'CuAlO2.qtl',          'unknown','formatted',0
+10,'CuAlO2.spaghetti_ene','unknown','formatted',0
+11,'CuAlO2.spaghetti_ps', 'unknown','formatted',0
+20,'CuAlO2.struct',       'old',    'formatted',0
+30,'CuAlO2.irrep',          'unknown','formatted',0
+40,'CuAlO2.bands.agr',       'unknown','formatted',0
+7, 'CuAlO2.output1',  'old','formatted',0

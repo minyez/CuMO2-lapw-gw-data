@@ -1,0 +1,592 @@
+ - sp= 0
+  -- spin-unpolarized GW calculation based on lapw 
+  R2V is not calculated 
+ 
+--- Backup SCF files ---
+ 
+ backup  CuGaO2.in0
+ backup  CuGaO2.in1
+ backup  CuGaO2.in2
+ backup  CuGaO2.inc
+ backup  CuGaO2.inm
+ backup  CuGaO2.klist
+ backup  CuGaO2.kgen
+ backup  CuGaO2.clmcor
+ backup  CuGaO2.clmsum
+ backup  CuGaO2.clmval
+ backup  CuGaO2.vsp
+ backup  CuGaO2.vns
+ backup  CuGaO2.energy
+ backup  CuGaO2.r2v
+ backup  CuGaO2.scfc
+
+--- vector:  Generate *.vector for GW  ---
+
+  change emax in CuGaO2.in1 to  1000
+check whether to start from hybrids
+
+---Generate gw.inp---
+
+--------------------
+-   clean *.scfc   -
+--------------------
+
+--- Copy files ---
+
+Directory for gw calculation: ../gap2c-k2c-nlo0
+
+--- Recover SCF files ---
+
+ recover  CuGaO2.in0
+ recover  CuGaO2.in1
+ recover  CuGaO2.in2
+ recover  CuGaO2.inc
+ recover  CuGaO2.inm
+ recover  CuGaO2.klist
+ recover  CuGaO2.kgen
+ recover  CuGaO2.clmcor
+ recover  CuGaO2.clmsum
+ recover  CuGaO2.clmval
+ recover  CuGaO2.vsp
+ recover  CuGaO2.vns
+ recover  CuGaO2.energy
+ recover  CuGaO2.r2v
+ recover  CuGaO2.scfc
+ - sp= 0
+  -- spin-unpolarized GW calculation based on lapw 
+ 
+--- Backup SCF files ---
+ 
+ backup  CuGaO2.in0
+ backup  CuGaO2.in1
+ backup  CuGaO2.in2
+ backup  CuGaO2.inc
+ backup  CuGaO2.inm
+ backup  CuGaO2.klist
+ backup  CuGaO2.kgen
+ backup  CuGaO2.clmcor
+ backup  CuGaO2.clmsum
+ backup  CuGaO2.clmval
+ backup  CuGaO2.vsp
+ backup  CuGaO2.vns
+ backup  CuGaO2.energy
+ backup  CuGaO2.r2v
+ backup  CuGaO2.scfc
+
+--- vector:  Generate *.vector for GW  ---
+
+  change emax in CuGaO2.in1 to  1000
+Using x_nmr_lapw -mode in1 -nodes 5 
+check whether to start from hybrids
+
+---Generate gw.inp---
+
+--------------------
+-   clean *.scfc   -
+--------------------
+
+--- Copy files ---
+
+Directory for gw calculation: ../gap2c-k2c-nlo5
+
+--- Recover SCF files ---
+
+ recover  CuGaO2.in0
+ recover  CuGaO2.in1
+ recover  CuGaO2.in2
+ recover  CuGaO2.inc
+ recover  CuGaO2.inm
+ recover  CuGaO2.klist
+ recover  CuGaO2.kgen
+ recover  CuGaO2.clmcor
+ recover  CuGaO2.clmsum
+ recover  CuGaO2.clmval
+ recover  CuGaO2.vsp
+ recover  CuGaO2.vns
+ recover  CuGaO2.energy
+ recover  CuGaO2.r2v
+ recover  CuGaO2.scfc
+ - sp= 0
+  -- spin-unpolarized GW calculation based on lapw 
+ 
+--- Backup SCF files ---
+ 
+ backup  CuGaO2.in0
+ backup  CuGaO2.in1
+ backup  CuGaO2.in2
+ backup  CuGaO2.inc
+ backup  CuGaO2.inm
+ backup  CuGaO2.klist
+ backup  CuGaO2.kgen
+ backup  CuGaO2.clmcor
+ backup  CuGaO2.clmsum
+ backup  CuGaO2.clmval
+ backup  CuGaO2.vsp
+ backup  CuGaO2.vns
+ backup  CuGaO2.energy
+ backup  CuGaO2.r2v
+ backup  CuGaO2.scfc
+
+--- vector:  Generate *.vector for GW  ---
+
+  change emax in CuGaO2.in1 to  1000
+check whether to start from hybrids
+
+---Generate gw.inp---
+
+--------------------
+-   clean *.scfc   -
+--------------------
+
+--- Copy files ---
+
+Directory for gw calculation: ../gap2c-k4c-nlo0
+
+--- Recover SCF files ---
+
+ recover  CuGaO2.in0
+ recover  CuGaO2.in1
+ recover  CuGaO2.in2
+ recover  CuGaO2.inc
+ recover  CuGaO2.inm
+ recover  CuGaO2.klist
+ recover  CuGaO2.kgen
+ recover  CuGaO2.clmcor
+ recover  CuGaO2.clmsum
+ recover  CuGaO2.clmval
+ recover  CuGaO2.vsp
+ recover  CuGaO2.vns
+ recover  CuGaO2.energy
+ recover  CuGaO2.r2v
+ recover  CuGaO2.scfc
+ - sp= 0
+  -- spin-unpolarized GW calculation based on lapw 
+ 
+--- Backup SCF files ---
+ 
+ backup  CuGaO2.in0
+ backup  CuGaO2.in1
+ backup  CuGaO2.in2
+ backup  CuGaO2.inc
+ backup  CuGaO2.inm
+ backup  CuGaO2.klist
+ backup  CuGaO2.kgen
+ backup  CuGaO2.clmcor
+ backup  CuGaO2.clmsum
+ backup  CuGaO2.clmval
+ backup  CuGaO2.vsp
+ backup  CuGaO2.vns
+ backup  CuGaO2.energy
+ backup  CuGaO2.r2v
+ backup  CuGaO2.scfc
+
+--- vector:  Generate *.vector for GW  ---
+
+  change emax in CuGaO2.in1 to  1000
+Using x_nmr_lapw -mode in1 -nodes 5 
+check whether to start from hybrids
+
+---Generate gw.inp---
+
+--------------------
+-   clean *.scfc   -
+--------------------
+
+--- Copy files ---
+
+Directory for gw calculation: ../gap2c-k4c-nlo5p4
+
+--- Recover SCF files ---
+
+ recover  CuGaO2.in0
+ recover  CuGaO2.in1
+ recover  CuGaO2.in2
+ recover  CuGaO2.inc
+ recover  CuGaO2.inm
+ recover  CuGaO2.klist
+ recover  CuGaO2.kgen
+ recover  CuGaO2.clmcor
+ recover  CuGaO2.clmsum
+ recover  CuGaO2.clmval
+ recover  CuGaO2.vsp
+ recover  CuGaO2.vns
+ recover  CuGaO2.energy
+ recover  CuGaO2.r2v
+ recover  CuGaO2.scfc
+ - sp= 0
+  -- spin-unpolarized GW calculation based on lapw 
+ 
+--- Backup SCF files ---
+ 
+ backup  CuGaO2.in0
+ backup  CuGaO2.in1
+ backup  CuGaO2.in2
+ backup  CuGaO2.inc
+ backup  CuGaO2.inm
+ backup  CuGaO2.klist
+ backup  CuGaO2.kgen
+ backup  CuGaO2.clmcor
+ backup  CuGaO2.clmsum
+ backup  CuGaO2.clmval
+ backup  CuGaO2.vsp
+ backup  CuGaO2.vns
+ backup  CuGaO2.energy
+ backup  CuGaO2.r2v
+ backup  CuGaO2.scfc
+
+--- vector:  Generate *.vector for GW  ---
+
+  change emax in CuGaO2.in1 to  1000
+check whether to start from hybrids
+
+---Generate gw.inp---
+
+--------------------
+-   clean *.scfc   -
+--------------------
+
+--- Copy files ---
+
+Directory for gw calculation: ../gap2c-k6c-nlo0
+
+--- Recover SCF files ---
+
+ recover  CuGaO2.in0
+ recover  CuGaO2.in1
+ recover  CuGaO2.in2
+ recover  CuGaO2.inc
+ recover  CuGaO2.inm
+ recover  CuGaO2.klist
+ recover  CuGaO2.kgen
+ recover  CuGaO2.clmcor
+ recover  CuGaO2.clmsum
+ recover  CuGaO2.clmval
+ recover  CuGaO2.vsp
+ recover  CuGaO2.vns
+ recover  CuGaO2.energy
+ recover  CuGaO2.r2v
+ recover  CuGaO2.scfc
+ - sp= 0
+  -- spin-unpolarized GW calculation based on lapw 
+ 
+--- Backup SCF files ---
+ 
+ backup  CuGaO2.in0
+ backup  CuGaO2.in1
+ backup  CuGaO2.in2
+ backup  CuGaO2.inc
+ backup  CuGaO2.inm
+ backup  CuGaO2.klist
+ backup  CuGaO2.kgen
+ backup  CuGaO2.clmcor
+ backup  CuGaO2.clmsum
+ backup  CuGaO2.clmval
+ backup  CuGaO2.vsp
+ backup  CuGaO2.vns
+ backup  CuGaO2.energy
+ backup  CuGaO2.r2v
+ backup  CuGaO2.scfc
+
+--- vector:  Generate *.vector for GW  ---
+
+  change emax in CuGaO2.in1 to  1000
+Using x_nmr_lapw -mode in1 -nodes 5 
+check whether to start from hybrids
+
+---Generate gw.inp---
+
+--------------------
+-   clean *.scfc   -
+--------------------
+
+--- Copy files ---
+
+Directory for gw calculation: ../Ga-only/gap2c-k2c-nlo5
+
+--- Recover SCF files ---
+
+ recover  CuGaO2.in0
+ recover  CuGaO2.in1
+ recover  CuGaO2.in2
+ recover  CuGaO2.inc
+ recover  CuGaO2.inm
+ recover  CuGaO2.klist
+ recover  CuGaO2.kgen
+ recover  CuGaO2.clmcor
+ recover  CuGaO2.clmsum
+ recover  CuGaO2.clmval
+ recover  CuGaO2.vsp
+ recover  CuGaO2.vns
+ recover  CuGaO2.energy
+ recover  CuGaO2.r2v
+ recover  CuGaO2.scfc
+ - sp= 0
+  -- spin-unpolarized GW calculation based on lapw 
+ 
+--- Backup SCF files ---
+ 
+ backup  CuGaO2.in0
+ backup  CuGaO2.in1
+ backup  CuGaO2.in2
+ backup  CuGaO2.inc
+ backup  CuGaO2.inm
+ backup  CuGaO2.klist
+ backup  CuGaO2.kgen
+ backup  CuGaO2.clmcor
+ backup  CuGaO2.clmsum
+ backup  CuGaO2.clmval
+ backup  CuGaO2.vsp
+ backup  CuGaO2.vns
+ backup  CuGaO2.energy
+ backup  CuGaO2.r2v
+ backup  CuGaO2.scfc
+
+--- vector:  Generate *.vector for GW  ---
+
+  change emax in CuGaO2.in1 to  1000
+Using x_nmr_lapw -mode in1 -nodes 4 
+check whether to start from hybrids
+
+---Generate gw.inp---
+
+--------------------
+-   clean *.scfc   -
+--------------------
+
+--- Copy files ---
+
+Directory for gw calculation: ../Ga-only/gap2c-k2c-nlo4
+
+--- Recover SCF files ---
+
+ recover  CuGaO2.in0
+ recover  CuGaO2.in1
+ recover  CuGaO2.in2
+ recover  CuGaO2.inc
+ recover  CuGaO2.inm
+ recover  CuGaO2.klist
+ recover  CuGaO2.kgen
+ recover  CuGaO2.clmcor
+ recover  CuGaO2.clmsum
+ recover  CuGaO2.clmval
+ recover  CuGaO2.vsp
+ recover  CuGaO2.vns
+ recover  CuGaO2.energy
+ recover  CuGaO2.r2v
+ recover  CuGaO2.scfc
+ - sp= 0
+  -- spin-unpolarized GW calculation based on lapw 
+ 
+--- Backup SCF files ---
+ 
+ backup  CuGaO2.in0
+ backup  CuGaO2.in1
+ backup  CuGaO2.in2
+ backup  CuGaO2.inc
+ backup  CuGaO2.inm
+ backup  CuGaO2.klist
+ backup  CuGaO2.kgen
+ backup  CuGaO2.clmcor
+ backup  CuGaO2.clmsum
+ backup  CuGaO2.clmval
+ backup  CuGaO2.vsp
+ backup  CuGaO2.vns
+ backup  CuGaO2.energy
+ backup  CuGaO2.r2v
+ backup  CuGaO2.scfc
+
+--- vector:  Generate *.vector for GW  ---
+
+  change emax in CuGaO2.in1 to  1000
+Using x_nmr_lapw -mode in1 -nodes 3 
+check whether to start from hybrids
+
+---Generate gw.inp---
+
+--------------------
+-   clean *.scfc   -
+--------------------
+
+--- Copy files ---
+
+Directory for gw calculation: ../Ga-only/gap2c-k2c-nlo3
+
+--- Recover SCF files ---
+
+ recover  CuGaO2.in0
+ recover  CuGaO2.in1
+ recover  CuGaO2.in2
+ recover  CuGaO2.inc
+ recover  CuGaO2.inm
+ recover  CuGaO2.klist
+ recover  CuGaO2.kgen
+ recover  CuGaO2.clmcor
+ recover  CuGaO2.clmsum
+ recover  CuGaO2.clmval
+ recover  CuGaO2.vsp
+ recover  CuGaO2.vns
+ recover  CuGaO2.energy
+ recover  CuGaO2.r2v
+ recover  CuGaO2.scfc
+ - sp= 0
+  -- spin-unpolarized GW calculation based on lapw 
+ 
+--- Backup SCF files ---
+ 
+ backup  CuGaO2.in0
+ backup  CuGaO2.in1
+ backup  CuGaO2.in2
+ backup  CuGaO2.inc
+ backup  CuGaO2.inm
+ backup  CuGaO2.klist
+ backup  CuGaO2.kgen
+ backup  CuGaO2.clmcor
+ backup  CuGaO2.clmsum
+ backup  CuGaO2.clmval
+ backup  CuGaO2.vsp
+ backup  CuGaO2.vns
+ backup  CuGaO2.energy
+ backup  CuGaO2.r2v
+ backup  CuGaO2.scfc
+
+--- vector:  Generate *.vector for GW  ---
+
+  change emax in CuGaO2.in1 to  1000
+Using x_nmr_lapw -mode in1 -nodes 2 
+check whether to start from hybrids
+
+---Generate gw.inp---
+
+--------------------
+-   clean *.scfc   -
+--------------------
+
+--- Copy files ---
+
+Directory for gw calculation: ../Ga-only/gap2c-k2c-nlo2
+
+--- Recover SCF files ---
+
+ recover  CuGaO2.in0
+ recover  CuGaO2.in1
+ recover  CuGaO2.in2
+ recover  CuGaO2.inc
+ recover  CuGaO2.inm
+ recover  CuGaO2.klist
+ recover  CuGaO2.kgen
+ recover  CuGaO2.clmcor
+ recover  CuGaO2.clmsum
+ recover  CuGaO2.clmval
+ recover  CuGaO2.vsp
+ recover  CuGaO2.vns
+ recover  CuGaO2.energy
+ recover  CuGaO2.r2v
+ recover  CuGaO2.scfc
+ - sp= 0
+  -- spin-unpolarized GW calculation based on lapw 
+ 
+--- Backup SCF files ---
+ 
+ backup  CuGaO2.in0
+ backup  CuGaO2.in1
+ backup  CuGaO2.in2
+ backup  CuGaO2.inc
+ backup  CuGaO2.inm
+ backup  CuGaO2.klist
+ backup  CuGaO2.kgen
+ backup  CuGaO2.clmcor
+ backup  CuGaO2.clmsum
+ backup  CuGaO2.clmval
+ backup  CuGaO2.vsp
+ backup  CuGaO2.vns
+ backup  CuGaO2.energy
+ backup  CuGaO2.r2v
+ backup  CuGaO2.scfc
+
+--- vector:  Generate *.vector for GW  ---
+
+  change emax in CuGaO2.in1 to  1000
+Using x_nmr_lapw -mode in1 -nodes 1 
+check whether to start from hybrids
+
+---Generate gw.inp---
+
+--------------------
+-   clean *.scfc   -
+--------------------
+
+--- Copy files ---
+
+Directory for gw calculation: ../Ga-only/gap2c-k2c-nlo1
+
+--- Recover SCF files ---
+
+ recover  CuGaO2.in0
+ recover  CuGaO2.in1
+ recover  CuGaO2.in2
+ recover  CuGaO2.inc
+ recover  CuGaO2.inm
+ recover  CuGaO2.klist
+ recover  CuGaO2.kgen
+ recover  CuGaO2.clmcor
+ recover  CuGaO2.clmsum
+ recover  CuGaO2.clmval
+ recover  CuGaO2.vsp
+ recover  CuGaO2.vns
+ recover  CuGaO2.energy
+ recover  CuGaO2.r2v
+ recover  CuGaO2.scfc
+ - sp= 0
+  -- spin-unpolarized GW calculation based on lapw 
+ 
+--- Backup SCF files ---
+ 
+ backup  CuGaO2.in0
+ backup  CuGaO2.in1
+ backup  CuGaO2.in2
+ backup  CuGaO2.inc
+ backup  CuGaO2.inm
+ backup  CuGaO2.klist
+ backup  CuGaO2.kgen
+ backup  CuGaO2.clmcor
+ backup  CuGaO2.clmsum
+ backup  CuGaO2.clmval
+ backup  CuGaO2.vsp
+ backup  CuGaO2.vns
+ backup  CuGaO2.energy
+ backup  CuGaO2.r2v
+ backup  CuGaO2.scfc
+
+--- vector:  Generate *.vector for GW  ---
+
+  change emax in CuGaO2.in1 to  1000
+Using x_nmr_lapw -mode in1 -nodes 5 
+check whether to start from hybrids
+
+---Generate gw.inp---
+
+--------------------
+-   clean *.scfc   -
+--------------------
+
+--- Copy files ---
+
+Directory for gw calculation: ../gap2c-k6c-nlo5p4-CuO
+
+--- Recover SCF files ---
+
+ recover  CuGaO2.in0
+ recover  CuGaO2.in1
+ recover  CuGaO2.in2
+ recover  CuGaO2.inc
+ recover  CuGaO2.inm
+ recover  CuGaO2.klist
+ recover  CuGaO2.kgen
+ recover  CuGaO2.clmcor
+ recover  CuGaO2.clmsum
+ recover  CuGaO2.clmval
+ recover  CuGaO2.vsp
+ recover  CuGaO2.vns
+ recover  CuGaO2.energy
+ recover  CuGaO2.r2v
+ recover  CuGaO2.scfc

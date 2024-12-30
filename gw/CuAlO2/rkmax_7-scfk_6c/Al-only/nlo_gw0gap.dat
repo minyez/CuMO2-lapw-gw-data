@@ -1,0 +1,40 @@
+gap2c-k2c-nlo1
+============================== GW0 band structure ==============================
+> band edge between band index  12 ->  13
+> fundamental gap =  3.13900 eV
+>> ikvb=2   (0.00000,0.50000,0.50000) -> ikcb=0   (0.00000,0.00000,0.00000)
+>> VBM direct gap =  3.84300 eV
+>> CBM direct gap =  4.43200 eV
+> min. direct gap =  3.53000 eV at ik=1   (0.00000,0.00000,0.50000)
+gap2c-k2c-nlo2
+============================== GW0 band structure ==============================
+> band edge between band index  12 ->  13
+> fundamental gap =  3.13800 eV
+>> ikvb=2   (0.00000,0.50000,0.50000) -> ikcb=0   (0.00000,0.00000,0.00000)
+>> VBM direct gap =  3.84300 eV
+>> CBM direct gap =  4.43100 eV
+> min. direct gap =  3.53000 eV at ik=1   (0.00000,0.00000,0.50000)
+gap2c-k2c-nlo3
+============================== GW0 band structure ==============================
+> band edge between band index  12 ->  13
+> fundamental gap =  3.13700 eV
+>> ikvb=2   (0.00000,0.50000,0.50000) -> ikcb=0   (0.00000,0.00000,0.00000)
+>> VBM direct gap =  3.84400 eV
+>> CBM direct gap =  4.43000 eV
+> min. direct gap =  3.53200 eV at ik=1   (0.00000,0.00000,0.50000)
+gap2c-k2c-nlo4
+============================== GW0 band structure ==============================
+> band edge between band index  12 ->  13
+> fundamental gap =  3.13500 eV
+>> ikvb=2   (0.00000,0.50000,0.50000) -> ikcb=0   (0.00000,0.00000,0.00000)
+>> VBM direct gap =  3.84500 eV
+>> CBM direct gap =  4.42800 eV
+> min. direct gap =  3.53200 eV at ik=1   (0.00000,0.00000,0.50000)
+gap2c-k2c-nlo5
+============================== GW0 band structure ==============================
+> band edge between band index  12 ->  13
+> fundamental gap =  3.13400 eV
+>> ikvb=2   (0.00000,0.50000,0.50000) -> ikcb=0   (0.00000,0.00000,0.00000)
+>> VBM direct gap =  3.84500 eV
+>> CBM direct gap =  4.42600 eV
+> min. direct gap =  3.53200 eV at ik=1   (0.00000,0.00000,0.50000)

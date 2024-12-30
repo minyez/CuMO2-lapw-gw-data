@@ -1,0 +1,12 @@
+ 4,'CuInO2.klist',          'unknown','formatted',0
+ 5,'CuInO2.in1',   'old',    'formatted',0
+ 6,'CuInO2.output1','unknown','formatted',0
+10,'./CuInO2.vector', 'unknown','unformatted',9000
+11,'CuInO2.energy', 'unknown','formatted',0
+18,'CuInO2.vsp',       'old',    'formatted',0
+19,'CuInO2.vns',       'unknown','formatted',0
+20,'CuInO2.struct',         'old',    'formatted',0
+21,'CuInO2.scf1',   'unknown','formatted',0
+55,'CuInO2.vec',            'unknown','formatted',0
+71,'CuInO2.nsh',    'unknown','formatted',0
+200,'./CuInO2.storeHinv', 'replace','unformatted',9000

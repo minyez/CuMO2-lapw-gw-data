@@ -1,0 +1,48 @@
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Cu1       
+:e__0001: OVERALL ENERGY PARAMETER IS    0.1484
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E1_0001: E( 1)=    0.1484
+             APW+lo
+:E1_0001: E( 1)=   -4.6351   E(BOTTOM)=   -4.703   E(TOP)=   -4.567  1  2   170
+             LOCAL ORBITAL
+:E2_0001: E( 2)=    0.2854   E(BOTTOM)=   -0.048   E(TOP)=    0.619  0  1   127
+             APW+lo
+:E0_0001: E( 0)=    0.1484
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  In1       
+:e__0002: OVERALL ENERGY PARAMETER IS    0.1484
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E2_0002: E( 2)=   -0.6405   E(BOTTOM)=   -1.052   E(TOP)=   -0.229  1  2   143
+             APW+lo
+:E2_0002: E( 2)=    0.5484
+             LOCAL ORBITAL
+:E0_0002: E( 0)=    0.1484
+             APW+lo
+:E1_0002: E( 1)=    0.1484
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  O 1       
+:e__0003: OVERALL ENERGY PARAMETER IS    0.1484
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E0_0003: E( 0)=   -1.5500   E(BOTTOM)=   -2.632   E(TOP)= -200.000  1 -1   233
+             APW+lo
+:E0_0003: E( 0)=    0.5484
+             LOCAL ORBITAL
+:E1_0003: E( 1)=    0.1484
+             APW+lo
+
+       K=   0.00000   0.00000   0.00000            1
+:RKM  : MATRIX SIZE   809LOs:  36  RKM= 6.98  WEIGHT= 1.00  PGR:    
+       EIGENVALUES ARE:
+:EIG00001:      -4.6337780   -4.6136978   -4.6136978   -1.0216065   -0.9249918
+:EIG00006:      -0.6258841   -0.6258841   -0.6162855   -0.5953304   -0.5953304
+:EIG00011:      -0.0926284    0.1577682    0.1954162    0.1954162    0.1992466
+:EIG00016:       0.1992466    0.2178129    0.3275339    0.3275339    0.3899277
+:EIG00021:       0.3899277    0.4472869    0.7206980    0.8170552    1.2287276
+:EIG00026:       1.2287276    1.3074029    1.5126452    1.5126452    1.5281330
+:EIG00031:       1.5435441    1.5435441    1.5474034    1.7078923
+       ********************************************************
+
+:KPT   :      NUMBER OF K-POINTS:   189

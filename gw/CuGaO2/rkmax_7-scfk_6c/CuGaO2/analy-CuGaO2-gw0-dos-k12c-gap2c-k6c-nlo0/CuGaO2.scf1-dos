@@ -1,0 +1,48 @@
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Cu1       
+:e__0001: OVERALL ENERGY PARAMETER IS    0.1702
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E1_0001: E( 1)=    0.1702
+             APW+lo
+:E1_0001: E( 1)=   -4.6059   E(BOTTOM)=   -4.673   E(TOP)=   -4.538  1  2   168
+             LOCAL ORBITAL
+:E2_0001: E( 2)=    0.3152   E(BOTTOM)=   -0.018   E(TOP)=    0.648  0  1   133
+             APW+lo
+:E0_0001: E( 0)=    0.1702
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Ga1       
+:e__0002: OVERALL ENERGY PARAMETER IS    0.1702
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E2_0002: E( 2)=   -0.6246   E(BOTTOM)=   -0.831   E(TOP)=   -0.418  0  1   150
+             APW+lo
+:E2_0002: E( 2)=    0.5702
+             LOCAL ORBITAL
+:E0_0002: E( 0)=    0.1702
+             APW+lo
+:E1_0002: E( 1)=    0.1702
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  O 1       
+:e__0003: OVERALL ENERGY PARAMETER IS    0.1702
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E0_0003: E( 0)=   -1.5500   E(BOTTOM)=   -2.612   E(TOP)= -200.000  1 -1   234
+             APW+lo
+:E0_0003: E( 0)=    0.5702
+             LOCAL ORBITAL
+:E1_0003: E( 1)=    0.1702
+             APW+lo
+
+       K=   0.00000   0.00000   0.00000            1
+:RKM  : MATRIX SIZE   653LOs:  36  RKM= 6.99  WEIGHT= 1.00  PGR:    
+       EIGENVALUES ARE:
+:EIG00001:      -4.6027081   -4.5852803   -4.5852803   -1.0569301   -0.9138693
+:EIG00006:      -0.6037412   -0.6037412   -0.5966277   -0.5804727   -0.5804727
+:EIG00011:      -0.1143153    0.1965672    0.2129604    0.2358623    0.2358623
+:EIG00016:       0.2537645    0.2537645    0.3525549    0.3525549    0.4159337
+:EIG00021:       0.4159337    0.5423544    0.8358273    0.8812680    1.3337439
+:EIG00026:       1.3337439    1.3386215    1.6536691    1.7175622    1.7175622
+:EIG00031:       1.7610829    1.8082132    1.8082132
+       ********************************************************
+
+:KPT   :      NUMBER OF K-POINTS:   189

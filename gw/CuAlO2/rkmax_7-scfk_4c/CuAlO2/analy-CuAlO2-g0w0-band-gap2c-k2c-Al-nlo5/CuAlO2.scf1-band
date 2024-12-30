@@ -1,0 +1,46 @@
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Cu1       
+:e__0001: OVERALL ENERGY PARAMETER IS    0.3110
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E1_0001: E( 1)=    0.3110
+             APW+lo
+:E1_0001: E( 1)=   -4.5714   E(BOTTOM)=   -4.639   E(TOP)=   -4.504  1  2   181
+             LOCAL ORBITAL
+:E2_0001: E( 2)=    0.3497   E(BOTTOM)=    0.017   E(TOP)=    0.682  0  1   131
+             APW+lo
+:E0_0001: E( 0)=    0.3110
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  Al1       
+:e__0002: OVERALL ENERGY PARAMETER IS    0.3110
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E1_0002: E( 1)=    0.3110
+             APW+lo
+:E1_0002: E( 1)=   -4.2178   E(BOTTOM)=   -4.320   E(TOP)=   -4.116  0  1   155
+             LOCAL ORBITAL
+:E0_0002: E( 0)=    0.3110
+             APW+lo
+
+          ATOMIC SPHERE DEPENDENT PARAMETERS FOR ATOM  O 1       
+:e__0003: OVERALL ENERGY PARAMETER IS    0.3110
+          OVERALL BASIS SET ON ATOM IS LAPW
+:E0_0003: E( 0)=   -1.5500   E(BOTTOM)=   -2.573   E(TOP)= -200.000  1 -1   232
+             APW+lo
+:E0_0003: E( 0)=    0.7110
+             LOCAL ORBITAL
+:E1_0003: E( 1)=    0.3110
+             APW+lo
+
+       K=   0.00000   0.00000   0.00000   GAMMA     
+:RKM  : MATRIX SIZE   616LOs:  29  RKM= 6.98  WEIGHT= 2.00  PGR:    
+       EIGENVALUES ARE:
+:EIG00001:      -4.5659072   -4.5516406   -4.5516406   -4.1933429   -4.1918901
+:EIG00006:      -4.1918901   -1.0315679   -0.8768866   -0.0920141    0.2317803
+:EIG00011:       0.2332159    0.2332159    0.2410246    0.3187392    0.3187392
+:EIG00016:       0.3830546    0.3830546    0.4379920    0.4379920    0.6526751
+:EIG00021:       0.9621311    1.0428496    1.3767866    1.5258324    1.5258324
+:EIG00026:       1.6338250    1.6338250    1.6345630    1.8972288    1.9688412
+:EIG00031:       1.9688412
+       ********************************************************
+
+:KPT   :      NUMBER OF K-POINTS:   121

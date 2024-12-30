@@ -1,0 +1,6 @@
+    1  9999                   : LOWER,UPPER BANDINDEX
+   0.0000    0.00100   1.0000 : EMIN DE EMAX FOR ENERGYGRID IN ryd
+eV                            : output units  eV / ryd  / cm-1
+     4                        : SWITCH
+     6                       : NUMBER OF COLUMNS
+   0.1  0.1  0.3              : BROADENING (FOR DRUDE MODEL - switch 6,7 - ONLY)

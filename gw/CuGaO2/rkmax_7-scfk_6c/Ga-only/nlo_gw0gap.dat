@@ -1,0 +1,55 @@
+gap2c-k2c-nlo1
+============================== GW0 band structure ==============================
+> band edge between band index  17 ->  18
+> fundamental gap =  2.08400 eV
+>> ikvb=2   (0.00000,0.50000,0.50000) -> ikcb=0   (0.00000,0.00000,0.00000)
+>> VBM direct gap =  3.71700 eV
+>> CBM direct gap =  3.12900 eV
+> min. direct gap =  3.12900 eV at ik=0   (0.00000,0.00000,0.00000)
+> Transition energies (eV):
+>> E     kpt_v                            kpt_c                        
+>> 3.227 1   (0.00000,0.00000,0.50000) -> 1   (0.00000,0.00000,0.50000)
+gap2c-k2c-nlo2
+============================== GW0 band structure ==============================
+> band edge between band index  17 ->  18
+> fundamental gap =  2.07900 eV
+>> ikvb=2   (0.00000,0.50000,0.50000) -> ikcb=0   (0.00000,0.00000,0.00000)
+>> VBM direct gap =  3.71700 eV
+>> CBM direct gap =  3.12600 eV
+> min. direct gap =  3.12600 eV at ik=0   (0.00000,0.00000,0.00000)
+> Transition energies (eV):
+>> E     kpt_v                            kpt_c                        
+>> 3.224 1   (0.00000,0.00000,0.50000) -> 1   (0.00000,0.00000,0.50000)
+gap2c-k2c-nlo3
+============================== GW0 band structure ==============================
+> band edge between band index  17 ->  18
+> fundamental gap =  2.07100 eV
+>> ikvb=2   (0.00000,0.50000,0.50000) -> ikcb=0   (0.00000,0.00000,0.00000)
+>> VBM direct gap =  3.71800 eV
+>> CBM direct gap =  3.12100 eV
+> min. direct gap =  3.12100 eV at ik=0   (0.00000,0.00000,0.00000)
+> Transition energies (eV):
+>> E     kpt_v                            kpt_c                        
+>> 3.220 1   (0.00000,0.00000,0.50000) -> 1   (0.00000,0.00000,0.50000)
+gap2c-k2c-nlo4
+============================== GW0 band structure ==============================
+> band edge between band index  17 ->  18
+> fundamental gap =  2.06800 eV
+>> ikvb=2   (0.00000,0.50000,0.50000) -> ikcb=0   (0.00000,0.00000,0.00000)
+>> VBM direct gap =  3.71900 eV
+>> CBM direct gap =  3.12000 eV
+> min. direct gap =  3.12000 eV at ik=0   (0.00000,0.00000,0.00000)
+> Transition energies (eV):
+>> E     kpt_v                            kpt_c                        
+>> 3.218 1   (0.00000,0.00000,0.50000) -> 1   (0.00000,0.00000,0.50000)
+gap2c-k2c-nlo5
+============================== GW0 band structure ==============================
+> band edge between band index  17 ->  18
+> fundamental gap =  2.06400 eV
+>> ikvb=2   (0.00000,0.50000,0.50000) -> ikcb=0   (0.00000,0.00000,0.00000)
+>> VBM direct gap =  3.71900 eV
+>> CBM direct gap =  3.11700 eV
+> min. direct gap =  3.11700 eV at ik=0   (0.00000,0.00000,0.00000)
+> Transition energies (eV):
+>> E     kpt_v                            kpt_c                        
+>> 3.216 1   (0.00000,0.00000,0.50000) -> 1   (0.00000,0.00000,0.50000)

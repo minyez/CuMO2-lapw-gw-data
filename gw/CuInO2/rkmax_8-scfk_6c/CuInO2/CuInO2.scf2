@@ -1,0 +1,82 @@
+       Insulator, EF-inconsistency corrected
+:GAP  :    0.0306 Ry =     0.416 eV   (provided you have a proper k-mesh)
+         Bandranges (emin - emax) and occupancy:
+:BAN00011:  11   -0.077246    0.002469  2.00000000
+:BAN00012:  12   -0.043607    0.173228  2.00000000
+:BAN00013:  13    0.045222    0.210598  2.00000000
+:BAN00014:  14    0.096392    0.210598  2.00000000
+:BAN00015:  15    0.136437    0.237112  2.00000000
+:BAN00016:  16    0.201738    0.264022  2.00000000
+:BAN00017:  17    0.232673    0.345496  2.00000000
+:BAN00018:  18    0.335645    0.368375  2.00000000
+:BAN00019:  19    0.342231    0.371322  2.00000000
+:BAN00020:  20    0.371514    0.411415  2.00000000
+:BAN00021:  21    0.380586    0.431691  2.00000000
+:BAN00022:  22    0.462280    0.797336  0.00000000
+:BAN00023:  23    0.696134    0.797871  0.00000000
+:BAN00024:  24    0.784564    1.012023  0.00000000
+:BAN00025:  25    0.941654    1.243801  0.00000000
+:BAN00026:  26    1.055192    1.264803  0.00000000
+        Energy to separate low and high energystates:   -0.12725
+
+
+:NOE  : NUMBER OF ELECTRONS          =  42.000
+
+:FER  : F E R M I - ENERGY(TETRAH.M.)=   0.4316906362
+:GMA  : POTENTIAL AND CHARGE CUT-OFF  12.00 Ry**.5
+
+
+
+
+:POS001: ATOM   -1 X,Y,Z = 0.00000 0.00000 0.00000  MULT= 1  ZZ= 29.000  Cu1       
+
+       LMMAX  7
+       LM=   0 0  2 0  4 0  4 3  6 0  6 3  6 6
+
+:CHA001: TOTAL VALENCE CHARGE INSIDE SPHERE   1 =  15.3803    (RMT=  2.0000 )
+:PCS001: PARTIAL CHARGES SPHERE =  1 S,P,D,F,PZ,PXY, D-Z2,D-XY,X2Y2,D-XZ,YZ 
+:QTL001: 0.2827 6.1459 8.9258 0.0194 2.1173 4.0285 0.0000 1.5562 3.6448 3.7248 0.0000 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL001:  0.0243 -0.8698    6.0087 -4.5897    0.0306 -0.8570    0.0039 -0.8798
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH001:  0.2584  0.2189    0.1371  0.1475    8.8953  0.3375    0.0155  0.1415
+:VZZ001: EFG INSIDE SPHERE   1 =    -6.503908      UP TO R =   2.00000
+
+
+
+
+:POS002: ATOM   -2 X,Y,Z = 0.50000 0.50000 0.50000  MULT= 1  ZZ= 49.000  In1       
+
+       LMMAX  7
+       LM=   0 0  2 0  4 0  4 3  6 0  6 3  6 6
+
+:CHA002: TOTAL VALENCE CHARGE INSIDE SPHERE   2 =  10.2304    (RMT=  2.1300 )
+:PCS002: PARTIAL CHARGES SPHERE =  2 S,P,D,F,PZ,PXY, D-Z2,D-XY,X2Y2,D-XZ,YZ 
+:QTL002: 0.3491 0.2651 9.5757 0.0336 0.0769 0.1883 0.0000 1.8993 3.8332 3.8432 0.0000 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL002:  0.0309 -0.9455    0.0292 -0.9012    9.2528 -0.5888    0.0042 -0.8988
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH002:  0.3182 -0.0116    0.2359  0.1123    0.3229  0.1531    0.0294  0.1552
+:VZZ002: EFG INSIDE SPHERE   2 =     8.086280      UP TO R =   2.13000
+
+
+
+
+:POS003: ATOM   -3 X,Y,Z = 0.10553 0.10553 0.10553  MULT= 2  ZZ=  8.000  O 1       
+
+       LMMAX 12
+       LM=   0 0  1 0  2 0  3 0  3 3  4 0  4 3  5 0  5 3  6 0  6 3  6 6
+
+:CHA003: TOTAL VALENCE CHARGE INSIDE SPHERE   3 =   4.4985    (RMT=  1.4000 )
+:PCS003: PARTIAL CHARGES SPHERE =  3 S,P,D,F,PZ,PXY, D-Z2,D-XY,X2Y2,D-XZ,YZ 
+:QTL003: 1.3945 3.0960 0.0068 0.0010 1.0221 2.0739 0.0000 0.0015 0.0014 0.0039 0.0000 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL003:  1.3473 -0.9230    0.0477 -0.5988    0.0017 -0.7392    0.0003 -0.9087
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH003:  0.0471  0.0750    3.0483  0.1401    0.0051  0.2656    0.0007  0.2872
+:VZZ003: EFG INSIDE SPHERE   3 =     1.317027      UP TO R =   1.40000
+
+:CHA  : TOTAL VALENCE CHARGE INSIDE UNIT CELL =      42.000000
+
+:SUM  : SUM OF EIGENVALUES =         -32.389362776
+

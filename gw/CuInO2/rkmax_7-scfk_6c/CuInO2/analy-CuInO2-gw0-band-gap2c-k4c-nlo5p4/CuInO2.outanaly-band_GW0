@@ -1,0 +1,149 @@
+run gap2_analy on  Mon Jul 5 19:31:49 CST 2021
+Full command: ' gap2_analy -gw gap2c.x -gwtag GW0 -gwdir ../gap2c-k4c-nlo5p4/ -t band -qtl -s 0 '
+run analysis calculation band 
+ - set spin tag 
+ -- spin unpolarized
+  sptag = 
+ - backup k-vectors files using in SCF
+  CuInO2.energy ---> CuInO2.energy-scf 
+  CuInO2.vector ---> CuInO2.vector-scf 
+  CuInO2.output1 ---> CuInO2.output1-scf 
+  CuInO2.scf1 ---> CuInO2.scf1-scf 
+  CuInO2.qtl ---> CuInO2.qtl-scf 
+  CuInO2.output2 ---> CuInO2.output2-scf 
+  CuInO2.scf2 ---> CuInO2.scf2-scf 
+  CuInO2.weight ---> CuInO2.weight-scf 
+
+--- Initilization ---
+
+
+--- lapw1 ---
+
+
+--- lapw2 for qtl/opt ---
+
+--- spagh ---
+  Extract Fermi energy from SCF output
+  KS Fermi Energy= 0.4167500282
+------------------- KS Band Gap ----------------------
+Efermi= 0.4167500282
+Read band energies from CuInO2.energy
+Number of k-vectors= 101
+
+  Analyze band energies
+  
+	Number of spin= 1
+	Number of k-vector= 101
+	Number of bands= 36
+
+
+Band index for VBM and CBM= 21 21
+Metallic system
+Range of each band with respect to VBM (eV):
+    n      Bottom         Top       Width
+    4     -19.570     -18.768       0.801
+    5     -18.797     -18.255       0.541
+    6     -14.186     -13.889       0.297
+    7     -14.186     -13.848       0.338
+    8     -14.055     -13.734       0.322
+    9     -13.777     -13.341       0.436
+   10     -13.770     -12.908       0.862
+   11      -6.930      -5.846       1.085
+   12      -6.471      -3.523       2.948
+   13      -5.467      -3.011       2.455
+   14      -4.749      -3.011       1.738
+   15      -4.038      -2.641       1.397
+   16      -3.161      -2.283       0.878
+   17      -2.707      -1.162       1.544
+   18      -1.310      -0.857       0.453
+   19      -1.216      -0.761       0.455
+   20      -0.823      -0.275       0.548
+   21      -0.669       0.011       0.680
+   22       0.415       4.912       4.496
+   23       3.486       5.309       1.823
+   24       4.799       7.897       3.098
+   25       6.728      11.048       4.320
+   26       7.818      11.225       3.407
+   27       9.126      12.125       2.999
+   28       9.645      14.909       5.265
+   29      11.499      14.909       3.410
+   30      12.308      15.409       3.101
+   31      14.407      16.856       2.449
+   32      15.331      18.235       2.905
+   33      15.382      19.583       4.201
+
+--- spagh/GW ---
+
+  Extract Fermi energy from gwnvf output 
+  GW Fermi Energy = 0.4315
+------------------- GW Band Gap ----------------------
+Efermi= 0.4315
+Read band energies from CuInO2.energy
+Number of k-vectors= 101
+
+  Analyze band energies
+  
+	Number of spin= 1
+	Number of k-vector= 101
+	Number of bands= 33
+
+
+Band index for VBM and CBM= 22 22
+Metallic system
+Range of each band with respect to VBM (eV):
+    n      Bottom         Top       Width
+    4     -22.319     -21.571       0.747
+    5     -21.591     -20.967       0.623
+    6     -18.664     -18.385       0.279
+    7     -18.664     -18.360       0.304
+    8     -18.513     -18.236       0.277
+    9     -18.322     -17.805       0.516
+   10     -18.322     -17.108       1.214
+   11      -8.777      -7.647       1.129
+   12      -8.219      -5.200       3.019
+   13      -7.306      -4.716       2.590
+   14      -6.563      -4.716       1.847
+   15      -5.793      -4.330       1.463
+   16      -5.067      -4.072       0.995
+   17      -4.438      -3.677       0.761
+   18      -3.978      -3.374       0.604
+   19      -3.978      -3.249       0.728
+   20      -3.356      -2.693       0.664
+   21      -3.028      -2.004       1.023
+   22      -0.092       4.406       4.499
+   23       2.879       5.585       2.706
+   24       4.797       7.876       3.078
+   25       6.770      11.472       4.702
+   26       7.946      11.458       3.511
+   27       9.246      12.414       3.168
+   28       9.851      15.496       5.645
+   29      11.516      15.496       3.980
+   30      12.400      15.417       3.017
+   31      14.679      17.104       2.425
+   32      15.410      18.819       3.409
+   33      15.686      20.206       4.520
+
+--- save new files and recover backuped SCF files  ---
+
+  CuInO2.energy ---> CuInO2.energy-band
+  CuInO2.energy_GW0 ---> CuInO2.energy_GW0-band
+  CuInO2.energy-scf ---> CuInO2.energy
+  CuInO2.vector ---> CuInO2.vector-band
+  CuInO2.vector_GW0 ---> CuInO2.vector_GW0-band
+  CuInO2.vector-scf ---> CuInO2.vector
+  CuInO2.output1 ---> CuInO2.output1-band
+  CuInO2.output1-scf ---> CuInO2.output1
+  CuInO2.scf1 ---> CuInO2.scf1-band
+  CuInO2.scf1-scf ---> CuInO2.scf1
+  CuInO2.qtl ---> CuInO2.qtl-band
+  CuInO2.qtl_GW0 ---> CuInO2.qtl_GW0-band
+  CuInO2.qtl-scf ---> CuInO2.qtl
+  CuInO2.output2 ---> CuInO2.output2-band
+  CuInO2.output2_GW0 ---> CuInO2.output2_GW0-band
+  CuInO2.output2-scf ---> CuInO2.output2
+  CuInO2.scf2 ---> CuInO2.scf2-band
+  CuInO2.scf2_GW0 ---> CuInO2.scf2_GW0-band
+  CuInO2.scf2-scf ---> CuInO2.scf2
+  CuInO2.weight ---> CuInO2.weight-band
+  CuInO2.weight_GW0 ---> CuInO2.weight_GW0-band
+  CuInO2.weight-scf ---> CuInO2.weight

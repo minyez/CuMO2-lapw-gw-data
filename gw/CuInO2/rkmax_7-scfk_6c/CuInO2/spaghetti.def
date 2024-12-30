@@ -1,0 +1,9 @@
+5, 'CuInO2.insp',         'old',    'formatted',0
+6, 'CuInO2.outputsp',     'unknown','formatted',0
+9, 'CuInO2.qtl',          'unknown','formatted',0
+10,'CuInO2.spaghetti_ene','unknown','formatted',0
+11,'CuInO2.spaghetti_ps', 'unknown','formatted',0
+20,'CuInO2.struct',       'old',    'formatted',0
+30,'CuInO2.irrep',          'unknown','formatted',0
+40,'CuInO2.bands.agr',       'unknown','formatted',0
+7, 'CuInO2.output1',  'old','formatted',0

@@ -1,0 +1,6 @@
+  4,'CuAlO2.klist',                          'old',    'formatted',  0
+ 10,'./CuAlO2.vectorso', 'old',    'unformatted',0
+ 11,'CuAlO2.vectorso',	    'unknown','unformatted',0
+ 20,'CuAlO2.struct',   	     		    'old',    'formatted',  0
+ 50,'CuAlO2.energyso',                 'old',    'formatted',  0
+ 51,'CuAlO2.energyso',                 'unknown','formatted',  0

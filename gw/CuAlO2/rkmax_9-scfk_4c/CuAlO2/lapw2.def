@@ -1,0 +1,27 @@
+ 2,'CuAlO2.nsh',    'unknown','formatted',0
+ 3,'CuAlO2.in1',   'unknown','formatted',0
+ 4,'CuAlO2.inso',           'unknown','formatted',0
+ 5,'CuAlO2.in2',   'old',    'formatted',0
+ 6,'CuAlO2.output2','unknown','formatted',0
+ 7,'CuAlO2.vorb','unknown','formatted',0
+ 8,'CuAlO2.clmval','unknown','formatted',0
+10,'./CuAlO2.vector', 'unknown','unformatted',9000
+11,'CuAlO2.weight',    'unknown','formatted',0
+13,'CuAlO2.recprlist',      'unknown','unformatted',9000
+14,'CuAlO2.kgen',        'unknown','formatted',0
+15,'CuAlO2.tmp',       'unknown','unformatted',0
+16,'CuAlO2.qtl',       'unknown','formatted',0
+17,'CuAlO2.weightaver','unknown','formatted',0
+18,'CuAlO2.vsp',       'old',    'formatted',0
+19,'CuAlO2.vns',       'unknown','formatted',0
+20,'CuAlO2.struct',         'old',    'formatted',0
+21,'CuAlO2.scf2','unknown','formatted',0
+922,'CuAlO2.rotlm',   'unknown',    'formatted',0
+23,'CuAlO2.radwf',   'unknown',    'formatted',0
+26,'CuAlO2.weigh',   'unknown','unformatted',0
+27,'CuAlO2.weighdn',   'unknown','unformatted',0
+29,'CuAlO2.energydn','unknown','formatted',0
+30,'CuAlO2.energy', 'unknown','formatted',0
+32,'CuAlO2.qdmft',   'unknown',    'formatted',0
+34,'CuAlO2.oubwin',   'unknown',    'formatted',0
+231,'CuAlO2.dmftsym',   'unknown',    'formatted',0
